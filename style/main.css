@@ -1,0 +1,16 @@
+#Block-Navigator {
+    & a {
+        display: inline-block;
+        height: 200px;
+        width: 200px;
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+    }
+    
+}
+
+img.flag-icon {
+    height: 16px;
+    margin: 2px;
+}

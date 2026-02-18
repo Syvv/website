@@ -1,0 +1,160 @@
+{
+    "allowDraws": false,
+    "competitors": [
+        {
+            "country": "SE",
+            "name": "Sweden",
+            "custom": {
+                "drawShotChallenge": 22.807
+            }
+        },
+        {
+            "country": "CH",
+            "name": "Switzerland",
+            "custom": {
+                "drawShotChallenge": 44.092
+            }
+        },
+        {
+            "country": "US",
+            "name": "United States",
+            "custom": {
+                "drawShotChallenge": 37.621
+            }
+        },
+        {
+            "country": "KR",
+            "name": "South Korea",
+            "custom": {
+                "drawShotChallenge": 20.064
+            }
+        },
+        {
+            "country": "CA",
+            "name": "Canada",
+            "custom": {
+                "drawShotChallenge": 16.708
+            }
+        },
+        {
+            "country": "DK",
+            "name": "Denmark",
+            "custom": {
+                "drawShotChallenge": 39.714
+            }
+        },
+        {
+            "country": "GB",
+            "name": "Great Britain",
+            "custom": {
+                "drawShotChallenge": 17.025
+            }
+        },
+        {
+            "country": "CN",
+            "name": "China",
+            "custom": {
+                "drawShotChallenge": 35.125
+            }
+        },
+        {
+            "country": "IT",
+            "name": "Italy",
+            "custom": {
+                "drawShotChallenge": 28.050
+            }
+        },
+        {
+            "country": "JP",
+            "name": "Japan",
+            "custom": {
+                "drawShotChallenge": 24.142
+            }
+        }
+    ],
+    "stages": [
+        {
+            "type": "roundRobin",
+            "tiebreakers": [
+                { "criteria": "wins" }, { "criteria": "resultsBetweenTied" }, { "criteria": "custom:drawShotChallenge", "description": "Draw Shot Challenge (in centimeters)" }
+            ],
+            "qualifications": [
+                {
+                    "qualifyFor": "Playoffs",
+                    "placements": [1,2,3,4],
+                    "color": "#c4ff94"
+                }
+            ],
+            "table": {
+                "showFlags": true,
+                "showIcons": false,
+                "columns": [
+                    {
+                        "data": "played",
+                        "name": "Played",
+                        "compactName": "Pld" 
+                    },
+                    {
+                        "data": "wins",
+                        "name": "Wins",
+                        "compactName": "W" 
+                    },
+                    {
+                        "data": "losses",
+                        "name": "Losses",
+                        "compactName": "L" 
+                    },
+                    {
+                        "data": "resultsBetweenTied",
+                        "name": "Wins-Losses Between Tied",
+                        "compactName": "W-L" 
+                    },
+                    {
+                        "data": "custom:drawShotChallenge",
+                        "name": "Draw Shot Challenge",
+                        "compactName": "DSC" 
+                    }
+                ]
+            },
+            "roundNames": "Draw",
+            "rounds": [
+                {
+                    "matches": [
+                        {
+                            "finished": true,
+                            "home": 3,
+                            "away": 2,
+                            "scoreHome": 4,
+                            "scoreAway": 8,
+                            "date": "2026-02-12 09:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 9,
+                            "away": 0,
+                            "scoreHome": 4,
+                            "scoreAway": 8,
+                            "date": "2026-02-12 09:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 8,
+                            "away": 1,
+                            "scoreHome": 4,
+                            "scoreAway": 7,
+                            "date": "2026-02-12 09:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 4,
+                            "away": 5,
+                            "scoreHome": 10,
+                            "scoreAway": 4,
+                            "date": "2026-02-12 09:05"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
