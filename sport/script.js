@@ -12,17 +12,17 @@ const columns = [
 ]
 
 // Determine the current standings
-var standings = curlingOlympicsWomen.competitors.map(((competitor, competitorId) => {
+var standings = curlingOlympicsWomen.competitors.map(((competitor) => {
     const result = {
         ...competitor,
         played: 0,
         wins: 0,
         losses: 0,
-        id: competitorId
+        resultsBetweenTied: "0 - 0"
     }
 
     const matchesPlayed = stage.rounds.reduce((list, round) => {
-        const roundMatches = round.matches.filter(match => match.finished && (match.home === competitorId || match.away === competitorId))
+        const roundMatches = round.matches.filter(match => match.finished && (match.home === competitor.id || match.away === competitor.id))
 
         return [...list, ...roundMatches]
     }, [])
@@ -30,14 +30,14 @@ var standings = curlingOlympicsWomen.competitors.map(((competitor, competitorId)
     matchesPlayed.forEach(match => {
         result.played++;
         if (
-            (match.home === competitorId && match.scoreHome > match.scoreAway) ||
-            (match.away === competitorId && match.scoreHome < match.scoreAway)
+            (match.home === competitor.id && match.scoreHome > match.scoreAway) ||
+            (match.away === competitor.id && match.scoreHome < match.scoreAway)
         ) {
             result.wins++;
         }
         if (
-            (match.home === competitorId && match.scoreHome < match.scoreAway) ||
-            (match.away === competitorId && match.scoreHome > match.scoreAway)
+            (match.home === competitor.id && match.scoreHome < match.scoreAway) ||
+            (match.away === competitor.id && match.scoreHome > match.scoreAway)
         ) {
             result.losses++;
         }

@@ -6,70 +6,80 @@
             "name": "Sweden",
             "custom": {
                 "drawShotChallenge": 22.807
-            }
+            },
+            "id": 1
         },
         {
             "country": "CH",
             "name": "Switzerland",
             "custom": {
                 "drawShotChallenge": 44.092
-            }
+            },
+            "id": 2
         },
         {
             "country": "US",
             "name": "United States",
             "custom": {
                 "drawShotChallenge": 37.621
-            }
+            },
+            "id": 3
         },
         {
             "country": "KR",
             "name": "South Korea",
             "custom": {
                 "drawShotChallenge": 20.064
-            }
+            },
+            "id": 4
         },
         {
             "country": "CA",
             "name": "Canada",
             "custom": {
                 "drawShotChallenge": 16.708
-            }
+            },
+            "id": 5
         },
         {
             "country": "DK",
             "name": "Denmark",
             "custom": {
                 "drawShotChallenge": 39.714
-            }
+            },
+            "id": 6
         },
         {
             "country": "GB",
             "name": "Great Britain",
             "custom": {
                 "drawShotChallenge": 17.025
-            }
+            },
+            "id": 7
         },
         {
             "country": "CN",
             "name": "China",
             "custom": {
                 "drawShotChallenge": 35.125
-            }
+            },
+            "id": 8
         },
         {
             "country": "IT",
             "name": "Italy",
             "custom": {
                 "drawShotChallenge": 28.050
-            }
+            },
+            "id": 9
         },
         {
             "country": "JP",
             "name": "Japan",
             "custom": {
                 "drawShotChallenge": 24.142
-            }
+            },
+            "id": 10
         }
     ],
     "stages": [
@@ -122,8 +132,16 @@
                     "matches": [
                         {
                             "finished": true,
-                            "home": 3,
-                            "away": 2,
+                            "home": 4,
+                            "away": 3,
+                            "scoreHome": 4,
+                            "scoreAway": 8,
+                            "date": "2026-02-12 09:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 10,
+                            "away": 1,
                             "scoreHome": 4,
                             "scoreAway": 8,
                             "date": "2026-02-12 09:05"
@@ -131,26 +149,390 @@
                         {
                             "finished": true,
                             "home": 9,
-                            "away": 0,
-                            "scoreHome": 4,
-                            "scoreAway": 8,
-                            "date": "2026-02-12 09:05"
-                        },
-                        {
-                            "finished": true,
-                            "home": 8,
-                            "away": 1,
+                            "away": 2,
                             "scoreHome": 4,
                             "scoreAway": 7,
                             "date": "2026-02-12 09:05"
                         },
                         {
                             "finished": true,
-                            "home": 4,
-                            "away": 5,
+                            "home": 5,
+                            "away": 6,
                             "scoreHome": 10,
                             "scoreAway": 4,
                             "date": "2026-02-12 09:05"
+                        }
+                    ]
+                },
+                {
+                    "matches": [
+                        {
+                            "finished": true,
+                            "home": 8,
+                            "away": 7,
+                            "scoreHome": 7,
+                            "scoreAway": 4,
+                            "date": "2026-02-12 19:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 9,
+                            "away": 4,
+                            "scoreHome": 2,
+                            "scoreAway": 7,
+                            "date": "2026-02-12 19:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 6,
+                            "away": 10,
+                            "scoreHome": 10,
+                            "scoreAway": 7,
+                            "date": "2026-02-12 19:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 1,
+                            "away": 3,
+                            "scoreHome": 9,
+                            "scoreAway": 4,
+                            "date": "2026-02-12 19:05"
+                        }
+                    ]
+                },
+                {
+                    "matches": [
+                        {
+                            "finished": true,
+                            "home": 6,
+                            "away": 1,
+                            "scoreHome": 5,
+                            "scoreAway": 6,
+                            "date": "2026-02-13 14:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 8,
+                            "away": 2,
+                            "scoreHome": 5,
+                            "scoreAway": 7,
+                            "date": "2026-02-13 14:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 3,
+                            "away": 5,
+                            "scoreHome": 9,
+                            "scoreAway": 8,
+                            "date": "2026-02-13 14:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 7,
+                            "away": 4,
+                            "scoreHome": 3,
+                            "scoreAway": 9,
+                            "date": "2026-02-13 14:05"
+                        }
+                    ]
+                },
+                {
+                    "matches": [
+                        {
+                            "finished": true,
+                            "home": 9,
+                            "away": 8,
+                            "scoreHome": 7,
+                            "scoreAway": 8,
+                            "date": "2026-02-14 09:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 7,
+                            "away": 5,
+                            "scoreHome": 7,
+                            "scoreAway": 6,
+                            "date": "2026-02-14 09:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 2,
+                            "away": 10,
+                            "scoreHome": 5,
+                            "scoreAway": 7,
+                            "date": "2026-02-14 09:05"
+                        }
+                    ]
+                },
+                {
+                    "matches": [
+                        {
+                            "finished": true,
+                            "home": 5,
+                            "away": 2,
+                            "scoreHome": 7,
+                            "scoreAway": 8,
+                            "date": "2026-02-14 19:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 10,
+                            "away": 3,
+                            "scoreHome": 4,
+                            "scoreAway": 7,
+                            "date": "2026-02-14 19:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 4,
+                            "away": 6,
+                            "scoreHome": 3,
+                            "scoreAway": 6,
+                            "date": "2026-02-14 19:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 9,
+                            "away": 1,
+                            "scoreHome": 6,
+                            "scoreAway": 8,
+                            "date": "2026-02-14 19:05"
+                        }
+                    ]
+                },
+                {
+                    "matches": [
+                        {
+                            "finished": true,
+                            "home": 10,
+                            "away": 4,
+                            "scoreHome": 5,
+                            "scoreAway": 7,
+                            "date": "2026-02-15 14:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 6,
+                            "away": 9,
+                            "scoreHome": 7,
+                            "scoreAway": 2,
+                            "date": "2026-02-15 14:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 7,
+                            "away": 1,
+                            "scoreHome": 7,
+                            "scoreAway": 10,
+                            "date": "2026-02-15 14:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 3,
+                            "away": 8,
+                            "scoreHome": 6,
+                            "scoreAway": 5,
+                            "date": "2026-02-15 14:05"
+                        }
+                    ]
+                },
+                {
+                    "matches": [
+                        {
+                            "finished": true,
+                            "home": 1,
+                            "away": 2,
+                            "scoreHome": 6,
+                            "scoreAway": 4,
+                            "date": "2026-02-16 09:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 8,
+                            "away": 5,
+                            "scoreHome": 5,
+                            "scoreAway": 10,
+                            "date": "2026-02-16 09:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 6,
+                            "away": 7,
+                            "scoreHome": 2,
+                            "scoreAway": 7,
+                            "date": "2026-02-16 09:05"
+                        }
+                    ]
+                },
+                {
+                    "matches": [
+                        {
+                            "finished": true,
+                            "home": 3,
+                            "away": 9,
+                            "scoreHome": 2,
+                            "scoreAway": 7,
+                            "date": "2026-02-16 19:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 4,
+                            "away": 8,
+                            "scoreHome": 10,
+                            "scoreAway": 9,
+                            "date": "2026-02-16 19:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 2,
+                            "away": 7,
+                            "scoreHome": 10,
+                            "scoreAway": 6,
+                            "date": "2026-02-16 19:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 10,
+                            "away": 5,
+                            "scoreHome": 6,
+                            "scoreAway": 9,
+                            "date": "2026-02-16 19:05"
+                        }
+                    ]
+                },
+                {
+                    "matches": [
+                        {
+                            "finished": true,
+                            "home": 1,
+                            "away": 5,
+                            "scoreHome": 6,
+                            "scoreAway": 8,
+                            "date": "2026-02-17 14:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 9,
+                            "away": 10,
+                            "scoreHome": 8,
+                            "scoreAway": 6,
+                            "date": "2026-02-17 14:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 6,
+                            "away": 3,
+                            "scoreHome": 3,
+                            "scoreAway": 10,
+                            "date": "2026-02-17 14:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 4,
+                            "away": 2,
+                            "scoreHome": 5,
+                            "scoreAway": 7,
+                            "date": "2026-02-17 14:05"
+                        }
+                    ]
+                },
+                {
+                    "matches": [
+                        {
+                            "finished": true,
+                            "home": 8,
+                            "away": 6,
+                            "scoreHome": 7,
+                            "scoreAway": 8,
+                            "date": "2026-02-18 09:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 3,
+                            "away": 7,
+                            "scoreHome": 7,
+                            "scoreAway": 8,
+                            "date": "2026-02-18 09:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 1,
+                            "away": 4,
+                            "scoreHome": 3,
+                            "scoreAway": 8,
+                            "date": "2026-02-18 09:05"
+                        }
+                    ]
+                },
+                {
+                    "matches": [
+                        {
+                            "finished": true,
+                            "home": 7,
+                            "away": 10,
+                            "scoreHome": 9,
+                            "scoreAway": 3,
+                            "date": "2026-02-18 19:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 2,
+                            "away": 6,
+                            "scoreHome": 6,
+                            "scoreAway": 4,
+                            "date": "2026-02-18 19:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 5,
+                            "away": 9,
+                            "scoreHome": 8,
+                            "scoreAway": 7,
+                            "date": "2026-02-18 19:05"
+                        },
+                        {
+                            "finished": true,
+                            "home": 8,
+                            "away": 1,
+                            "scoreHome": 4,
+                            "scoreAway": 9,
+                            "date": "2026-02-18 19:05"
+                        }
+                    ]
+                },
+                {
+                    "matches": [
+                        {
+                            "finished": true,
+                            "home": 2,
+                            "away": 3,
+                            "scoreHome": 6,
+                            "scoreAway": 7,
+                            "date": "2026-02-19 14:30"
+                        },
+                        {
+                            "finished": true,
+                            "home": 5,
+                            "away": 4,
+                            "scoreHome": 10,
+                            "scoreAway": 7,
+                            "date": "2026-02-19 14:30"
+                        },
+                        {
+                            "finished": true,
+                            "home": 10,
+                            "away": 8,
+                            "scoreHome": 9,
+                            "scoreAway": 6,
+                            "date": "2026-02-19 14:30"
+                        },
+                        {
+                            "finished": true,
+                            "home": 7,
+                            "away": 9,
+                            "scoreHome": 7,
+                            "scoreAway": 4,
+                            "date": "2026-02-19 14:30"
                         }
                     ]
                 }
