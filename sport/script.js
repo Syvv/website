@@ -44,13 +44,12 @@ const standings = curlingOlympicsWomen.competitors.map(((competitor, competitorI
     return result
 }))
 
-
 // Build the table html
 var html = "<table>"
 // Build the table header
 html += "<tr>"
 columns.forEach(column => {
-    html += `<th>${column.name}</th>`
+    html += `<th class="${column.name}">${column.name}</th>`
 })
 html +="</tr>"
 // Fill the table
@@ -68,11 +67,12 @@ standings.forEach((team, positionIndex) => {
             stat = team.custom[column.data.replace("custom:", "")]
         } else if (column.data === "name") {
             if (stage.table.showFlags) {
-                stat = `<img class="flag-icon" src="../flags/${team.country}.png">`
+                stat = `<span class="icon"><img class="flag-icon" src="../flags/${team.country}.png"></span>`
             } else if (stage.table.showIcons) {
-                stat = `<img src="../icons/${team.name}.png">`
+                stat = `<span class="icon"><img src="../icons/${team.name}.png"></span>`
             }
-            stat += team.name
+            stat += `<span class="name" >${team.name}</span>`
+            stat = `<span class="competitor-table-name">${stat}</span>`
         } else {
             stat = team[column.data]
         }

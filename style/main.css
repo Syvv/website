@@ -14,3 +14,25 @@ img.flag-icon {
     height: 16px;
     margin: 2px;
 }
+
+span.competitor-table-name {
+    display: flex;
+    span.icon {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    span.name {
+        flex: 2;
+    }
+}
+
+tr {
+    background-color: #eeeeee;
+}
+
+th.Team {
+    width: 200px;
+}
