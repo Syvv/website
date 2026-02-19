@@ -73,9 +73,9 @@ standings.forEach((team, positionIndex) => {
             stat = team.custom[column.data.replace("custom:", "")]
         } else if (column.data === "name") {
             if (stage.table.showFlags) {
-                stat = `<span class="icon"><img class="flag-icon" src="../flags/${team.country}.png"></span>`
+                stat = `<span class="icon"><img class="flag-icon" src="../flags/${team.country.toLowerCase()}.png"></span>`
             } else if (stage.table.showIcons) {
-                stat = `<span class="icon"><img src="../icons/${team.name}.png"></span>`
+                stat = `<span class="icon"><img src="../icons/${team.name.toLowerCase()}.png"></span>`
             }
             stat += `<span class="name" >${team.name}</span>`
             stat = `<span class="competitor-table-name">${stat}</span>`
