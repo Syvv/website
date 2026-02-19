@@ -1,4 +1,5 @@
 import curlingOlympicsWomen from './jsondata/curlingOlympicsWomen.json' with { type: 'json' }
+import { sortTable } from './sorting.js'
 
 const stage = curlingOlympicsWomen.stages[0]
 const columns = [
@@ -11,12 +12,13 @@ const columns = [
 ]
 
 // Determine the current standings
-const standings = curlingOlympicsWomen.competitors.map(((competitor, competitorId) => {
+var standings = curlingOlympicsWomen.competitors.map(((competitor, competitorId) => {
     const result = {
         ...competitor,
         played: 0,
         wins: 0,
-        losses: 0
+        losses: 0,
+        id: competitorId
     }
 
     const matchesPlayed = stage.rounds.reduce((list, round) => {
@@ -41,8 +43,12 @@ const standings = curlingOlympicsWomen.competitors.map(((competitor, competitorI
         }
     })
 
+    result.matchesPlayed = matchesPlayed
+
     return result
 }))
+
+standings = sortTable(standings, stage.tiebreakers)
 
 // Build the table html
 var html = "<table>"

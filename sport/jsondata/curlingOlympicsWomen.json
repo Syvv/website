@@ -76,7 +76,7 @@
         {
             "type": "roundRobin",
             "tiebreakers": [
-                { "criteria": "wins" }, { "criteria": "resultsBetweenTied" }, { "criteria": "custom:drawShotChallenge", "description": "Draw Shot Challenge (in centimeters)" }
+                { "criteria": "wins" }, { "criteria": "resultsBetweenTied" }, { "criteria": "custom:drawShotChallenge", "modifier": -1, "description": "Draw Shot Challenge (in centimeters)" }
             ],
             "qualifications": [
                 {
