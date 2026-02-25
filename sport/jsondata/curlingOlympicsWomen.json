@@ -505,7 +505,7 @@
                 {
                     "matches": [
                         {
-                            "finished": false,
+                            "finished": true,
                             "home": 2,
                             "away": 3,
                             "scoreHome": 6,
@@ -513,7 +513,7 @@
                             "date": "2026-02-19 14:30"
                         },
                         {
-                            "finished": false,
+                            "finished": true,
                             "home": 5,
                             "away": 4,
                             "scoreHome": 10,
@@ -521,7 +521,7 @@
                             "date": "2026-02-19 14:30"
                         },
                         {
-                            "finished": false,
+                            "finished": true,
                             "home": 10,
                             "away": 8,
                             "scoreHome": 9,
@@ -529,7 +529,7 @@
                             "date": "2026-02-19 14:30"
                         },
                         {
-                            "finished": false,
+                            "finished": true,
                             "home": 7,
                             "away": 9,
                             "scoreHome": 7,
