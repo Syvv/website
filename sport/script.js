@@ -26,6 +26,11 @@ var standings = curlingOlympicsWomen.competitors.map(((competitor) => {
 
         return [...list, ...roundMatches]
     }, [])
+    const matchesLeft = stage.rounds.reduce((list, round) => {
+        const roundMatches = round.matches.filter(match => !match.finished && (match.home === competitor.id || match.away === competitor.id))
+
+        return [...list, ...roundMatches]
+    }, [])
 
     matchesPlayed.forEach(match => {
         result.played++;
@@ -44,11 +49,72 @@ var standings = curlingOlympicsWomen.competitors.map(((competitor) => {
     })
 
     result.matchesPlayed = matchesPlayed
+    result.matchesLeft = matchesLeft
 
     return result
 }))
-
 standings = sortTable(standings, stage.tiebreakers)
+
+const positionQualifications = {}
+for (var i = 1; i <= curlingOlympicsWomen.competitors.length; i++)
+{
+    positionQualifications[i] = null
+}
+stage.qualifications.forEach(qualification => {
+    qualification.placements.forEach(postition => positionQualifications[postition] = qualification)
+})
+
+// Simple check for qualifications (doing more than this on runtime would be insane for larger sets with more games left to play)
+standings.forEach(team => {
+    const tempListMax = standings.map(team => { return { ...team } })
+    const tempListMin = standings.map(team => { return { ...team } })
+    const index = tempListMax.findIndex(item => item.id === team.id)
+
+    tempListMax[index].wins += tempListMax[index].matchesLeft.length
+    const maxPos = sortTable(tempListMax, stage.tiebreakers).findIndex(item => item.id === team.id) + 1
+
+    tempListMin.forEach(item => {
+        if (item.id === team.id) {return}
+        item.wins += item.matchesLeft.length
+    })
+
+    const minPos = sortTable(tempListMin, stage.tiebreakers).findIndex(item => item.id === team.id) + 1
+    if (minPos < maxPos) { return }
+
+    const positions = []
+    for (var i = maxPos; i <= minPos; i++)
+    {
+        positions.push({ position: i, qualifiedStage: positionQualifications[i] })
+    }
+    // In the case there is a possible position which qualifies to noting we return
+    if (~positions.findIndex(position => !position.qualifiedStage)) { return }
+    if (positions[0].qualifiedStage.shorthand === positions[positions.length - 1].qualifiedStage.shorthand) 
+    {
+        team.qualification = positions[0].qualifiedStage
+        team.qualificationIsChangeable = false
+        return
+    }
+    var certainQualification = true
+    var isPositive = null;
+    positions.forEach(position => {
+        if (!position.qualifiedStage) { return }
+        if (isPositive === null) { isPositive = position.qualifiedStage.isPositive }
+
+        if (isPositive !== position.qualifiedStage.isPositive) { certainQualification = false }
+    })
+
+    if (certainQualification)
+    {
+        team.qualificationIsChangeable = true
+        if (isPositive) 
+        {
+            team.qualification = positions[positions.length - 1].qualifiedStage
+        } else {
+            team.qualification = positions[0].qualifiedStage
+        }
+    }
+})
+
 
 // Build the table html
 var html = "<table>"
@@ -59,7 +125,7 @@ columns.forEach(column => {
 })
 html +="</tr>"
 // Fill the table
-html += "<tr>"
+//html += "<tr>"
 standings.forEach((team, positionIndex) => {
     const qualifyingObject = stage.qualifications.find(obj => obj.placements.includes(positionIndex + 1))
     if (qualifyingObject) {
@@ -78,6 +144,10 @@ standings.forEach((team, positionIndex) => {
                 stat = `<span class="icon"><img src="../icons/${team.name.toLowerCase()}.png"></span>`
             }
             stat += `<span class="name" >${team.name}</span>`
+            if (team.qualification) 
+            {
+                stat += `<span class="qualification"><span class="pill" style="background-color:${team.qualification.color}; border-style:${team.qualificationIsChangeable ? "dotted" : "solid"}">${team.qualification.shorthand}</span></span>`
+            } else { stat += `<span class="qualification"></span>` }
             stat = `<span class="competitor-table-name">${stat}</span>`
         } else {
             stat = team[column.data]

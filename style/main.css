@@ -1,3 +1,7 @@
+html {
+    font-family: Arial
+}
+
 #Block-Navigator {
     & a {
         display: inline-block;
@@ -27,12 +31,27 @@ span.competitor-table-name {
     span.name {
         flex: 2;
     }
+
+    span.qualification {
+        flex: 1
+    }
+}
+
+span.pill {
+    border: 2px black;
+    border-radius: 25px;
+    padding: 1px 5px;
 }
 
 tr {
     background-color: #eeeeee;
+    height: 30px;
+}
+
+td {
+    padding: 0px 5px;
 }
 
 th.Team {
-    width: 200px;
+    width: 275px;
 }
