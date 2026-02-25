@@ -91,8 +91,10 @@
             "qualifications": [
                 {
                     "qualifyFor": "Playoffs",
+                    "shorthand": "Playoffs",
                     "placements": [1,2,3,4],
-                    "color": "#c4ff94"
+                    "color": "#c4ff94",
+                    "isPositive": true
                 }
             ],
             "table": {
@@ -503,7 +505,7 @@
                 {
                     "matches": [
                         {
-                            "finished": true,
+                            "finished": false,
                             "home": 2,
                             "away": 3,
                             "scoreHome": 6,
@@ -511,7 +513,7 @@
                             "date": "2026-02-19 14:30"
                         },
                         {
-                            "finished": true,
+                            "finished": false,
                             "home": 5,
                             "away": 4,
                             "scoreHome": 10,
@@ -519,7 +521,7 @@
                             "date": "2026-02-19 14:30"
                         },
                         {
-                            "finished": true,
+                            "finished": false,
                             "home": 10,
                             "away": 8,
                             "scoreHome": 9,
@@ -527,7 +529,7 @@
                             "date": "2026-02-19 14:30"
                         },
                         {
-                            "finished": true,
+                            "finished": false,
                             "home": 7,
                             "away": 9,
                             "scoreHome": 7,
