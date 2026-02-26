@@ -1,9 +1,20 @@
-<head>
-    <title>Syvv (Sportstables)</title>
-    <link rel="stylesheet" type="text/css" href="../style/main.css">
-    <script type="module" src="script.js"></script>
-</head>
 <html>
-    <!-- Element which will become the table, the javascript will manage that for us -->
-    <div id="sportsTable"></div>
+    <head>
+        <title>Syvv (Sportstables)</title>
+        <link rel="stylesheet" type="text/css" href="../style/main.css">
+        <script type="module" src="script.js"></script>
+    </head>
+    <body>
+        <div class="Customisation">
+            <label for="competition">Competition:</label>
+            <select name="competition" id="competitionSelector">
+                <option value="curlingWomenOlympic">Curling Women 2026 Olympic Games</option>
+                <option value="eredivisie">Eredivisie 25/26</option>
+            </select>
+        </div>
+        
+        <!-- Element which will become the table, the javascript will manage that for us -->
+        <div id="sportsTable"></div>
+    </body>
 </html>
+
