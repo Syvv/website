@@ -1,0 +1,197 @@
+{
+    "allowDraws": false,
+    "competitors": [
+        {
+            "country": "NL",
+            "name": "Ajax",
+            "id": 1
+        },
+        {
+            "country": "NL",
+            "name": "AZ",
+            "id": 2
+        },
+        {
+            "country": "NL",
+            "name": "Excelsior",
+            "id": 3
+        },
+        {
+            "country": "NL",
+            "name": "Feyenoord",
+            "id": 4
+        },
+        {
+            "country": "NL",
+            "name": "Fortuna Sittard",
+            "id": 5
+        },
+        {
+            "country": "NL",
+            "name": "Go Ahead Eagles",
+            "id": 6
+        },
+        {
+            "country": "NL",
+            "name": "FC Groningen",
+            "id": 7
+        },
+        {
+            "country": "NL",
+            "name": "SC Heerenveen",
+            "id": 8
+        },
+        {
+            "country": "NL",
+            "name": "Heracles Almelo",
+            "id": 9
+        },
+        {
+            "country": "NL",
+            "name": "NAC Breda",
+            "id": 10
+        },
+        {
+            "country": "NL",
+            "name": "NEC",
+            "id": 11
+        },
+        {
+            "country": "NL",
+            "name": "PEC Zwolle",
+            "id": 12
+        },
+        {
+            "country": "NL",
+            "name": "PSV Eindhoven",
+            "id": 13
+        },
+        {
+            "country": "NL",
+            "name": "Sparta Rotterdam",
+            "id": 14
+        },
+        {
+            "country": "NL",
+            "name": "Telstar",
+            "id": 15
+        },
+        {
+            "country": "NL",
+            "name": "FC Twente",
+            "id": 16
+        },
+        {
+            "country": "NL",
+            "name": "FC Utrecht",
+            "id": 17
+        },
+        {
+            "country": "NL",
+            "name": "FC Volendam",
+            "id": 18
+        }
+    ],
+    "stages": [
+        {
+            "type": "roundRobin",
+            "tiebreakers": [
+                { "criteria": "points" }, { "criteria": "scoreDifference" }, { "criteria": "scoreFor" }
+            ],
+            "pointsOnWin": 3,
+            "pointsOnDraw": 1,
+            "table": {
+                "showFlags": false,
+                "showIcons": false,
+                "columns": [
+                    {
+                        "data": "played",
+                        "name": "Played",
+                        "compactName": "Pld" 
+                    },
+                    {
+                        "data": "wins",
+                        "name": "Wins",
+                        "compactName": "W" 
+                    },
+                    {
+                        "data": "draws",
+                        "name": "Draws",
+                        "compactName": "D" 
+                    },
+                    {
+                        "data": "losses",
+                        "name": "Losses",
+                        "compactName": "L" 
+                    },
+                    {
+                        "data": "points",
+                        "name": "Points",
+                        "compactName": "Pts" 
+                    },
+                    {
+                        "data": "scoreFor",
+                        "name": "Goals For",
+                        "compactName": "GF" 
+                    },
+                    {
+                        "data": "scoreAgainst",
+                        "name": "Goals Against",
+                        "compactName": "GA" 
+                    },
+                    {
+                        "data": "scoreDifference",
+                        "name": "Goal Difference",
+                        "compactName": "GD" 
+                    }
+                ]
+            },
+            "qualifications": [
+                {
+                    "qualifyFor": "Champions League league phase",
+                    "shorthand": "UCL",
+                    "placements": [1,2],
+                    "color": "#1c6ed4",
+                    "isPositive": true
+                },
+                {
+                    "qualifyFor": "Champions League third qualifying round",
+                    "shorthand": "UCL Q3",
+                    "placements": [3],
+                    "color": "#5296eb",
+                    "isPositive": true
+                },
+                {
+                    "qualifyFor": "Europa League second qualifying round",
+                    "shorthand": "UEL Q2",
+                    "placements": [4],
+                    "color": "#dea35b",
+                    "isPositive": true
+                },
+                {
+                    "qualifyFor": "European competition play-offs",
+                    "shorthand": "EU Playoffs",
+                    "placements": [5,6,7,8],
+                    "color": "#a6f57f",
+                    "isPositive": true
+                },
+                {
+                    "qualifyFor": "Relegation play-off",
+                    "shorthand": "Rel Playoff",
+                    "placements": [16],
+                    "color": "#cc6270",
+                    "isPositive": false
+                },
+                {
+                    "qualifyFor": "Relegated",
+                    "shorthand": "Relegated",
+                    "placements": [17,18],
+                    "color": "#cc495b",
+                    "isPositive": false
+                }
+            ],
+            "roundNames": "Round",
+            "rounds": []
+        }
+    ]
+}

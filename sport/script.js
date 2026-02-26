@@ -1,7 +1,11 @@
 import curlingOlympicsWomen from './jsondata/curlingOlympicsWomen.json' with { type: 'json' }
+import eredivisie from './jsondata/eredivisie.json' with { type: 'json' }
 import { sortTable } from './sorting.js'
 
-const stage = curlingOlympicsWomen.stages[0]
+//const competition = curlingOlympicsWomen
+const competition = eredivisie
+
+const stage = competition.stages[0]
 const columns = [
     {
         data: "name",
@@ -12,12 +16,17 @@ const columns = [
 ]
 
 // Determine the current standings
-var standings = curlingOlympicsWomen.competitors.map(((competitor) => {
+var standings = competition.competitors.map(((competitor) => {
     const result = {
         ...competitor,
         played: 0,
         wins: 0,
+        draws: 0,
         losses: 0,
+        scoreFor: 0,
+        scoreAgainst: 0,
+        scoreDifference: 0,
+        points: 0,
         resultsBetweenTied: "0 - 0"
     }
 
@@ -39,6 +48,11 @@ var standings = curlingOlympicsWomen.competitors.map(((competitor) => {
             (match.away === competitor.id && match.scoreHome < match.scoreAway)
         ) {
             result.wins++;
+            result.points += stage?.pointsOnWin ?? 2
+        }
+        if ((match.home === competitor.id || match.away === competitor.id) && match.scoreHome === match.scoreAway) {
+            result.draws++;
+            result.points += stage?.pointsOnDraw ?? 1
         }
         if (
             (match.home === competitor.id && match.scoreHome < match.scoreAway) ||
@@ -46,8 +60,16 @@ var standings = curlingOlympicsWomen.competitors.map(((competitor) => {
         ) {
             result.losses++;
         }
+        if (match.home === competitor.id) {
+            result.scoreFor += match.scoreHome
+            result.scoreAgainst += match.scoreAway
+        }
+        if (match.away === competitor.id) {
+            result.scoreFor += match.scoreAway
+            result.scoreAgainst += match.scoreHome
+        }
     })
-
+    result.scoreDifference = result.scoreFor - result.scoreAgainst
     result.matchesPlayed = matchesPlayed
     result.matchesLeft = matchesLeft
 
@@ -56,7 +78,7 @@ var standings = curlingOlympicsWomen.competitors.map(((competitor) => {
 standings = sortTable(standings, stage.tiebreakers)
 
 const positionQualifications = {}
-for (var i = 1; i <= curlingOlympicsWomen.competitors.length; i++)
+for (var i = 1; i <= competition.competitors.length; i++)
 {
     positionQualifications[i] = null
 }
@@ -142,6 +164,8 @@ standings.forEach((team, positionIndex) => {
                 stat = `<span class="icon"><img class="flag-icon" src="../flags/${team.country.toLowerCase()}.png"></span>`
             } else if (stage.table.showIcons) {
                 stat = `<span class="icon"><img src="../icons/${team.name.toLowerCase()}.png"></span>`
+            } else {
+                stat = ""
             }
             stat += `<span class="name" >${team.name}</span>`
             if (team.qualification) 
