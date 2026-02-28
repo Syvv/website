@@ -112,11 +112,13 @@ export function displayTable() {
         const index = tempListMax.findIndex(item => item.id === team.id)
 
         tempListMax[index].wins += tempListMax[index].matchesLeft.length
+        tempListMax[index].points += tempListMax[index].matchesLeft.length * stage.pointsOnWin
         const maxPos = sortTable(tempListMax, stage.tiebreakers).findIndex(item => item.id === team.id) + 1
 
         tempListMin.forEach(item => {
             if (item.id === team.id) {return}
             item.wins += item.matchesLeft.length
+            item.points += item.matchesLeft.length * stage.pointsOnWin
         })
 
         const minPos = sortTable(tempListMin, stage.tiebreakers).findIndex(item => item.id === team.id) + 1
@@ -155,7 +157,6 @@ export function displayTable() {
             }
         }
     })
-
 
     // Build the table html
     var html = "<table>"

@@ -1968,75 +1968,75 @@
 				{
 					"matches": [
 						{
-							"scoreHome": 0,
+							"scoreHome": 2,
 							"away": 3,
-							"scoreAway": 0,
+							"scoreAway": 1,
 							"home": 5,
-							"finished": false,
+							"finished": true,
 							"date": "2026-02-20 20:00"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 3,
 							"away": 8,
-							"scoreAway": 0,
+							"scoreAway": 1,
 							"home": 13,
-							"finished": false,
+							"finished": true,
 							"date": "2026-02-21 18:45"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 1,
 							"away": 18,
 							"scoreAway": 0,
 							"home": 10,
-							"finished": false,
+							"finished": true,
 							"date": "2026-02-21 20:00"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 1,
 							"away": 11,
-							"scoreAway": 0,
+							"scoreAway": 1,
 							"home": 1,
-							"finished": false,
+							"finished": true,
 							"date": "2026-02-21 21:00"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 2,
 							"away": 7,
-							"scoreAway": 0,
+							"scoreAway": 1,
 							"home": 16,
-							"finished": false,
+							"finished": true,
 							"date": "2026-02-22 12:15"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 1,
 							"away": 12,
-							"scoreAway": 0,
+							"scoreAway": 1,
 							"home": 17,
-							"finished": false,
+							"finished": true,
 							"date": "2026-02-22 14:30"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 4,
 							"away": 9,
 							"scoreAway": 0,
 							"home": 6,
-							"finished": false,
+							"finished": true,
 							"date": "2026-02-22 14:30"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 3,
 							"away": 14,
-							"scoreAway": 0,
+							"scoreAway": 1,
 							"home": 2,
-							"finished": false,
+							"finished": true,
 							"date": "2026-02-22 16:45"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 2,
 							"away": 15,
-							"scoreAway": 0,
+							"scoreAway": 1,
 							"home": 4,
-							"finished": false,
+							"finished": true,
 							"date": "2026-02-22 20:00"
 						}
 					]
