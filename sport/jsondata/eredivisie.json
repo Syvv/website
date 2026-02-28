@@ -1,0 +1,2807 @@
+{
+	"allowDraws": false,
+	"competitors": [
+		{
+			"country": "NL",
+			"name": "Ajax",
+			"id": 1
+		},
+		{
+			"country": "NL",
+			"name": "AZ",
+			"id": 2
+		},
+		{
+			"country": "NL",
+			"name": "Excelsior",
+			"id": 3
+		},
+		{
+			"country": "NL",
+			"name": "Feyenoord",
+			"id": 4
+		},
+		{
+			"country": "NL",
+			"name": "Fortuna Sittard",
+			"id": 5
+		},
+		{
+			"country": "NL",
+			"name": "Go Ahead Eagles",
+			"id": 6
+		},
+		{
+			"country": "NL",
+			"name": "FC Groningen",
+			"id": 7
+		},
+		{
+			"country": "NL",
+			"name": "SC Heerenveen",
+			"id": 8
+		},
+		{
+			"country": "NL",
+			"name": "Heracles Almelo",
+			"id": 9
+		},
+		{
+			"country": "NL",
+			"name": "NAC Breda",
+			"id": 10
+		},
+		{
+			"country": "NL",
+			"name": "NEC",
+			"id": 11
+		},
+		{
+			"country": "NL",
+			"name": "PEC Zwolle",
+			"id": 12
+		},
+		{
+			"country": "NL",
+			"name": "PSV Eindhoven",
+			"id": 13
+		},
+		{
+			"country": "NL",
+			"name": "Sparta Rotterdam",
+			"id": 14
+		},
+		{
+			"country": "NL",
+			"name": "Telstar",
+			"id": 15
+		},
+		{
+			"country": "NL",
+			"name": "FC Twente",
+			"id": 16
+		},
+		{
+			"country": "NL",
+			"name": "FC Utrecht",
+			"id": 17
+		},
+		{
+			"country": "NL",
+			"name": "FC Volendam",
+			"id": 18
+		}
+	],
+	"stages": [
+		{
+			"type": "roundRobin",
+			"tiebreakers": [
+				{
+					"criteria": "points"
+				},
+				{
+					"criteria": "scoreDifference"
+				},
+				{
+					"criteria": "scoreFor"
+				}
+			],
+			"pointsOnWin": 3,
+			"pointsOnDraw": 1,
+			"table": {
+				"showFlags": false,
+				"showIcons": false,
+				"columns": [
+					{
+						"data": "played",
+						"name": "Played",
+						"compactName": "Pld"
+					},
+					{
+						"data": "wins",
+						"name": "Wins",
+						"compactName": "W"
+					},
+					{
+						"data": "draws",
+						"name": "Draws",
+						"compactName": "D"
+					},
+					{
+						"data": "losses",
+						"name": "Losses",
+						"compactName": "L"
+					},
+					{
+						"data": "points",
+						"name": "Points",
+						"compactName": "Pts"
+					},
+					{
+						"data": "scoreFor",
+						"name": "Goals For",
+						"compactName": "GF"
+					},
+					{
+						"data": "scoreAgainst",
+						"name": "Goals Against",
+						"compactName": "GA"
+					},
+					{
+						"data": "scoreDifference",
+						"name": "Goal Difference",
+						"compactName": "GD"
+					}
+				]
+			},
+			"qualifications": [
+				{
+					"qualifyFor": "Champions League league phase",
+					"shorthand": "UCL",
+					"placements": [
+						1,
+						2
+					],
+					"color": "#1c6ed4",
+					"isPositive": true
+				},
+				{
+					"qualifyFor": "Champions League third qualifying round",
+					"shorthand": "UCL Q3",
+					"placements": [
+						3
+					],
+					"color": "#5296eb",
+					"isPositive": true
+				},
+				{
+					"qualifyFor": "Europa League second qualifying round",
+					"shorthand": "UEL Q2",
+					"placements": [
+						4
+					],
+					"color": "#dea35b",
+					"isPositive": true
+				},
+				{
+					"qualifyFor": "European competition play-offs",
+					"shorthand": "EU Playoffs",
+					"placements": [
+						5,
+						6,
+						7,
+						8
+					],
+					"color": "#a6f57f",
+					"isPositive": true
+				},
+				{
+					"qualifyFor": "Relegation play-off",
+					"shorthand": "Rel Playoff",
+					"placements": [
+						16
+					],
+					"color": "#cc6270",
+					"isPositive": false
+				},
+				{
+					"qualifyFor": "Relegated",
+					"shorthand": "Relegated",
+					"placements": [
+						17,
+						18
+					],
+					"color": "#cc495b",
+					"isPositive": false
+				}
+			],
+			"roundNames": "Round",
+			"rounds": [
+				{
+					"matches": [
+						{
+							"scoreHome": 2,
+							"away": 6,
+							"scoreAway": 2,
+							"home": 5,
+							"finished": true,
+							"date": "2025-08-08 20:00"
+						},
+						{
+							"scoreHome": 5,
+							"away": 3,
+							"scoreAway": 0,
+							"home": 11,
+							"finished": true,
+							"date": "2025-08-09 16:30"
+						},
+						{
+							"scoreHome": 2,
+							"away": 10,
+							"scoreAway": 0,
+							"home": 4,
+							"finished": true,
+							"date": "2025-08-09 18:45"
+						},
+						{
+							"scoreHome": 1,
+							"away": 18,
+							"scoreAway": 1,
+							"home": 8,
+							"finished": true,
+							"date": "2025-08-09 20:00"
+						},
+						{
+							"scoreHome": 6,
+							"away": 14,
+							"scoreAway": 1,
+							"home": 13,
+							"finished": true,
+							"date": "2025-08-09 21:00"
+						},
+						{
+							"scoreHome": 1,
+							"away": 16,
+							"scoreAway": 0,
+							"home": 12,
+							"finished": true,
+							"date": "2025-08-10 12:15"
+						},
+						{
+							"scoreHome": 2,
+							"away": 15,
+							"scoreAway": 0,
+							"home": 1,
+							"finished": true,
+							"date": "2025-08-10 14:30"
+						},
+						{
+							"scoreHome": 4,
+							"away": 7,
+							"scoreAway": 1,
+							"home": 2,
+							"finished": true,
+							"date": "2025-08-10 14:30"
+						},
+						{
+							"scoreHome": 4,
+							"away": 9,
+							"scoreAway": 0,
+							"home": 17,
+							"finished": true,
+							"date": "2025-08-10 16:45"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 0,
+							"away": 12,
+							"scoreAway": 2,
+							"home": 15,
+							"finished": true,
+							"date": "2025-08-15 20:00"
+						},
+						{
+							"scoreHome": 1,
+							"away": 4,
+							"scoreAway": 2,
+							"home": 3,
+							"finished": true,
+							"date": "2025-08-16 18:45"
+						},
+						{
+							"scoreHome": 1,
+							"away": 11,
+							"scoreAway": 4,
+							"home": 9,
+							"finished": true,
+							"date": "2025-08-16 20:00"
+						},
+						{
+							"scoreHome": 2,
+							"away": 8,
+							"scoreAway": 1,
+							"home": 7,
+							"finished": true,
+							"date": "2025-08-16 21:00"
+						},
+						{
+							"scoreHome": 2,
+							"away": 1,
+							"scoreAway": 2,
+							"home": 6,
+							"finished": true,
+							"date": "2025-08-17 12:15"
+						},
+						{
+							"scoreHome": 2,
+							"away": 17,
+							"scoreAway": 1,
+							"home": 14,
+							"finished": true,
+							"date": "2025-08-17 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 13,
+							"scoreAway": 2,
+							"home": 16,
+							"finished": true,
+							"date": "2025-08-17 14:30"
+						},
+						{
+							"scoreHome": 2,
+							"away": 2,
+							"scoreAway": 2,
+							"home": 18,
+							"finished": true,
+							"date": "2025-08-17 16:45"
+						},
+						{
+							"scoreHome": 2,
+							"away": 5,
+							"scoreAway": 1,
+							"home": 10,
+							"finished": true,
+							"date": "2025-08-17 20:00"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 0,
+							"away": 14,
+							"scoreAway": 3,
+							"home": 6,
+							"finished": true,
+							"date": "2025-08-23 16:30"
+						},
+						{
+							"scoreHome": 4,
+							"away": 7,
+							"scoreAway": 2,
+							"home": 13,
+							"finished": true,
+							"date": "2025-08-23 18:45"
+						},
+						{
+							"scoreHome": 2,
+							"away": 18,
+							"scoreAway": 2,
+							"home": 15,
+							"finished": true,
+							"date": "2025-08-23 21:00"
+						},
+						{
+							"scoreHome": 1,
+							"away": 16,
+							"scoreAway": 2,
+							"home": 8,
+							"finished": true,
+							"date": "2025-08-24 12:15"
+						},
+						{
+							"scoreHome": 4,
+							"away": 3,
+							"scoreAway": 1,
+							"home": 17,
+							"finished": true,
+							"date": "2025-08-24 14:30"
+						},
+						{
+							"scoreHome": 3,
+							"away": 10,
+							"scoreAway": 0,
+							"home": 11,
+							"finished": true,
+							"date": "2025-08-24 14:30"
+						},
+						{
+							"scoreHome": 2,
+							"away": 9,
+							"scoreAway": 0,
+							"home": 1,
+							"finished": true,
+							"date": "2025-08-24 16:45"
+						},
+						{
+							"scoreHome": 2,
+							"away": 5,
+							"scoreAway": 0,
+							"home": 4,
+							"finished": true,
+							"date": "2025-09-17 20:00"
+						},
+						{
+							"scoreHome": 2,
+							"away": 12,
+							"scoreAway": 2,
+							"home": 2,
+							"finished": true,
+							"date": "2025-09-24 20:00"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 4,
+							"away": 9,
+							"scoreAway": 0,
+							"home": 7,
+							"finished": true,
+							"date": "2025-08-29 20:00"
+						},
+						{
+							"scoreHome": 1,
+							"away": 1,
+							"scoreAway": 1,
+							"home": 18,
+							"finished": true,
+							"date": "2025-08-30 16:30"
+						},
+						{
+							"scoreHome": 2,
+							"away": 6,
+							"scoreAway": 2,
+							"home": 8,
+							"finished": true,
+							"date": "2025-08-30 18:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 15,
+							"scoreAway": 2,
+							"home": 13,
+							"finished": true,
+							"date": "2025-08-30 20:00"
+						},
+						{
+							"scoreHome": 1,
+							"away": 16,
+							"scoreAway": 0,
+							"home": 3,
+							"finished": true,
+							"date": "2025-08-30 21:00"
+						},
+						{
+							"scoreHome": 3,
+							"away": 11,
+							"scoreAway": 2,
+							"home": 5,
+							"finished": true,
+							"date": "2025-08-31 12:15"
+						},
+						{
+							"scoreHome": 0,
+							"away": 17,
+							"scoreAway": 2,
+							"home": 12,
+							"finished": true,
+							"date": "2025-08-31 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 4,
+							"scoreAway": 4,
+							"home": 14,
+							"finished": true,
+							"date": "2025-08-31 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 2,
+							"scoreAway": 1,
+							"home": 10,
+							"finished": true,
+							"date": "2025-08-31 16:45"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 3,
+							"away": 12,
+							"scoreAway": 1,
+							"home": 1,
+							"finished": true,
+							"date": "2025-09-13 16:30"
+						},
+						{
+							"scoreHome": 3,
+							"away": 13,
+							"scoreAway": 5,
+							"home": 11,
+							"finished": true,
+							"date": "2025-09-13 18:45"
+						},
+						{
+							"scoreHome": 3,
+							"away": 18,
+							"scoreAway": 0,
+							"home": 6,
+							"finished": true,
+							"date": "2025-09-13 19:10"
+						},
+						{
+							"scoreHome": 1,
+							"away": 8,
+							"scoreAway": 0,
+							"home": 4,
+							"finished": true,
+							"date": "2025-09-13 21:00"
+						},
+						{
+							"scoreHome": 2,
+							"away": 10,
+							"scoreAway": 2,
+							"home": 16,
+							"finished": true,
+							"date": "2025-09-13 21:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 14,
+							"scoreAway": 1,
+							"home": 3,
+							"finished": true,
+							"date": "2025-09-14 12:15"
+						},
+						{
+							"scoreHome": 0,
+							"away": 7,
+							"scoreAway": 1,
+							"home": 17,
+							"finished": true,
+							"date": "2025-09-14 14:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 2,
+							"scoreAway": 2,
+							"home": 9,
+							"finished": true,
+							"date": "2025-09-14 14:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 5,
+							"scoreAway": 3,
+							"home": 15,
+							"finished": true,
+							"date": "2025-09-14 16:45"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 1,
+							"away": 16,
+							"scoreAway": 5,
+							"home": 14,
+							"finished": true,
+							"date": "2025-09-19 20:00"
+						},
+						{
+							"scoreHome": 1,
+							"away": 3,
+							"scoreAway": 2,
+							"home": 18,
+							"finished": true,
+							"date": "2025-09-20 16:30"
+						},
+						{
+							"scoreHome": 2,
+							"away": 15,
+							"scoreAway": 0,
+							"home": 7,
+							"finished": true,
+							"date": "2025-09-20 18:45"
+						},
+						{
+							"scoreHome": 1,
+							"away": 17,
+							"scoreAway": 0,
+							"home": 5,
+							"finished": true,
+							"date": "2025-09-20 20:00"
+						},
+						{
+							"scoreHome": 2,
+							"away": 9,
+							"scoreAway": 1,
+							"home": 10,
+							"finished": true,
+							"date": "2025-09-20 21:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 6,
+							"scoreAway": 2,
+							"home": 12,
+							"finished": true,
+							"date": "2025-09-21 12:15"
+						},
+						{
+							"scoreHome": 2,
+							"away": 1,
+							"scoreAway": 2,
+							"home": 13,
+							"finished": true,
+							"date": "2025-09-21 14:30"
+						},
+						{
+							"scoreHome": 3,
+							"away": 11,
+							"scoreAway": 2,
+							"home": 8,
+							"finished": true,
+							"date": "2025-09-21 14:30"
+						},
+						{
+							"scoreHome": 3,
+							"away": 4,
+							"scoreAway": 3,
+							"home": 2,
+							"finished": true,
+							"date": "2025-09-21 16:45"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 3,
+							"away": 5,
+							"scoreAway": 2,
+							"home": 16,
+							"finished": true,
+							"date": "2025-09-26 20:00"
+						},
+						{
+							"scoreHome": 2,
+							"away": 10,
+							"scoreAway": 1,
+							"home": 1,
+							"finished": true,
+							"date": "2025-09-27 16:30"
+						},
+						{
+							"scoreHome": 2,
+							"away": 12,
+							"scoreAway": 1,
+							"home": 18,
+							"finished": true,
+							"date": "2025-09-27 18:45"
+						},
+						{
+							"scoreHome": 1,
+							"away": 13,
+							"scoreAway": 2,
+							"home": 3,
+							"finished": true,
+							"date": "2025-09-27 20:00"
+						},
+						{
+							"scoreHome": 3,
+							"away": 14,
+							"scoreAway": 0,
+							"home": 9,
+							"finished": true,
+							"date": "2025-09-27 21:00"
+						},
+						{
+							"scoreHome": 2,
+							"away": 2,
+							"scoreAway": 1,
+							"home": 11,
+							"finished": true,
+							"date": "2025-09-28 12:15"
+						},
+						{
+							"scoreHome": 0,
+							"away": 4,
+							"scoreAway": 1,
+							"home": 7,
+							"finished": true,
+							"date": "2025-09-28 14:30"
+						},
+						{
+							"scoreHome": 2,
+							"away": 8,
+							"scoreAway": 2,
+							"home": 17,
+							"finished": true,
+							"date": "2025-09-28 14:30"
+						},
+						{
+							"scoreHome": 4,
+							"away": 6,
+							"scoreAway": 2,
+							"home": 15,
+							"finished": true,
+							"date": "2025-09-28 16:45"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 1,
+							"away": 7,
+							"scoreAway": 2,
+							"home": 10,
+							"finished": true,
+							"date": "2025-10-03 20:00"
+						},
+						{
+							"scoreHome": 3,
+							"away": 1,
+							"scoreAway": 3,
+							"home": 14,
+							"finished": true,
+							"date": "2025-10-04 16:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 18,
+							"scoreAway": 0,
+							"home": 5,
+							"finished": true,
+							"date": "2025-10-04 18:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 13,
+							"scoreAway": 4,
+							"home": 12,
+							"finished": true,
+							"date": "2025-10-04 20:00"
+						},
+						{
+							"scoreHome": 2,
+							"away": 3,
+							"scoreAway": 1,
+							"home": 8,
+							"finished": true,
+							"date": "2025-10-04 21:00"
+						},
+						{
+							"scoreHome": 2,
+							"away": 9,
+							"scoreAway": 1,
+							"home": 16,
+							"finished": true,
+							"date": "2025-10-05 12:15"
+						},
+						{
+							"scoreHome": 3,
+							"away": 17,
+							"scoreAway": 2,
+							"home": 4,
+							"finished": true,
+							"date": "2025-10-05 14:30"
+						},
+						{
+							"scoreHome": 2,
+							"away": 15,
+							"scoreAway": 1,
+							"home": 2,
+							"finished": true,
+							"date": "2025-10-05 16:45"
+						},
+						{
+							"scoreHome": 1,
+							"away": 11,
+							"scoreAway": 1,
+							"home": 6,
+							"finished": true,
+							"date": "2025-10-05 20:00"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 3,
+							"away": 16,
+							"scoreAway": 3,
+							"home": 11,
+							"finished": true,
+							"date": "2025-10-18 16:45"
+						},
+						{
+							"scoreHome": 3,
+							"away": 18,
+							"scoreAway": 1,
+							"home": 17,
+							"finished": true,
+							"date": "2025-10-18 18:45"
+						},
+						{
+							"scoreHome": 2,
+							"away": 6,
+							"scoreAway": 1,
+							"home": 13,
+							"finished": true,
+							"date": "2025-10-18 18:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 2,
+							"scoreAway": 2,
+							"home": 1,
+							"finished": true,
+							"date": "2025-10-18 21:00"
+						},
+						{
+							"scoreHome": 2,
+							"away": 12,
+							"scoreAway": 2,
+							"home": 10,
+							"finished": true,
+							"date": "2025-10-18 21:00"
+						},
+						{
+							"scoreHome": 2,
+							"away": 8,
+							"scoreAway": 3,
+							"home": 15,
+							"finished": true,
+							"date": "2025-10-19 12:15"
+						},
+						{
+							"scoreHome": 0,
+							"away": 14,
+							"scoreAway": 2,
+							"home": 7,
+							"finished": true,
+							"date": "2025-10-19 14:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 5,
+							"scoreAway": 0,
+							"home": 3,
+							"finished": true,
+							"date": "2025-10-19 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 4,
+							"scoreAway": 7,
+							"home": 9,
+							"finished": true,
+							"date": "2025-10-19 16:45"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 3,
+							"away": 10,
+							"scoreAway": 3,
+							"home": 8,
+							"finished": true,
+							"date": "2025-10-24 20:00"
+						},
+						{
+							"scoreHome": 1,
+							"away": 7,
+							"scoreAway": 2,
+							"home": 5,
+							"finished": true,
+							"date": "2025-10-25 16:40"
+						},
+						{
+							"scoreHome": 1,
+							"away": 15,
+							"scoreAway": 0,
+							"home": 14,
+							"finished": true,
+							"date": "2025-10-25 18:45"
+						},
+						{
+							"scoreHome": 3,
+							"away": 9,
+							"scoreAway": 0,
+							"home": 18,
+							"finished": true,
+							"date": "2025-10-25 20:00"
+						},
+						{
+							"scoreHome": 2,
+							"away": 11,
+							"scoreAway": 2,
+							"home": 12,
+							"finished": true,
+							"date": "2025-10-25 21:00"
+						},
+						{
+							"scoreHome": 2,
+							"away": 1,
+							"scoreAway": 3,
+							"home": 16,
+							"finished": true,
+							"date": "2025-10-26 12:15"
+						},
+						{
+							"scoreHome": 2,
+							"away": 13,
+							"scoreAway": 3,
+							"home": 4,
+							"finished": true,
+							"date": "2025-10-26 14:30"
+						},
+						{
+							"scoreHome": 4,
+							"away": 17,
+							"scoreAway": 1,
+							"home": 2,
+							"finished": true,
+							"date": "2025-10-26 16:45"
+						},
+						{
+							"scoreHome": 2,
+							"away": 3,
+							"scoreAway": 0,
+							"home": 6,
+							"finished": true,
+							"date": "2025-10-26 20:00"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 5,
+							"away": 5,
+							"scoreAway": 2,
+							"home": 13,
+							"finished": true,
+							"date": "2025-10-31 20:00"
+						},
+						{
+							"scoreHome": 1,
+							"away": 8,
+							"scoreAway": 1,
+							"home": 1,
+							"finished": true,
+							"date": "2025-11-01 16:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 6,
+							"scoreAway": 0,
+							"home": 10,
+							"finished": true,
+							"date": "2025-11-01 18:45"
+						},
+						{
+							"scoreHome": 3,
+							"away": 18,
+							"scoreAway": 1,
+							"home": 4,
+							"finished": true,
+							"date": "2025-11-01 20:00"
+						},
+						{
+							"scoreHome": 2,
+							"away": 3,
+							"scoreAway": 2,
+							"home": 15,
+							"finished": true,
+							"date": "2025-11-01 21:00"
+						},
+						{
+							"scoreHome": 8,
+							"away": 12,
+							"scoreAway": 2,
+							"home": 9,
+							"finished": true,
+							"date": "2025-11-02 12:15"
+						},
+						{
+							"scoreHome": 1,
+							"away": 16,
+							"scoreAway": 1,
+							"home": 7,
+							"finished": true,
+							"date": "2025-11-02 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 2,
+							"scoreAway": 1,
+							"home": 14,
+							"finished": true,
+							"date": "2025-11-02 14:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 11,
+							"scoreAway": 0,
+							"home": 17,
+							"finished": true,
+							"date": "2025-11-02 16:45"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 0,
+							"away": 15,
+							"scoreAway": 0,
+							"home": 16,
+							"finished": true,
+							"date": "2025-11-07 20:00"
+						},
+						{
+							"scoreHome": 1,
+							"away": 9,
+							"scoreAway": 2,
+							"home": 3,
+							"finished": true,
+							"date": "2025-11-08 16:30"
+						},
+						{
+							"scoreHome": 2,
+							"away": 10,
+							"scoreAway": 1,
+							"home": 18,
+							"finished": true,
+							"date": "2025-11-08 18:45"
+						},
+						{
+							"scoreHome": 2,
+							"away": 8,
+							"scoreAway": 0,
+							"home": 5,
+							"finished": true,
+							"date": "2025-11-08 20:00"
+						},
+						{
+							"scoreHome": 1,
+							"away": 14,
+							"scoreAway": 0,
+							"home": 12,
+							"finished": true,
+							"date": "2025-11-08 21:00"
+						},
+						{
+							"scoreHome": 2,
+							"away": 1,
+							"scoreAway": 1,
+							"home": 17,
+							"finished": true,
+							"date": "2025-11-09 12:15"
+						},
+						{
+							"scoreHome": 2,
+							"away": 7,
+							"scoreAway": 0,
+							"home": 11,
+							"finished": true,
+							"date": "2025-11-09 14:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 13,
+							"scoreAway": 5,
+							"home": 2,
+							"finished": true,
+							"date": "2025-11-09 16:45"
+						},
+						{
+							"scoreHome": 2,
+							"away": 4,
+							"scoreAway": 1,
+							"home": 6,
+							"finished": true,
+							"date": "2025-11-09 20:00"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 0,
+							"away": 13,
+							"scoreAway": 1,
+							"home": 10,
+							"finished": true,
+							"date": "2025-11-22 16:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 3,
+							"scoreAway": 2,
+							"home": 1,
+							"finished": true,
+							"date": "2025-11-22 18:45"
+						},
+						{
+							"scoreHome": 1,
+							"away": 16,
+							"scoreAway": 1,
+							"home": 18,
+							"finished": true,
+							"date": "2025-11-22 18:45"
+						},
+						{
+							"scoreHome": 4,
+							"away": 6,
+							"scoreAway": 2,
+							"home": 9,
+							"finished": true,
+							"date": "2025-11-22 21:00"
+						},
+						{
+							"scoreHome": 1,
+							"away": 5,
+							"scoreAway": 1,
+							"home": 14,
+							"finished": true,
+							"date": "2025-11-22 21:00"
+						},
+						{
+							"scoreHome": 3,
+							"away": 2,
+							"scoreAway": 1,
+							"home": 8,
+							"finished": true,
+							"date": "2025-11-23 12:15"
+						},
+						{
+							"scoreHome": 2,
+							"away": 11,
+							"scoreAway": 4,
+							"home": 4,
+							"finished": true,
+							"date": "2025-11-23 14:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 17,
+							"scoreAway": 1,
+							"home": 15,
+							"finished": true,
+							"date": "2025-11-23 14:30"
+						},
+						{
+							"scoreHome": 2,
+							"away": 12,
+							"scoreAway": 2,
+							"home": 7,
+							"finished": true,
+							"date": "2025-11-23 16:45"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 2,
+							"away": 8,
+							"scoreAway": 1,
+							"home": 12,
+							"finished": true,
+							"date": "2025-11-28 20:00"
+						},
+						{
+							"scoreHome": 1,
+							"away": 10,
+							"scoreAway": 0,
+							"home": 3,
+							"finished": true,
+							"date": "2025-11-29 16:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 9,
+							"scoreAway": 1,
+							"home": 5,
+							"finished": true,
+							"date": "2025-11-29 18:45"
+						},
+						{
+							"scoreHome": 3,
+							"away": 14,
+							"scoreAway": 1,
+							"home": 11,
+							"finished": true,
+							"date": "2025-11-29 21:00"
+						},
+						{
+							"scoreHome": 3,
+							"away": 18,
+							"scoreAway": 0,
+							"home": 13,
+							"finished": true,
+							"date": "2025-11-30 12:15"
+						},
+						{
+							"scoreHome": 2,
+							"away": 17,
+							"scoreAway": 2,
+							"home": 6,
+							"finished": true,
+							"date": "2025-11-30 14:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 4,
+							"scoreAway": 2,
+							"home": 15,
+							"finished": true,
+							"date": "2025-11-30 14:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 2,
+							"scoreAway": 0,
+							"home": 16,
+							"finished": true,
+							"date": "2025-11-30 16:45"
+						},
+						{
+							"scoreHome": 2,
+							"away": 7,
+							"scoreAway": 0,
+							"home": 1,
+							"finished": true,
+							"date": "2025-12-02 14:30"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 0,
+							"away": 7,
+							"scoreAway": 2,
+							"home": 3,
+							"finished": true,
+							"date": "2025-12-05 20:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 13,
+							"scoreAway": 2,
+							"home": 8,
+							"finished": true,
+							"date": "2025-12-06 16:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 1,
+							"scoreAway": 3,
+							"home": 5,
+							"finished": true,
+							"date": "2025-12-06 18:45"
+						},
+						{
+							"scoreHome": 1,
+							"away": 15,
+							"scoreAway": 1,
+							"home": 9,
+							"finished": true,
+							"date": "2025-12-06 20:00"
+						},
+						{
+							"scoreHome": 6,
+							"away": 12,
+							"scoreAway": 1,
+							"home": 4,
+							"finished": true,
+							"date": "2025-12-06 21:00"
+						},
+						{
+							"scoreHome": 1,
+							"away": 16,
+							"scoreAway": 1,
+							"home": 17,
+							"finished": true,
+							"date": "2025-12-07 12:15"
+						},
+						{
+							"scoreHome": 2,
+							"away": 6,
+							"scoreAway": 2,
+							"home": 2,
+							"finished": true,
+							"date": "2025-12-07 14:30"
+						},
+						{
+							"scoreHome": 2,
+							"away": 11,
+							"scoreAway": 3,
+							"home": 18,
+							"finished": true,
+							"date": "2025-12-07 14:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 10,
+							"scoreAway": 0,
+							"home": 14,
+							"finished": true,
+							"date": "2025-12-07 16:45"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 2,
+							"away": 11,
+							"scoreAway": 2,
+							"home": 15,
+							"finished": true,
+							"date": "2025-12-13 16:30"
+						},
+						{
+							"scoreHome": 3,
+							"away": 18,
+							"scoreAway": 0,
+							"home": 7,
+							"finished": true,
+							"date": "2025-12-13 18:45"
+						},
+						{
+							"scoreHome": 4,
+							"away": 9,
+							"scoreAway": 3,
+							"home": 13,
+							"finished": true,
+							"date": "2025-12-13 20:00"
+						},
+						{
+							"scoreHome": 1,
+							"away": 5,
+							"scoreAway": 0,
+							"home": 12,
+							"finished": true,
+							"date": "2025-12-13 21:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 8,
+							"scoreAway": 3,
+							"home": 14,
+							"finished": true,
+							"date": "2025-12-14 12:15"
+						},
+						{
+							"scoreHome": 2,
+							"away": 4,
+							"scoreAway": 0,
+							"home": 1,
+							"finished": true,
+							"date": "2025-12-14 14:30"
+						},
+						{
+							"scoreHome": 2,
+							"away": 6,
+							"scoreAway": 0,
+							"home": 16,
+							"finished": true,
+							"date": "2025-12-14 14:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 17,
+							"scoreAway": 1,
+							"home": 10,
+							"finished": true,
+							"date": "2025-12-14 16:45"
+						},
+						{
+							"scoreHome": 1,
+							"away": 3,
+							"scoreAway": 1,
+							"home": 2,
+							"finished": true,
+							"date": "2026-01-21 18:45"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 0,
+							"away": 8,
+							"scoreAway": 3,
+							"home": 9,
+							"finished": true,
+							"date": "2025-12-20 16:30"
+						},
+						{
+							"scoreHome": 2,
+							"away": 12,
+							"scoreAway": 1,
+							"home": 3,
+							"finished": true,
+							"date": "2025-12-20 18:45"
+						},
+						{
+							"scoreHome": 2,
+							"away": 1,
+							"scoreAway": 2,
+							"home": 11,
+							"finished": true,
+							"date": "2025-12-20 20:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 15,
+							"scoreAway": 1,
+							"home": 10,
+							"finished": true,
+							"date": "2025-12-20 21:00"
+						},
+						{
+							"scoreHome": 1,
+							"away": 13,
+							"scoreAway": 2,
+							"home": 17,
+							"finished": true,
+							"date": "2025-12-21 12:15"
+						},
+						{
+							"scoreHome": 1,
+							"away": 16,
+							"scoreAway": 1,
+							"home": 4,
+							"finished": true,
+							"date": "2025-12-21 14:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 7,
+							"scoreAway": 1,
+							"home": 6,
+							"finished": true,
+							"date": "2025-12-21 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 14,
+							"scoreAway": 1,
+							"home": 18,
+							"finished": true,
+							"date": "2025-12-21 16:45"
+						},
+						{
+							"scoreHome": 4,
+							"away": 2,
+							"scoreAway": 3,
+							"home": 5,
+							"finished": true,
+							"date": "2025-12-21 16:45"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 1,
+							"away": 18,
+							"scoreAway": 0,
+							"home": 2,
+							"finished": true,
+							"date": "2026-01-10 16:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 12,
+							"scoreAway": 1,
+							"home": 16,
+							"finished": true,
+							"date": "2026-01-10 18:45"
+						},
+						{
+							"scoreHome": 5,
+							"away": 3,
+							"scoreAway": 1,
+							"home": 13,
+							"finished": true,
+							"date": "2026-01-10 20:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 10,
+							"scoreAway": 0,
+							"home": 7,
+							"finished": true,
+							"date": "2026-01-10 21:00"
+						},
+						{
+							"scoreHome": 2,
+							"away": 4,
+							"scoreAway": 2,
+							"home": 8,
+							"finished": true,
+							"date": "2026-01-11 12:15"
+						},
+						{
+							"scoreHome": 2,
+							"away": 1,
+							"scoreAway": 3,
+							"home": 15,
+							"finished": true,
+							"date": "2026-01-11 14:30"
+						},
+						{
+							"scoreHome": 2,
+							"away": 5,
+							"scoreAway": 2,
+							"home": 6,
+							"finished": true,
+							"date": "2026-01-11 14:30"
+						},
+						{
+							"scoreHome": 2,
+							"away": 9,
+							"scoreAway": 0,
+							"home": 14,
+							"finished": true,
+							"date": "2026-01-11 16:45"
+						},
+						{
+							"scoreHome": 1,
+							"away": 17,
+							"scoreAway": 3,
+							"home": 11,
+							"finished": true,
+							"date": "2026-02-11 21:00"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 2,
+							"away": 6,
+							"scoreAway": 2,
+							"home": 1,
+							"finished": true,
+							"date": "2026-01-17 16:30"
+						},
+						{
+							"scoreHome": 3,
+							"away": 2,
+							"scoreAway": 1,
+							"home": 12,
+							"finished": true,
+							"date": "2026-01-17 18:45"
+						},
+						{
+							"scoreHome": 2,
+							"away": 15,
+							"scoreAway": 2,
+							"home": 3,
+							"finished": true,
+							"date": "2026-01-17 20:00"
+						},
+						{
+							"scoreHome": 1,
+							"away": 13,
+							"scoreAway": 2,
+							"home": 5,
+							"finished": true,
+							"date": "2026-01-17 20:00"
+						},
+						{
+							"scoreHome": 3,
+							"away": 11,
+							"scoreAway": 4,
+							"home": 10,
+							"finished": true,
+							"date": "2026-01-17 21:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 7,
+							"scoreAway": 2,
+							"home": 8,
+							"finished": true,
+							"date": "2026-01-18 12:15"
+						},
+						{
+							"scoreHome": 2,
+							"away": 17,
+							"scoreAway": 1,
+							"home": 18,
+							"finished": true,
+							"date": "2026-01-18 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 16,
+							"scoreAway": 2,
+							"home": 9,
+							"finished": true,
+							"date": "2026-01-18 14:30"
+						},
+						{
+							"scoreHome": 3,
+							"away": 14,
+							"scoreAway": 4,
+							"home": 4,
+							"finished": true,
+							"date": "2026-01-18 16:45"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 2,
+							"away": 18,
+							"scoreAway": 0,
+							"home": 1,
+							"finished": true,
+							"date": "2026-01-24 16:30"
+						},
+						{
+							"scoreHome": 2,
+							"away": 12,
+							"scoreAway": 1,
+							"home": 11,
+							"finished": true,
+							"date": "2026-01-24 18:45"
+						},
+						{
+							"scoreHome": 2,
+							"away": 10,
+							"scoreAway": 2,
+							"home": 13,
+							"finished": true,
+							"date": "2026-01-24 20:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 3,
+							"scoreAway": 0,
+							"home": 16,
+							"finished": true,
+							"date": "2026-01-24 21:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 2,
+							"scoreAway": 1,
+							"home": 15,
+							"finished": true,
+							"date": "2026-01-25 12:15"
+						},
+						{
+							"scoreHome": 1,
+							"away": 5,
+							"scoreAway": 2,
+							"home": 7,
+							"finished": true,
+							"date": "2026-01-25 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 14,
+							"scoreAway": 1,
+							"home": 17,
+							"finished": true,
+							"date": "2026-01-25 16:45"
+						},
+						{
+							"scoreHome": 4,
+							"away": 9,
+							"scoreAway": 2,
+							"home": 4,
+							"finished": true,
+							"date": "2026-01-25 16:45"
+						},
+						{
+							"scoreHome": 1,
+							"away": 8,
+							"scoreAway": 3,
+							"home": 6,
+							"finished": true,
+							"date": "2026-02-11 18:45"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 2,
+							"away": 16,
+							"scoreAway": 2,
+							"home": 10,
+							"finished": true,
+							"date": "2026-01-30 20:00"
+						},
+						{
+							"scoreHome": 1,
+							"away": 11,
+							"scoreAway": 3,
+							"home": 2,
+							"finished": true,
+							"date": "2026-01-31 16:30"
+						},
+						{
+							"scoreHome": 4,
+							"away": 15,
+							"scoreAway": 1,
+							"home": 12,
+							"finished": true,
+							"date": "2026-01-31 18:45"
+						},
+						{
+							"scoreHome": 2,
+							"away": 7,
+							"scoreAway": 0,
+							"home": 14,
+							"finished": true,
+							"date": "2026-01-31 21:00"
+						},
+						{
+							"scoreHome": 2,
+							"away": 1,
+							"scoreAway": 2,
+							"home": 3,
+							"finished": true,
+							"date": "2026-02-01 12:15"
+						},
+						{
+							"scoreHome": 2,
+							"away": 5,
+							"scoreAway": 1,
+							"home": 9,
+							"finished": true,
+							"date": "2026-02-01 14:30"
+						},
+						{
+							"scoreHome": 3,
+							"away": 4,
+							"scoreAway": 0,
+							"home": 13,
+							"finished": true,
+							"date": "2026-02-01 14:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 17,
+							"scoreAway": 1,
+							"home": 8,
+							"finished": true,
+							"date": "2026-02-01 16:45"
+						},
+						{
+							"scoreHome": 1,
+							"away": 6,
+							"scoreAway": 1,
+							"home": 18,
+							"finished": true,
+							"date": "2026-02-01 20:00"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 0,
+							"away": 3,
+							"scoreAway": 2,
+							"home": 10,
+							"finished": true,
+							"date": "2026-02-06 20:00"
+						},
+						{
+							"scoreHome": 4,
+							"away": 9,
+							"scoreAway": 1,
+							"home": 11,
+							"finished": true,
+							"date": "2026-02-07 16:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 18,
+							"scoreAway": 2,
+							"home": 12,
+							"finished": true,
+							"date": "2026-02-07 18:45"
+						},
+						{
+							"scoreHome": 5,
+							"away": 8,
+							"scoreAway": 0,
+							"home": 16,
+							"finished": true,
+							"date": "2026-02-07 20:00"
+						},
+						{
+							"scoreHome": 2,
+							"away": 14,
+							"scoreAway": 2,
+							"home": 5,
+							"finished": true,
+							"date": "2026-02-07 21:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 4,
+							"scoreAway": 1,
+							"home": 17,
+							"finished": true,
+							"date": "2026-02-08 12:15"
+						},
+						{
+							"scoreHome": 1,
+							"away": 1,
+							"scoreAway": 1,
+							"home": 2,
+							"finished": true,
+							"date": "2026-02-08 14:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 15,
+							"scoreAway": 1,
+							"home": 6,
+							"finished": true,
+							"date": "2026-02-08 14:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 13,
+							"scoreAway": 2,
+							"home": 7,
+							"finished": true,
+							"date": "2026-02-08 16:45"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 2,
+							"away": 13,
+							"scoreAway": 1,
+							"home": 18,
+							"finished": true,
+							"date": "2026-02-13 20:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 10,
+							"scoreAway": 1,
+							"home": 9,
+							"finished": true,
+							"date": "2026-02-14 16:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 2,
+							"scoreAway": 2,
+							"home": 3,
+							"finished": true,
+							"date": "2026-02-14 18:45"
+						},
+						{
+							"scoreHome": 4,
+							"away": 5,
+							"scoreAway": 1,
+							"home": 1,
+							"finished": true,
+							"date": "2026-02-14 20:00"
+						},
+						{
+							"scoreHome": 1,
+							"away": 17,
+							"scoreAway": 2,
+							"home": 7,
+							"finished": true,
+							"date": "2026-02-14 21:00"
+						},
+						{
+							"scoreHome": 1,
+							"away": 6,
+							"scoreAway": 0,
+							"home": 4,
+							"finished": true,
+							"date": "2026-02-15 12:15"
+						},
+						{
+							"scoreHome": 4,
+							"away": 12,
+							"scoreAway": 2,
+							"home": 8,
+							"finished": true,
+							"date": "2026-02-15 14:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 16,
+							"scoreAway": 1,
+							"home": 15,
+							"finished": true,
+							"date": "2026-02-15 14:30"
+						},
+						{
+							"scoreHome": 1,
+							"away": 11,
+							"scoreAway": 1,
+							"home": 14,
+							"finished": true,
+							"date": "2026-02-17 20:00"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 2,
+							"away": 3,
+							"scoreAway": 1,
+							"home": 5,
+							"finished": true,
+							"date": "2026-02-20 20:00"
+						},
+						{
+							"scoreHome": 3,
+							"away": 8,
+							"scoreAway": 1,
+							"home": 13,
+							"finished": true,
+							"date": "2026-02-21 18:45"
+						},
+						{
+							"scoreHome": 1,
+							"away": 18,
+							"scoreAway": 0,
+							"home": 10,
+							"finished": true,
+							"date": "2026-02-21 20:00"
+						},
+						{
+							"scoreHome": 1,
+							"away": 11,
+							"scoreAway": 1,
+							"home": 1,
+							"finished": true,
+							"date": "2026-02-21 21:00"
+						},
+						{
+							"scoreHome": 2,
+							"away": 7,
+							"scoreAway": 1,
+							"home": 16,
+							"finished": true,
+							"date": "2026-02-22 12:15"
+						},
+						{
+							"scoreHome": 1,
+							"away": 12,
+							"scoreAway": 1,
+							"home": 17,
+							"finished": true,
+							"date": "2026-02-22 14:30"
+						},
+						{
+							"scoreHome": 4,
+							"away": 9,
+							"scoreAway": 0,
+							"home": 6,
+							"finished": true,
+							"date": "2026-02-22 14:30"
+						},
+						{
+							"scoreHome": 3,
+							"away": 14,
+							"scoreAway": 1,
+							"home": 2,
+							"finished": true,
+							"date": "2026-02-22 16:45"
+						},
+						{
+							"scoreHome": 2,
+							"away": 15,
+							"scoreAway": 1,
+							"home": 4,
+							"finished": true,
+							"date": "2026-02-22 20:00"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 0,
+							"away": 10,
+							"scoreAway": 0,
+							"home": 15,
+							"finished": false,
+							"date": "2026-02-27 20:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 14,
+							"scoreAway": 0,
+							"home": 8,
+							"finished": false,
+							"date": "2026-02-28 16:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 13,
+							"scoreAway": 0,
+							"home": 9,
+							"finished": false,
+							"date": "2026-02-28 18:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 5,
+							"scoreAway": 0,
+							"home": 11,
+							"finished": false,
+							"date": "2026-02-28 21:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 1,
+							"scoreAway": 0,
+							"home": 12,
+							"finished": false,
+							"date": "2026-03-01 12:15"
+						},
+						{
+							"scoreHome": 0,
+							"away": 7,
+							"scoreAway": 0,
+							"home": 18,
+							"finished": false,
+							"date": "2026-03-01 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 4,
+							"scoreAway": 0,
+							"home": 16,
+							"finished": false,
+							"date": "2026-03-01 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 2,
+							"scoreAway": 0,
+							"home": 17,
+							"finished": false,
+							"date": "2026-03-01 16:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 6,
+							"scoreAway": 0,
+							"home": 3,
+							"finished": false,
+							"date": "2026-03-01 20:00"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 0,
+							"away": 17,
+							"scoreAway": 0,
+							"home": 9,
+							"finished": false,
+							"date": "2026-03-06 20:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 1,
+							"scoreAway": 0,
+							"home": 7,
+							"finished": false,
+							"date": "2026-03-07 16:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 2,
+							"scoreAway": 0,
+							"home": 13,
+							"finished": false,
+							"date": "2026-03-07 20:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 8,
+							"scoreAway": 0,
+							"home": 3,
+							"finished": false,
+							"date": "2026-03-07 21:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 12,
+							"scoreAway": 0,
+							"home": 14,
+							"finished": false,
+							"date": "2026-03-08 12:15"
+						},
+						{
+							"scoreHome": 0,
+							"away": 15,
+							"scoreAway": 0,
+							"home": 5,
+							"finished": false,
+							"date": "2026-03-08 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 16,
+							"scoreAway": 0,
+							"home": 6,
+							"finished": false,
+							"date": "2026-03-08 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 4,
+							"scoreAway": 0,
+							"home": 10,
+							"finished": false,
+							"date": "2026-03-08 16:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 18,
+							"scoreAway": 0,
+							"home": 11,
+							"finished": false,
+							"date": "2026-03-08 20:00"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 0,
+							"away": 7,
+							"scoreAway": 0,
+							"home": 12,
+							"finished": false,
+							"date": "2026-03-13 20:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 5,
+							"scoreAway": 0,
+							"home": 18,
+							"finished": false,
+							"date": "2026-03-14 16:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 11,
+							"scoreAway": 0,
+							"home": 13,
+							"finished": false,
+							"date": "2026-03-14 18:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 15,
+							"scoreAway": 0,
+							"home": 8,
+							"finished": false,
+							"date": "2026-03-14 20:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 14,
+							"scoreAway": 0,
+							"home": 1,
+							"finished": false,
+							"date": "2026-03-14 21:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 17,
+							"scoreAway": 0,
+							"home": 16,
+							"finished": false,
+							"date": "2026-03-15 12:15"
+						},
+						{
+							"scoreHome": 0,
+							"away": 9,
+							"scoreAway": 0,
+							"home": 2,
+							"finished": false,
+							"date": "2026-03-15 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 3,
+							"scoreAway": 0,
+							"home": 4,
+							"finished": false,
+							"date": "2026-03-15 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 10,
+							"scoreAway": 0,
+							"home": 6,
+							"finished": false,
+							"date": "2026-03-15 16:45"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 0,
+							"away": 3,
+							"scoreAway": 0,
+							"home": 9,
+							"finished": false,
+							"date": "2026-03-20 20:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 16,
+							"scoreAway": 0,
+							"home": 5,
+							"finished": false,
+							"date": "2026-03-21 16:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 18,
+							"scoreAway": 0,
+							"home": 14,
+							"finished": false,
+							"date": "2026-03-21 18:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 10,
+							"scoreAway": 0,
+							"home": 12,
+							"finished": false,
+							"date": "2026-03-21 21:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 8,
+							"scoreAway": 0,
+							"home": 11,
+							"finished": false,
+							"date": "2026-03-22 12:15"
+						},
+						{
+							"scoreHome": 0,
+							"away": 6,
+							"scoreAway": 0,
+							"home": 17,
+							"finished": false,
+							"date": "2026-03-22 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 1,
+							"scoreAway": 0,
+							"home": 4,
+							"finished": false,
+							"date": "2026-03-22 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 2,
+							"scoreAway": 0,
+							"home": 7,
+							"finished": false,
+							"date": "2026-03-22 16:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 13,
+							"scoreAway": 0,
+							"home": 15,
+							"finished": false,
+							"date": "2026-03-22 20:00"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 0,
+							"away": 17,
+							"scoreAway": 0,
+							"home": 13,
+							"finished": false,
+							"date": "2026-04-04 16:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 5,
+							"scoreAway": 0,
+							"home": 2,
+							"finished": false,
+							"date": "2026-04-04 18:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 7,
+							"scoreAway": 0,
+							"home": 15,
+							"finished": false,
+							"date": "2026-04-04 18:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 16,
+							"scoreAway": 0,
+							"home": 1,
+							"finished": false,
+							"date": "2026-04-04 21:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 11,
+							"scoreAway": 0,
+							"home": 3,
+							"finished": false,
+							"date": "2026-04-04 21:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 12,
+							"scoreAway": 0,
+							"home": 6,
+							"finished": false,
+							"date": "2026-04-05 12:15"
+						},
+						{
+							"scoreHome": 0,
+							"away": 4,
+							"scoreAway": 0,
+							"home": 18,
+							"finished": false,
+							"date": "2026-04-05 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 9,
+							"scoreAway": 0,
+							"home": 8,
+							"finished": false,
+							"date": "2026-04-05 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 14,
+							"scoreAway": 0,
+							"home": 10,
+							"finished": false,
+							"date": "2026-04-05 16:45"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 0,
+							"away": 18,
+							"scoreAway": 0,
+							"home": 16,
+							"finished": false,
+							"date": "2026-04-10 20:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 15,
+							"scoreAway": 0,
+							"home": 17,
+							"finished": false,
+							"date": "2026-04-11 16:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 13,
+							"scoreAway": 0,
+							"home": 14,
+							"finished": false,
+							"date": "2026-04-11 18:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 6,
+							"scoreAway": 0,
+							"home": 7,
+							"finished": false,
+							"date": "2026-04-11 20:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 1,
+							"scoreAway": 0,
+							"home": 9,
+							"finished": false,
+							"date": "2026-04-11 21:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 10,
+							"scoreAway": 0,
+							"home": 5,
+							"finished": false,
+							"date": "2026-04-12 12:15"
+						},
+						{
+							"scoreHome": 0,
+							"away": 4,
+							"scoreAway": 0,
+							"home": 11,
+							"finished": false,
+							"date": "2026-04-12 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 3,
+							"scoreAway": 0,
+							"home": 12,
+							"finished": false,
+							"date": "2026-04-12 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 8,
+							"scoreAway": 0,
+							"home": 2,
+							"finished": false,
+							"date": "2026-04-12 16:45"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 0,
+							"away": 14,
+							"scoreAway": 0,
+							"home": 15,
+							"finished": false,
+							"date": "2026-04-22 20:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 17,
+							"scoreAway": 0,
+							"home": 3,
+							"finished": false,
+							"date": "2026-04-23 "
+						},
+						{
+							"scoreHome": 0,
+							"away": 7,
+							"scoreAway": 0,
+							"home": 4,
+							"finished": false,
+							"date": "2026-04-23 "
+						},
+						{
+							"scoreHome": 0,
+							"away": 18,
+							"scoreAway": 0,
+							"home": 9,
+							"finished": false,
+							"date": "2026-04-23 "
+						},
+						{
+							"scoreHome": 0,
+							"away": 1,
+							"scoreAway": 0,
+							"home": 10,
+							"finished": false,
+							"date": "2026-04-23 "
+						},
+						{
+							"scoreHome": 0,
+							"away": 5,
+							"scoreAway": 0,
+							"home": 8,
+							"finished": false,
+							"date": "2026-04-23 "
+						},
+						{
+							"scoreHome": 0,
+							"away": 11,
+							"scoreAway": 0,
+							"home": 16,
+							"finished": false,
+							"date": "2026-04-23 "
+						},
+						{
+							"scoreHome": 0,
+							"away": 2,
+							"scoreAway": 0,
+							"home": 6,
+							"finished": false,
+							"date": "2026-04-23 18:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 12,
+							"scoreAway": 0,
+							"home": 13,
+							"finished": false,
+							"date": "2026-04-23 21:00"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 0,
+							"away": 10,
+							"scoreAway": 0,
+							"home": 17,
+							"finished": false,
+							"date": "2026-05-02 16:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 3,
+							"scoreAway": 0,
+							"home": 7,
+							"finished": false,
+							"date": "2026-05-02 18:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 13,
+							"scoreAway": 0,
+							"home": 1,
+							"finished": false,
+							"date": "2026-05-02 20:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 15,
+							"scoreAway": 0,
+							"home": 11,
+							"finished": false,
+							"date": "2026-05-02 21:00"
+						},
+						{
+							"scoreHome": 0,
+							"away": 8,
+							"scoreAway": 0,
+							"home": 18,
+							"finished": false,
+							"date": "2026-05-03 12:15"
+						},
+						{
+							"scoreHome": 0,
+							"away": 4,
+							"scoreAway": 0,
+							"home": 5,
+							"finished": false,
+							"date": "2026-05-03 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 9,
+							"scoreAway": 0,
+							"home": 12,
+							"finished": false,
+							"date": "2026-05-03 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 16,
+							"scoreAway": 0,
+							"home": 2,
+							"finished": false,
+							"date": "2026-05-03 16:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 6,
+							"scoreAway": 0,
+							"home": 14,
+							"finished": false,
+							"date": "2026-05-03 16:45"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 0,
+							"away": 17,
+							"scoreAway": 0,
+							"home": 1,
+							"finished": false,
+							"date": "2026-05-10 16:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 18,
+							"scoreAway": 0,
+							"home": 3,
+							"finished": false,
+							"date": "2026-05-10 16:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 11,
+							"scoreAway": 0,
+							"home": 7,
+							"finished": false,
+							"date": "2026-05-10 16:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 2,
+							"scoreAway": 0,
+							"home": 4,
+							"finished": false,
+							"date": "2026-05-10 16:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 12,
+							"scoreAway": 0,
+							"home": 5,
+							"finished": false,
+							"date": "2026-05-10 16:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 13,
+							"scoreAway": 0,
+							"home": 6,
+							"finished": false,
+							"date": "2026-05-10 16:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 8,
+							"scoreAway": 0,
+							"home": 10,
+							"finished": false,
+							"date": "2026-05-10 16:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 9,
+							"scoreAway": 0,
+							"home": 15,
+							"finished": false,
+							"date": "2026-05-10 16:45"
+						},
+						{
+							"scoreHome": 0,
+							"away": 14,
+							"scoreAway": 0,
+							"home": 16,
+							"finished": false,
+							"date": "2026-05-10 16:45"
+						}
+					]
+				},
+				{
+					"matches": [
+						{
+							"scoreHome": 0,
+							"away": 10,
+							"scoreAway": 0,
+							"home": 2,
+							"finished": false,
+							"date": "2026-05-17 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 5,
+							"scoreAway": 0,
+							"home": 17,
+							"finished": false,
+							"date": "2026-05-17 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 15,
+							"scoreAway": 0,
+							"home": 18,
+							"finished": false,
+							"date": "2026-05-17 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 7,
+							"scoreAway": 0,
+							"home": 9,
+							"finished": false,
+							"date": "2026-05-17 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 6,
+							"scoreAway": 0,
+							"home": 11,
+							"finished": false,
+							"date": "2026-05-17 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 4,
+							"scoreAway": 0,
+							"home": 12,
+							"finished": false,
+							"date": "2026-05-17 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 16,
+							"scoreAway": 0,
+							"home": 13,
+							"finished": false,
+							"date": "2026-05-17 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 1,
+							"scoreAway": 0,
+							"home": 8,
+							"finished": false,
+							"date": "2026-05-17 14:30"
+						},
+						{
+							"scoreHome": 0,
+							"away": 3,
+							"scoreAway": 0,
+							"home": 14,
+							"finished": false,
+							"date": "2026-05-17 14:30"
+						}
+					]
+				}
+			]
+		}
+	]
+}
