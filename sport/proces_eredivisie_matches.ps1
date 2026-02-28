@@ -21,6 +21,14 @@ $idMap = @{
     "FC Utrecht" = 17
     "Heracles Almelo" = 9
 }
+# clean out existing matchdata
+$processed.stages[0].rounds = @()
+for ($i = 0; $i -lt 34; $i++)
+{
+    $processed.stages[0].rounds += @{
+        "matches" = @()
+    }
+}
 
 foreach ($match in $raw.matches)
 {
