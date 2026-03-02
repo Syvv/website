@@ -15,12 +15,17 @@ document.getElementById("useSameSizeFlags").addEventListener("change", () => {
 document.getElementById("useCompactTable").addEventListener("change", () => {
     displayTable() 
 })
+document.getElementById("displayPositions").addEventListener("change", () => {
+    displayTable() 
+})
+
 
 // Display the table of the selected competition
 export function displayTable() {
     const competitionValue = document.getElementById("competitionSelector").value
     const useSameSizeFlags = document.getElementById("useSameSizeFlags").checked
     const useCompactTable  = document.getElementById("useCompactTable").checked
+    const displayPositions = document.getElementById("displayPositions").checked
 
     var competition
     switch (competitionValue)
@@ -171,6 +176,10 @@ export function displayTable() {
     var html = "<table>"
     // Build the table header
     html += "<tr>"
+    if (displayPositions) 
+    {
+        html += "<th>#</th>"
+    }
     columns.forEach(column => {
         html += `<th class="${column.name}">${useCompactTable ? column.compactName : column.name}</th>`
     })
@@ -183,6 +192,10 @@ export function displayTable() {
             html += `<tr style="background-color:${qualifyingObject.color};">`
         } else {
             html += "<tr>"
+        }
+        if (displayPositions) 
+        {
+            html += `<td>${positionIndex + 1}</td>`
         }
         columns.forEach(column => {
             var stat;
