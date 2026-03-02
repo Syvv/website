@@ -104,27 +104,32 @@
                     {
                         "data": "played",
                         "name": "Played",
-                        "compactName": "Pld" 
+                        "compactName": "Pld",
+                        "bolded": false
                     },
                     {
                         "data": "wins",
                         "name": "Wins",
-                        "compactName": "W" 
+                        "compactName": "W",
+                        "bolded": false 
                     },
                     {
                         "data": "losses",
                         "name": "Losses",
-                        "compactName": "L" 
+                        "compactName": "L",
+                        "bolded": false 
                     },
                     {
                         "data": "resultsBetweenTied",
                         "name": "Wins-Losses Between Tied",
-                        "compactName": "W-L" 
+                        "compactName": "W-L",
+                        "bolded": false 
                     },
                     {
                         "data": "custom:drawShotChallenge",
                         "name": "Draw Shot Challenge",
-                        "compactName": "DSC" 
+                        "compactName": "DSC",
+                        "bolded": false 
                     }
                 ]
             },

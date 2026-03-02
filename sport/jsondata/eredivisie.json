@@ -115,42 +115,50 @@
 					{
 						"data": "played",
 						"name": "Played",
-						"compactName": "Pld"
+						"compactName": "Pld",
+                        "bolded": false
 					},
 					{
 						"data": "wins",
 						"name": "Wins",
-						"compactName": "W"
+						"compactName": "W",
+                        "bolded": false
 					},
 					{
 						"data": "draws",
 						"name": "Draws",
-						"compactName": "D"
+						"compactName": "D",
+                        "bolded": false
 					},
 					{
 						"data": "losses",
 						"name": "Losses",
-						"compactName": "L"
+						"compactName": "L",
+                        "bolded": false
 					},
 					{
 						"data": "points",
 						"name": "Points",
-						"compactName": "Pts"
+						"compactName": "Pts",
+                        "bolded": true
 					},
 					{
 						"data": "scoreFor",
 						"name": "Goals For",
-						"compactName": "GF"
+						"compactName": "GF",
+                        "bolded": false
 					},
 					{
 						"data": "scoreAgainst",
 						"name": "Goals Against",
-						"compactName": "GA"
+						"compactName": "GA",
+                        "bolded": false
 					},
 					{
 						"data": "scoreDifference",
 						"name": "Goal Difference",
-						"compactName": "GD"
+						"compactName": "GD",
+                        "bolded": false
 					}
 				]
 			},

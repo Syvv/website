@@ -53,6 +53,10 @@ tr {
 
 td {
     padding: 0px 5px;
+
+    &.bold {
+        font-weight: bold;
+    }
 }
 
 th.Team {

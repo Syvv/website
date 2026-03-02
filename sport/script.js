@@ -205,7 +205,7 @@ export function displayTable() {
             } else {
                 stat = team[column.data]
             }
-            html += `<td class="${column.data}">${stat}</td>`
+            html += `<td class="${column.data} ${column.bolded ? "bold" : ""}">${stat}</td>`
         })
         html += "</tr>"
     })
