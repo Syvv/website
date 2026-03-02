@@ -3,18 +3,50 @@ import eredivisie from './jsondata/eredivisie.json' with { type: 'json' }
 import { sortTable } from './sorting.js'
 
 // On pageload
-document.getElementById("competitionSelector").value = "curlingWomenOlympic"
 displayTable()
-// On changelistener for competition dropdown
-document.getElementById("competitionSelector").addEventListener("change", () => {
+const displaySettings = getSettings()
+document.getElementById("competitionSelector").value = displaySettings.competitionSelector
+document.getElementById("useSameSizeFlags").checked  = displaySettings.useSameSizeFlags
+document.getElementById("useCompactTable").checked   = displaySettings.useCompactTable
+document.getElementById("displayPositions").checked  = displaySettings.displayPositions
+
+// listeners
+document.getElementById("competitionSelector").addEventListener("change", (event) => {
+    console.log(event.target.value)
+    localStorage.setItem("competitionSelector", event.target.value)
      displayTable() 
 })
+document.getElementById("useSameSizeFlags").addEventListener("change", (event) => {
+    console.log(event.target.checked)
+    localStorage.setItem("useSameSizeFlags", event.target.checked)
+    displayTable() 
+})
+document.getElementById("useCompactTable").addEventListener("change", (event) => {
+    console.log(event.target.checked)
+    localStorage.setItem("useCompactTable", event.target.checked)
+    displayTable() 
+})
+document.getElementById("displayPositions").addEventListener("change", (event) => {
+    console.log(event.target.checked)
+    localStorage.setItem("displayPositions", event.target.checked)
+    displayTable() 
+})
+
+function getSettings() {
+    return {
+        competitionSelector : localStorage.getItem("competitionSelector") ?? "curlingWomenOlympic",
+        useSameSizeFlags    : (localStorage.getItem("useSameSizeFlags") ?? "false") === "true",
+        useCompactTable     : (localStorage.getItem("useCompactTable") ?? "true") === "true",
+        displayPositions    : (localStorage.getItem("displayPositions") ?? "true") === "true"
+    }
+}
 
 // Display the table of the selected competition
-export function displayTable() {
-    const competitionValue = document.getElementById("competitionSelector").value
+function displayTable() {
+    const configuration = getSettings()
+
     var competition
-    switch (competitionValue)
+    switch (configuration.competitionSelector)
     {
         case "eredivisie":
             competition = eredivisie
@@ -162,8 +194,12 @@ export function displayTable() {
     var html = "<table>"
     // Build the table header
     html += "<tr>"
+    if (configuration.displayPositions) 
+    {
+        html += "<th>#</th>"
+    }
     columns.forEach(column => {
-        html += `<th class="${column.name}">${column.name}</th>`
+        html += `<th class="${column.name}">${configuration.useCompactTable ? column.compactName : column.name}</th>`
     })
     html +="</tr>"
     // Fill the table
@@ -175,13 +211,17 @@ export function displayTable() {
         } else {
             html += "<tr>"
         }
+        if (configuration.displayPositions) 
+        {
+            html += `<td>${positionIndex + 1}</td>`
+        }
         columns.forEach(column => {
             var stat;
             if (column.data.includes("custom:")) {
                 stat = team.custom[column.data.replace("custom:", "")]
             } else if (column.data === "name") {
                 if (stage.table.showFlags) {
-                    stat = `<span class="icon"><img class="flag-icon" src="../flags/${team.country.toLowerCase()}.png"></span>`
+                    stat = `<span class="icon"><img class="flag-icon" src="../flags/${team.country.toLowerCase()}${configuration.useSameSizeFlags ? "_eq" : ""}.png"></span>`
                 } else if (stage.table.showIcons) {
                     stat = `<span class="icon"><img src="../icons/${team.name.toLowerCase()}.png"></span>`
                 } else {
@@ -196,7 +236,7 @@ export function displayTable() {
             } else {
                 stat = team[column.data]
             }
-            html += `<td>${stat}</td>`
+            html += `<td class="${column.data} ${column.bolded ? "bold" : ""}">${stat}</td>`
         })
         html += "</tr>"
     })

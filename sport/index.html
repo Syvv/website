@@ -6,11 +6,34 @@
     </head>
     <body>
         <div class="Customisation">
-            <label for="competition">Competition:</label>
-            <select name="competition" id="competitionSelector">
-                <option value="curlingWomenOlympic">Curling Women 2026 Olympic Games</option>
-                <option value="eredivisie">Eredivisie 25/26</option>
-            </select>
+            <span>
+                <label for="competition">Competition:</label>
+                <select name="competition" id="competitionSelector">
+                    <option value="curlingWomenOlympic">Curling Women 2026 Olympic Games</option>
+                    <option value="eredivisie">Eredivisie 25/26</option>
+                </select>
+            </span>
+            <span class="switch-input">
+                <label class="switch">
+                    <input type="checkbox" id="useSameSizeFlags">
+                    <span class="slider round"></span>
+                </label>
+                <span class="text">Use same size flags</span>
+            </span>
+            <span class="switch-input">
+                <label class="switch">
+                    <input type="checkbox" id="useCompactTable">
+                    <span class="slider round"></span>
+                </label>
+                <span class="text">Compact table</span>
+            </span>
+            <span class="switch-input">
+                <label class="switch">
+                    <input type="checkbox" id="displayPositions">
+                    <span class="slider round"></span>
+                </label>
+                <span class="text">Display position numbers</span>
+            </span>
         </div>
         
         <!-- Element which will become the table, the javascript will manage that for us -->
