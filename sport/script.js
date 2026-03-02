@@ -5,11 +5,14 @@ import { sortTable } from './sorting.js'
 // On pageload
 document.getElementById("competitionSelector").value = "curlingWomenOlympic"
 displayTable()
-// On changelistener for competition dropdown
+// listeners
 document.getElementById("competitionSelector").addEventListener("change", () => {
      displayTable() 
 })
 document.getElementById("useSameSizeFlags").addEventListener("change", () => {
+    displayTable() 
+})
+document.getElementById("useCompactTable").addEventListener("change", () => {
     displayTable() 
 })
 
@@ -17,6 +20,8 @@ document.getElementById("useSameSizeFlags").addEventListener("change", () => {
 export function displayTable() {
     const competitionValue = document.getElementById("competitionSelector").value
     const useSameSizeFlags = document.getElementById("useSameSizeFlags").checked
+    const useCompactTable  = document.getElementById("useCompactTable").checked
+
     var competition
     switch (competitionValue)
     {
@@ -167,7 +172,7 @@ export function displayTable() {
     // Build the table header
     html += "<tr>"
     columns.forEach(column => {
-        html += `<th class="${column.name}">${column.name}</th>`
+        html += `<th class="${column.name}">${useCompactTable ? column.compactName : column.name}</th>`
     })
     html +="</tr>"
     // Fill the table
@@ -200,7 +205,7 @@ export function displayTable() {
             } else {
                 stat = team[column.data]
             }
-            html += `<td>${stat}</td>`
+            html += `<td class="${column.data}">${stat}</td>`
         })
         html += "</tr>"
     })
