@@ -9,10 +9,14 @@ displayTable()
 document.getElementById("competitionSelector").addEventListener("change", () => {
      displayTable() 
 })
+document.getElementById("useSameSizeFlags").addEventListener("change", () => {
+    displayTable() 
+})
 
 // Display the table of the selected competition
 export function displayTable() {
     const competitionValue = document.getElementById("competitionSelector").value
+    const useSameSizeFlags = document.getElementById("useSameSizeFlags").checked
     var competition
     switch (competitionValue)
     {
@@ -181,7 +185,7 @@ export function displayTable() {
                 stat = team.custom[column.data.replace("custom:", "")]
             } else if (column.data === "name") {
                 if (stage.table.showFlags) {
-                    stat = `<span class="icon"><img class="flag-icon" src="../flags/${team.country.toLowerCase()}.png"></span>`
+                    stat = `<span class="icon"><img class="flag-icon" src="../flags/${team.country.toLowerCase()}${useSameSizeFlags ? "_eq" : ""}.png"></span>`
                 } else if (stage.table.showIcons) {
                     stat = `<span class="icon"><img src="../icons/${team.name.toLowerCase()}.png"></span>`
                 } else {
