@@ -17,6 +17,9 @@ html {
 img.flag-icon {
     height: 16px;
     margin: 2px;
+
+    border-radius: 3px;
+    border: 1px solid #eee
 }
 
 span.competitor-table-name {
