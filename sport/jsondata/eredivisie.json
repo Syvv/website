@@ -116,49 +116,49 @@
 						"data": "played",
 						"name": "Played",
 						"compactName": "Pld",
-                        "bolded": false
+						"bolded": false
 					},
 					{
 						"data": "wins",
 						"name": "Wins",
 						"compactName": "W",
-                        "bolded": false
+						"bolded": false
 					},
 					{
 						"data": "draws",
 						"name": "Draws",
 						"compactName": "D",
-                        "bolded": false
+						"bolded": false
 					},
 					{
 						"data": "losses",
 						"name": "Losses",
 						"compactName": "L",
-                        "bolded": false
+						"bolded": false
 					},
 					{
 						"data": "points",
 						"name": "Points",
 						"compactName": "Pts",
-                        "bolded": true
+						"bolded": true
 					},
 					{
 						"data": "scoreFor",
 						"name": "Goals For",
 						"compactName": "GF",
-                        "bolded": false
+						"bolded": false
 					},
 					{
 						"data": "scoreAgainst",
 						"name": "Goals Against",
 						"compactName": "GA",
-                        "bolded": false
+						"bolded": false
 					},
 					{
 						"data": "scoreDifference",
 						"name": "Goal Difference",
 						"compactName": "GD",
-                        "bolded": false
+						"bolded": false
 					}
 				]
 			},
@@ -2052,35 +2052,35 @@
 				{
 					"matches": [
 						{
-							"scoreHome": 0,
+							"scoreHome": 3,
 							"away": 10,
 							"scoreAway": 0,
 							"home": 15,
-							"finished": false,
+							"finished": true,
 							"date": "2026-02-27 20:00"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 2,
 							"away": 14,
-							"scoreAway": 0,
+							"scoreAway": 1,
 							"home": 8,
-							"finished": false,
+							"finished": true,
 							"date": "2026-02-28 16:30"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 1,
 							"away": 13,
-							"scoreAway": 0,
+							"scoreAway": 3,
 							"home": 9,
-							"finished": false,
+							"finished": true,
 							"date": "2026-02-28 18:45"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 2,
 							"away": 5,
-							"scoreAway": 0,
+							"scoreAway": 3,
 							"home": 11,
-							"finished": false,
+							"finished": true,
 							"date": "2026-02-28 21:00"
 						},
 						{
@@ -2088,39 +2088,39 @@
 							"away": 1,
 							"scoreAway": 0,
 							"home": 12,
-							"finished": false,
+							"finished": true,
 							"date": "2026-03-01 12:15"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 3,
 							"away": 7,
-							"scoreAway": 0,
+							"scoreAway": 2,
 							"home": 18,
-							"finished": false,
+							"finished": true,
 							"date": "2026-03-01 14:30"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 2,
 							"away": 4,
 							"scoreAway": 0,
 							"home": 16,
-							"finished": false,
+							"finished": true,
 							"date": "2026-03-01 14:30"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 2,
 							"away": 2,
 							"scoreAway": 0,
 							"home": 17,
-							"finished": false,
+							"finished": true,
 							"date": "2026-03-01 16:45"
 						},
 						{
 							"scoreHome": 0,
 							"away": 6,
-							"scoreAway": 0,
+							"scoreAway": 1,
 							"home": 3,
-							"finished": false,
+							"finished": true,
 							"date": "2026-03-01 20:00"
 						}
 					]
