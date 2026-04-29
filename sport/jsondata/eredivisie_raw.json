@@ -3966,6 +3966,14 @@
         "team1": "PEC Zwolle",
         "team2": "FC Groningen",
         "score": {
+          "ht": [
+            0,
+            0
+          ],
+          "ft": [
+            1,
+            1
+          ]
         }
       },
       {
@@ -3975,6 +3983,14 @@
         "team1": "FC Volendam",
         "team2": "Fortuna Sittard",
         "score": {
+          "ht": [
+            0,
+            2
+          ],
+          "ft": [
+            1,
+            2
+          ]
         }
       },
       {
@@ -3984,6 +4000,14 @@
         "team1": "PSV",
         "team2": "NEC",
         "score": {
+          "ht": [
+            1,
+            2
+          ],
+          "ft": [
+            2,
+            3
+          ]
         }
       },
       {
@@ -3993,6 +4017,14 @@
         "team1": "SC Heerenveen",
         "team2": "Telstar 1963",
         "score": {
+          "ht": [
+            1,
+            0
+          ],
+          "ft": [
+            3,
+            0
+          ]
         }
       },
       {
@@ -4002,6 +4034,14 @@
         "team1": "AFC Ajax",
         "team2": "Sparta Rotterdam",
         "score": {
+          "ht": [
+            2,
+            0
+          ],
+          "ft": [
+            4,
+            0
+          ]
         }
       },
       {
@@ -4011,6 +4051,14 @@
         "team1": "FC Twente '65",
         "team2": "FC Utrecht",
         "score": {
+          "ht": [
+            0,
+            1
+          ],
+          "ft": [
+            0,
+            2
+          ]
         }
       },
       {
@@ -4020,6 +4068,14 @@
         "team1": "AZ",
         "team2": "Heracles Almelo",
         "score": {
+          "ht": [
+            2,
+            0
+          ],
+          "ft": [
+            4,
+            0
+          ]
         }
       },
       {
@@ -4029,6 +4085,14 @@
         "team1": "Feyenoord Rotterdam",
         "team2": "SBV Excelsior",
         "score": {
+          "ht": [
+            0,
+            1
+          ],
+          "ft": [
+            2,
+            1
+          ]
         }
       },
       {
@@ -4038,6 +4102,14 @@
         "team1": "Go Ahead Eagles",
         "team2": "NAC Breda",
         "score": {
+          "ht": [
+            3,
+            0
+          ],
+          "ft": [
+            6,
+            0
+          ]
         }
       },
       {
@@ -4047,6 +4119,14 @@
         "team1": "Heracles Almelo",
         "team2": "SBV Excelsior",
         "score": {
+          "ht": [
+            1,
+            0
+          ],
+          "ft": [
+            1,
+            1
+          ]
         }
       },
       {
@@ -4056,6 +4136,14 @@
         "team1": "Fortuna Sittard",
         "team2": "FC Twente '65",
         "score": {
+          "ht": [
+            1,
+            0
+          ],
+          "ft": [
+            1,
+            2
+          ]
         }
       },
       {
@@ -4065,6 +4153,14 @@
         "team1": "Sparta Rotterdam",
         "team2": "FC Volendam",
         "score": {
+          "ht": [
+            2,
+            0
+          ],
+          "ft": [
+            2,
+            0
+          ]
         }
       },
       {
@@ -4074,6 +4170,14 @@
         "team1": "PEC Zwolle",
         "team2": "NAC Breda",
         "score": {
+          "ht": [
+            2,
+            0
+          ],
+          "ft": [
+            2,
+            1
+          ]
         }
       },
       {
@@ -4083,6 +4187,14 @@
         "team1": "NEC",
         "team2": "SC Heerenveen",
         "score": {
+          "ht": [
+            1,
+            2
+          ],
+          "ft": [
+            2,
+            2
+          ]
         }
       },
       {
@@ -4092,6 +4204,14 @@
         "team1": "FC Utrecht",
         "team2": "Go Ahead Eagles",
         "score": {
+          "ht": [
+            2,
+            0
+          ],
+          "ft": [
+            2,
+            0
+          ]
         }
       },
       {
@@ -4101,6 +4221,14 @@
         "team1": "Feyenoord Rotterdam",
         "team2": "AFC Ajax",
         "score": {
+          "ht": [
+            0,
+            0
+          ],
+          "ft": [
+            1,
+            1
+          ]
         }
       },
       {
@@ -4110,6 +4238,14 @@
         "team1": "FC Groningen",
         "team2": "AZ",
         "score": {
+          "ht": [
+            1,
+            0
+          ],
+          "ft": [
+            3,
+            0
+          ]
         }
       },
       {
@@ -4119,6 +4255,14 @@
         "team1": "Telstar 1963",
         "team2": "PSV",
         "score": {
+          "ht": [
+            1,
+            0
+          ],
+          "ft": [
+            3,
+            1
+          ]
         }
       },
       {
@@ -4128,15 +4272,14 @@
         "team1": "PSV",
         "team2": "FC Utrecht",
         "score": {
-        }
-      },
-      {
-        "round": "Matchday 29",
-        "date": "2026-04-04",
-        "time": "18:45",
-        "team1": "AZ",
-        "team2": "Fortuna Sittard",
-        "score": {
+          "ht": [
+            1,
+            2
+          ],
+          "ft": [
+            4,
+            3
+          ]
         }
       },
       {
@@ -4146,6 +4289,31 @@
         "team1": "Telstar 1963",
         "team2": "FC Groningen",
         "score": {
+          "ht": [
+            0,
+            1
+          ],
+          "ft": [
+            0,
+            2
+          ]
+        }
+      },
+      {
+        "round": "Matchday 29",
+        "date": "2026-04-04",
+        "time": "19:00",
+        "team1": "AZ",
+        "team2": "Fortuna Sittard",
+        "score": {
+          "ht": [
+            2,
+            0
+          ],
+          "ft": [
+            2,
+            0
+          ]
         }
       },
       {
@@ -4155,6 +4323,14 @@
         "team1": "AFC Ajax",
         "team2": "FC Twente '65",
         "score": {
+          "ht": [
+            1,
+            1
+          ],
+          "ft": [
+            1,
+            2
+          ]
         }
       },
       {
@@ -4164,6 +4340,14 @@
         "team1": "SBV Excelsior",
         "team2": "NEC",
         "score": {
+          "ht": [
+            0,
+            1
+          ],
+          "ft": [
+            0,
+            2
+          ]
         }
       },
       {
@@ -4173,6 +4357,14 @@
         "team1": "Go Ahead Eagles",
         "team2": "PEC Zwolle",
         "score": {
+          "ht": [
+            3,
+            0
+          ],
+          "ft": [
+            5,
+            0
+          ]
         }
       },
       {
@@ -4182,6 +4374,10 @@
         "team1": "FC Volendam",
         "team2": "Feyenoord Rotterdam",
         "score": {
+          "ft": [
+            0,
+            0
+          ]
         }
       },
       {
@@ -4191,6 +4387,14 @@
         "team1": "SC Heerenveen",
         "team2": "Heracles Almelo",
         "score": {
+          "ht": [
+            2,
+            1
+          ],
+          "ft": [
+            4,
+            1
+          ]
         }
       },
       {
@@ -4200,6 +4404,10 @@
         "team1": "NAC Breda",
         "team2": "Sparta Rotterdam",
         "score": {
+          "ft": [
+            0,
+            0
+          ]
         }
       },
       {
@@ -4209,6 +4417,14 @@
         "team1": "FC Twente '65",
         "team2": "FC Volendam",
         "score": {
+          "ht": [
+            2,
+            0
+          ],
+          "ft": [
+            2,
+            1
+          ]
         }
       },
       {
@@ -4218,6 +4434,14 @@
         "team1": "FC Utrecht",
         "team2": "Telstar 1963",
         "score": {
+          "ht": [
+            1,
+            0
+          ],
+          "ft": [
+            4,
+            1
+          ]
         }
       },
       {
@@ -4227,6 +4451,14 @@
         "team1": "Sparta Rotterdam",
         "team2": "PSV",
         "score": {
+          "ht": [
+            0,
+            1
+          ],
+          "ft": [
+            0,
+            2
+          ]
         }
       },
       {
@@ -4236,6 +4468,10 @@
         "team1": "FC Groningen",
         "team2": "Go Ahead Eagles",
         "score": {
+          "ft": [
+            0,
+            0
+          ]
         }
       },
       {
@@ -4245,6 +4481,14 @@
         "team1": "Heracles Almelo",
         "team2": "AFC Ajax",
         "score": {
+          "ht": [
+            0,
+            2
+          ],
+          "ft": [
+            0,
+            3
+          ]
         }
       },
       {
@@ -4254,6 +4498,14 @@
         "team1": "Fortuna Sittard",
         "team2": "NAC Breda",
         "score": {
+          "ht": [
+            0,
+            0
+          ],
+          "ft": [
+            1,
+            1
+          ]
         }
       },
       {
@@ -4263,6 +4515,14 @@
         "team1": "NEC",
         "team2": "Feyenoord Rotterdam",
         "score": {
+          "ht": [
+            0,
+            1
+          ],
+          "ft": [
+            1,
+            1
+          ]
         }
       },
       {
@@ -4272,6 +4532,14 @@
         "team1": "PEC Zwolle",
         "team2": "SBV Excelsior",
         "score": {
+          "ht": [
+            1,
+            1
+          ],
+          "ft": [
+            2,
+            2
+          ]
         }
       },
       {
@@ -4281,6 +4549,14 @@
         "team1": "AZ",
         "team2": "SC Heerenveen",
         "score": {
+          "ht": [
+            2,
+            0
+          ],
+          "ft": [
+            3,
+            0
+          ]
         }
       },
       {
@@ -4290,54 +4566,14 @@
         "team1": "Telstar 1963",
         "team2": "Sparta Rotterdam",
         "score": {
-        }
-      },
-      {
-        "round": "Matchday 31",
-        "date": "2026-04-23",
-        "team1": "SBV Excelsior",
-        "team2": "FC Utrecht",
-        "score": {
-        }
-      },
-      {
-        "round": "Matchday 31",
-        "date": "2026-04-23",
-        "team1": "Feyenoord Rotterdam",
-        "team2": "FC Groningen",
-        "score": {
-        }
-      },
-      {
-        "round": "Matchday 31",
-        "date": "2026-04-23",
-        "team1": "Heracles Almelo",
-        "team2": "FC Volendam",
-        "score": {
-        }
-      },
-      {
-        "round": "Matchday 31",
-        "date": "2026-04-23",
-        "team1": "NAC Breda",
-        "team2": "AFC Ajax",
-        "score": {
-        }
-      },
-      {
-        "round": "Matchday 31",
-        "date": "2026-04-23",
-        "team1": "SC Heerenveen",
-        "team2": "Fortuna Sittard",
-        "score": {
-        }
-      },
-      {
-        "round": "Matchday 31",
-        "date": "2026-04-23",
-        "team1": "FC Twente '65",
-        "team2": "NEC",
-        "score": {
+          "ht": [
+            1,
+            1
+          ],
+          "ft": [
+            4,
+            1
+          ]
         }
       },
       {
@@ -4347,6 +4583,10 @@
         "team1": "Go Ahead Eagles",
         "team2": "AZ",
         "score": {
+          "ft": [
+            0,
+            0
+          ]
         }
       },
       {
@@ -4356,6 +4596,116 @@
         "team1": "PSV",
         "team2": "PEC Zwolle",
         "score": {
+          "ht": [
+            1,
+            0
+          ],
+          "ft": [
+            6,
+            1
+          ]
+        }
+      },
+      {
+        "round": "Matchday 31",
+        "date": "2026-04-25",
+        "time": "16:30",
+        "team1": "Feyenoord Rotterdam",
+        "team2": "FC Groningen",
+        "score": {
+          "ht": [
+            2,
+            0
+          ],
+          "ft": [
+            3,
+            1
+          ]
+        }
+      },
+      {
+        "round": "Matchday 31",
+        "date": "2026-04-25",
+        "time": "18:45",
+        "team1": "SC Heerenveen",
+        "team2": "Fortuna Sittard",
+        "score": {
+          "ht": [
+            1,
+            1
+          ],
+          "ft": [
+            2,
+            1
+          ]
+        }
+      },
+      {
+        "round": "Matchday 31",
+        "date": "2026-04-25",
+        "time": "20:00",
+        "team1": "NAC Breda",
+        "team2": "AFC Ajax",
+        "score": {
+          "ht": [
+            0,
+            2
+          ],
+          "ft": [
+            0,
+            2
+          ]
+        }
+      },
+      {
+        "round": "Matchday 31",
+        "date": "2026-04-25",
+        "time": "21:00",
+        "team1": "FC Twente '65",
+        "team2": "NEC",
+        "score": {
+          "ht": [
+            1,
+            1
+          ],
+          "ft": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "round": "Matchday 31",
+        "date": "2026-04-26",
+        "time": "12:15",
+        "team1": "SBV Excelsior",
+        "team2": "FC Utrecht",
+        "score": {
+          "ht": [
+            2,
+            0
+          ],
+          "ft": [
+            5,
+            0
+          ]
+        }
+      },
+      {
+        "round": "Matchday 31",
+        "date": "2026-04-26",
+        "time": "14:30",
+        "team1": "Heracles Almelo",
+        "team2": "FC Volendam",
+        "score": {
+          "ht": [
+            0,
+            0
+          ],
+          "ft": [
+            0,
+            2
+          ]
         }
       },
       {
