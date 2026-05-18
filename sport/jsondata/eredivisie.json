@@ -2584,75 +2584,75 @@
 				{
 					"matches": [
 						{
-							"scoreHome": 0,
+							"scoreHome": 2,
 							"away": 10,
 							"scoreAway": 0,
 							"home": 17,
-							"finished": false,
+							"finished": true,
 							"date": "2026-05-02 16:30"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 2,
 							"away": 3,
-							"scoreAway": 0,
+							"scoreAway": 3,
 							"home": 7,
-							"finished": false,
+							"finished": true,
 							"date": "2026-05-02 18:45"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 2,
 							"away": 13,
-							"scoreAway": 0,
+							"scoreAway": 2,
 							"home": 1,
-							"finished": false,
+							"finished": true,
 							"date": "2026-05-02 20:00"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 1,
 							"away": 15,
-							"scoreAway": 0,
+							"scoreAway": 1,
 							"home": 11,
-							"finished": false,
+							"finished": true,
 							"date": "2026-05-02 21:00"
 						},
 						{
 							"scoreHome": 0,
 							"away": 8,
-							"scoreAway": 0,
+							"scoreAway": 2,
 							"home": 18,
-							"finished": false,
+							"finished": true,
 							"date": "2026-05-03 12:15"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 1,
 							"away": 4,
-							"scoreAway": 0,
+							"scoreAway": 2,
 							"home": 5,
-							"finished": false,
+							"finished": true,
 							"date": "2026-05-03 14:30"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 1,
 							"away": 9,
 							"scoreAway": 0,
 							"home": 12,
-							"finished": false,
+							"finished": true,
 							"date": "2026-05-03 14:30"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 2,
 							"away": 16,
-							"scoreAway": 0,
+							"scoreAway": 2,
 							"home": 2,
-							"finished": false,
+							"finished": true,
 							"date": "2026-05-03 16:45"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 2,
 							"away": 6,
-							"scoreAway": 0,
+							"scoreAway": 2,
 							"home": 14,
-							"finished": false,
+							"finished": true,
 							"date": "2026-05-03 16:45"
 						}
 					]
@@ -2660,51 +2660,51 @@
 				{
 					"matches": [
 						{
-							"scoreHome": 0,
+							"scoreHome": 1,
 							"away": 17,
-							"scoreAway": 0,
+							"scoreAway": 2,
 							"home": 1,
-							"finished": false,
+							"finished": true,
 							"date": "2026-05-10 16:45"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 1,
 							"away": 18,
-							"scoreAway": 0,
+							"scoreAway": 1,
 							"home": 3,
-							"finished": false,
+							"finished": true,
 							"date": "2026-05-10 16:45"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 2,
 							"away": 11,
-							"scoreAway": 0,
+							"scoreAway": 1,
 							"home": 7,
-							"finished": false,
+							"finished": true,
 							"date": "2026-05-10 16:45"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 1,
 							"away": 2,
-							"scoreAway": 0,
+							"scoreAway": 1,
 							"home": 4,
-							"finished": false,
+							"finished": true,
 							"date": "2026-05-10 16:45"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 3,
 							"away": 12,
-							"scoreAway": 0,
+							"scoreAway": 2,
 							"home": 5,
-							"finished": false,
+							"finished": true,
 							"date": "2026-05-10 16:45"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 1,
 							"away": 13,
-							"scoreAway": 0,
+							"scoreAway": 4,
 							"home": 6,
-							"finished": false,
+							"finished": true,
 							"date": "2026-05-10 16:45"
 						},
 						{
@@ -2716,19 +2716,19 @@
 							"date": "2026-05-10 16:45"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 3,
 							"away": 9,
 							"scoreAway": 0,
 							"home": 15,
-							"finished": false,
+							"finished": true,
 							"date": "2026-05-10 16:45"
 						},
 						{
-							"scoreHome": 0,
+							"scoreHome": 4,
 							"away": 14,
 							"scoreAway": 0,
 							"home": 16,
-							"finished": false,
+							"finished": true,
 							"date": "2026-05-10 16:45"
 						}
 					]
