@@ -5014,6 +5014,14 @@
         "team1": "AZ",
         "team2": "NAC Breda",
         "score": {
+          "ht": [
+            2,
+            0
+          ],
+          "ft": [
+            3,
+            3
+          ]
         }
       },
       {
@@ -5023,6 +5031,14 @@
         "team1": "FC Utrecht",
         "team2": "Fortuna Sittard",
         "score": {
+          "ht": [
+            1,
+            0
+          ],
+          "ft": [
+            2,
+            0
+          ]
         }
       },
       {
@@ -5032,6 +5048,14 @@
         "team1": "FC Volendam",
         "team2": "Telstar 1963",
         "score": {
+          "ht": [
+            1,
+            1
+          ],
+          "ft": [
+            1,
+            2
+          ]
         }
       },
       {
@@ -5041,6 +5065,14 @@
         "team1": "Heracles Almelo",
         "team2": "FC Groningen",
         "score": {
+          "ht": [
+            1,
+            1
+          ],
+          "ft": [
+            1,
+            2
+          ]
         }
       },
       {
@@ -5050,6 +5082,14 @@
         "team1": "NEC",
         "team2": "Go Ahead Eagles",
         "score": {
+          "ht": [
+            2,
+            0
+          ],
+          "ft": [
+            2,
+            1
+          ]
         }
       },
       {
@@ -5059,6 +5099,14 @@
         "team1": "PEC Zwolle",
         "team2": "Feyenoord Rotterdam",
         "score": {
+          "ht": [
+            0,
+            0
+          ],
+          "ft": [
+            0,
+            2
+          ]
         }
       },
       {
@@ -5068,6 +5116,14 @@
         "team1": "PSV",
         "team2": "FC Twente '65",
         "score": {
+          "ht": [
+            2,
+            1
+          ],
+          "ft": [
+            5,
+            1
+          ]
         }
       },
       {
@@ -5077,6 +5133,10 @@
         "team1": "SC Heerenveen",
         "team2": "AFC Ajax",
         "score": {
+          "ft": [
+            0,
+            0
+          ]
         }
       },
       {
@@ -5086,6 +5146,14 @@
         "team1": "Sparta Rotterdam",
         "team2": "SBV Excelsior",
         "score": {
+          "ht": [
+            0,
+            1
+          ],
+          "ft": [
+            2,
+            3
+          ]
         }
       }
     ]
