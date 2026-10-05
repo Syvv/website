@@ -1,0 +1,147 @@
+[
+    {
+        "id": 1,
+        "name": "Sapporo"
+    },
+    {
+        "id": 2,
+        "name": "Sapporo Yonesato"
+    }
+    ,
+    {
+        "id": 3,
+        "name": "Ebetsu"
+    },
+    {
+        "id": 4,
+        "name": "Iwamizawa"
+    },
+    {
+        "id": 5,
+        "name": "Mikasa"
+    },
+    {
+        "id": 6,
+        "name": "Bibai"
+    },
+    {
+        "id": 7,
+        "name": "Naie"
+    },
+    {
+        "id": 8,
+        "name": "Sunagawa"
+    },
+    {
+        "id": 9,
+        "name": "Takikawa"
+    },
+    {
+        "id": 10,
+        "name": "Ebeotsu"
+    },
+    {
+        "id": 11,
+        "name": "Moseushi"
+    },
+    {
+        "id": 12,
+        "name": "Fukagawa"
+    },
+    {
+        "id": 13,
+        "name": "Asahikawa Meisei"
+    },
+    {
+        "id": 14,
+        "name": "Asahikawa Higashi"
+    },
+    {
+        "id": 15,
+        "name": "Asahikawa Suehiro-Higashi"
+    },
+    {
+        "id": 16,
+        "name": "Asahikawa Nagayama"
+    },
+    {
+        "id": 17,
+        "name": "Asahikawa Minami"
+    },
+    {
+        "id": 18,
+        "name": "Asahikawa Hijirino"
+    },
+    {
+        "id": 19,
+        "name": "Tobetsu"
+    },
+    {
+        "id": 20,
+        "name": "Tsukigata"
+    },
+    {
+        "id": 21,
+        "name": "Urausu"
+    },
+    {
+        "id": 22,
+        "name": "Shintotsukawa"
+    },
+    {
+        "id": 23,
+        "name": "Uryu"
+    },
+    {
+        "id": 24,
+        "name": "Houryu"
+    },
+    {
+        "id": 25,
+        "name": "Ishikari-Numata"
+    },
+    {
+        "id": 26,
+        "name": "Chippubetsu"
+    },
+    {
+        "id": 27,
+        "name": "Rumoi"
+    },
+    {
+        "id": 28,
+        "name": "Obira"
+    },
+    {
+        "id": 29,
+        "name": "Onishika-Minatomachi"
+    },
+    {
+        "id": 30,
+        "name": "Tomamae"
+    },
+    {
+        "id": 31,
+        "name": "Haboro"
+    },
+    {
+        "id": 32,
+        "name": "Shosanbetsu"
+    },
+    {
+        "id": 33,
+        "name": "Embetsu"
+    },
+    {
+        "id": 34,
+        "name": "Teshio"
+    },
+    {
+        "id": 35,
+        "name": "Toyotomi"
+    },
+    {
+        "id": 36,
+        "name": "Wakkanai"
+    }
+]
