@@ -78,14 +78,14 @@ div.Customisation {
   }
   
   /* Hide default HTML checkbox */
-  .switch input {
+.switch input {
     opacity: 0;
     width: 0;
     height: 0;
-  }
-  
-  /* The slider */
-  .slider {
+}
+
+/* The slider */
+.slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -95,9 +95,9 @@ div.Customisation {
     background-color: #ccc;
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  
-  .slider:before {
+}
+
+.slider:before {
     position: absolute;
     content: "";
     height: 13px;
@@ -107,39 +107,93 @@ div.Customisation {
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  
-  input:checked + .slider {
+}
+
+input:checked + .slider {
     background-color: #2196F3;
-  }
-  
-  input:focus + .slider {
+}
+
+input:focus + .slider {
     box-shadow: 0 0 1px #2196F3;
-  }
-  
-  input:checked + .slider:before {
+}
+
+input:checked + .slider:before {
     -webkit-transform: translateX(13px);
     -ms-transform: translateX(13px);
     transform: translateX(13px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
-    border-radius: 17px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
+}
 
-  span.switch-input {
+/* Rounded sliders */
+.slider.round {
+    border-radius: 17px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+span.switch-input {
     display: flex;
 
     span.text {
         margin-left: 10px;
     }
-  }
+}
 
-  td:not(.name) {
+td:not(.name) {
     text-align: center;
-  }
+}
+
+
+table.departure {
+    background-color: black;
+    width: 500px;
+    
+    th {
+        background-color: black;
+        border: none;
+        color: white;
+        font-weight: normal;
+        font-size: 9px;
+
+        &.type {
+            width: 50px;
+        }
+
+        &.line {
+            width: 125px;
+        }
+
+        &.time {
+            width: 50px;
+        }
+
+        &.platform {
+            width: 50px;
+        }
+    }
+
+    td {
+        background-color: black;
+        border: none;
+        color: white;
+
+        &.limited {
+            font-size: 9px;
+            color: red;
+        }
+
+        &.line {
+            text-align: left;
+        }
+
+        &.destination {
+            text-align: left;
+        }
+
+        &.platform {
+            color: #ffef7d;
+        }
+    }
+
+}

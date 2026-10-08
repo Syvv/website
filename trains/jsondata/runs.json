@@ -1,0 +1,2416 @@
+[
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "05:30", "platform": 1},
+            {"id": 2, "arrival": "05:33", "departure": "05:34", "platform": 1},
+            {"id": 3, "arrival": "05:41", "departure": "05:42", "platform": 1},
+            {"id": 4, "arrival": "05:54", "departure": "05:55", "platform": 2},
+            {"id": 6, "arrival": "06:05", "departure": "06:06", "platform": 2},
+            {"id": 7, "arrival": "06:13", "departure": "06:18", "platform": 1},
+            {"id": 8, "arrival": "06:24", "departure": "06:25", "platform": 4},
+            {"id": 9, "arrival": "06:30", "departure": "06:31", "platform": 2},
+            {"id": 10, "arrival": "06:36", "departure": "06:37", "platform": 2},
+            {"id": 11, "arrival": "06:42", "departure": "06:43", "platform": 2},
+            {"id": 12, "arrival": "06:47", "departure": "06:48", "platform": 1},
+            {"id": 13, "arrival": "07:05", "departure": "07:06", "platform": 1},
+            {"id": 17, "arrival": "07:10", "departure": "07:11", "platform": 1},
+            {"id": 18, "arrival": "07:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "09:30", "platform": 1},
+            {"id": 2, "arrival": "09:33", "departure": "09:34", "platform": 1},
+            {"id": 3, "arrival": "09:41", "departure": "09:42", "platform": 1},
+            {"id": 4, "arrival": "09:54", "departure": "09:55", "platform": 2},
+            {"id": 6, "arrival": "10:05", "departure": "10:06", "platform": 2},
+            {"id": 7, "arrival": "10:13", "departure": "10:18", "platform": 1},
+            {"id": 8, "arrival": "10:24", "departure": "10:25", "platform": 4},
+            {"id": 9, "arrival": "10:30", "departure": "10:31", "platform": 2},
+            {"id": 10, "arrival": "10:36", "departure": "10:37", "platform": 2},
+            {"id": 11, "arrival": "10:42", "departure": "10:43", "platform": 2},
+            {"id": 12, "arrival": "10:47", "departure": "10:48", "platform": 1},
+            {"id": 13, "arrival": "11:05", "departure": "11:06", "platform": 1},
+            {"id": 17, "arrival": "11:10", "departure": "11:11", "platform": 1},
+            {"id": 18, "arrival": "11:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "13:30", "platform": 1},
+            {"id": 2, "arrival": "13:33", "departure": "13:34", "platform": 1},
+            {"id": 3, "arrival": "13:41", "departure": "13:42", "platform": 1},
+            {"id": 4, "arrival": "13:54", "departure": "13:55", "platform": 2},
+            {"id": 6, "arrival": "14:05", "departure": "14:06", "platform": 2},
+            {"id": 7, "arrival": "14:13", "departure": "14:18", "platform": 1},
+            {"id": 8, "arrival": "14:24", "departure": "14:25", "platform": 4},
+            {"id": 9, "arrival": "14:30", "departure": "14:31", "platform": 2},
+            {"id": 10, "arrival": "14:36", "departure": "14:37", "platform": 2},
+            {"id": 11, "arrival": "14:42", "departure": "14:43", "platform": 2},
+            {"id": 12, "arrival": "14:47", "departure": "14:48", "platform": 1},
+            {"id": 13, "arrival": "15:05", "departure": "15:06", "platform": 1},
+            {"id": 17, "arrival": "15:10", "departure": "15:11", "platform": 1},
+            {"id": 18, "arrival": "15:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "17:30", "platform": 1},
+            {"id": 2, "arrival": "17:33", "departure": "17:34", "platform": 1},
+            {"id": 3, "arrival": "17:41", "departure": "17:42", "platform": 1},
+            {"id": 4, "arrival": "17:54", "departure": "17:55", "platform": 2},
+            {"id": 6, "arrival": "18:05", "departure": "18:06", "platform": 2},
+            {"id": 7, "arrival": "18:13", "departure": "18:18", "platform": 1},
+            {"id": 8, "arrival": "18:24", "departure": "18:25", "platform": 4},
+            {"id": 9, "arrival": "18:30", "departure": "18:31", "platform": 2},
+            {"id": 10, "arrival": "18:36", "departure": "19:37", "platform": 2},
+            {"id": 11, "arrival": "18:42", "departure": "19:43", "platform": 2},
+            {"id": 12, "arrival": "18:47", "departure": "19:48", "platform": 1},
+            {"id": 13, "arrival": "19:05", "departure": "19:06", "platform": 1},
+            {"id": 17, "arrival": "19:10", "departure": "19:11", "platform": 1},
+            {"id": 18, "arrival": "19:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 18, "departure": "07:30", "platform": 1},
+            {"id": 17, "arrival": "07:32", "departure": "07:33", "platform": 2},
+            {"id": 13, "arrival": "07:37", "departure": "07:38", "platform": 2},
+            {"id": 12, "arrival": "07:55", "departure": "08:00", "platform": 2},
+            {"id": 11, "arrival": "08:05", "departure": "08:06", "platform": 1},
+            {"id": 10, "arrival": "08:10", "departure": "08:11", "platform": 1},
+            {"id": 9, "arrival": "08:17", "departure": "08:18", "platform": 1},
+            {"id": 8, "arrival": "08:23", "departure": "08:24", "platform": 1},
+            {"id": 7, "arrival": "08:29", "departure": "08:30", "platform": 1},
+            {"id": 6, "arrival": "08:37", "departure": "08:38", "platform": 1},
+            {"id": 4, "arrival": "08:48", "departure": "08:49", "platform": 3},
+            {"id": 3, "arrival": "09:02", "departure": "09:03", "platform": 2},
+            {"id": 2, "arrival": "09:10", "departure": "09:11", "platform": 2},
+            {"id": 1, "arival": "09:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 18, "departure": "11:30", "platform": 1},
+            {"id": 17, "arrival": "11:32", "departure": "11:33", "platform": 2},
+            {"id": 13, "arrival": "11:37", "departure": "11:38", "platform": 2},
+            {"id": 12, "arrival": "11:55", "departure": "12:00", "platform": 2},
+            {"id": 11, "arrival": "12:05", "departure": "12:06", "platform": 1},
+            {"id": 10, "arrival": "12:10", "departure": "12:11", "platform": 1},
+            {"id": 9, "arrival": "12:17", "departure": "12:18", "platform": 1},
+            {"id": 8, "arrival": "12:23", "departure": "12:24", "platform": 1},
+            {"id": 7, "arrival": "12:29", "departure": "12:30", "platform": 1},
+            {"id": 6, "arrival": "12:37", "departure": "12:38", "platform": 1},
+            {"id": 4, "arrival": "12:48", "departure": "12:49", "platform": 3},
+            {"id": 3, "arrival": "13:02", "departure": "13:03", "platform": 2},
+            {"id": 2, "arrival": "13:10", "departure": "13:11", "platform": 2},
+            {"id": 1, "arival": "13:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 18, "departure": "15:30", "platform": 1},
+            {"id": 17, "arrival": "15:32", "departure": "15:33", "platform": 2},
+            {"id": 13, "arrival": "15:37", "departure": "15:38", "platform": 2},
+            {"id": 12, "arrival": "15:55", "departure": "16:00", "platform": 2},
+            {"id": 11, "arrival": "16:05", "departure": "16:06", "platform": 1},
+            {"id": 10, "arrival": "16:10", "departure": "16:11", "platform": 1},
+            {"id": 9, "arrival": "16:17", "departure": "16:18", "platform": 1},
+            {"id": 8, "arrival": "16:23", "departure": "16:24", "platform": 1},
+            {"id": 7, "arrival": "16:29", "departure": "16:30", "platform": 1},
+            {"id": 6, "arrival": "16:37", "departure": "16:38", "platform": 1},
+            {"id": 4, "arrival": "16:48", "departure": "16:49", "platform": 3},
+            {"id": 3, "arrival": "17:02", "departure": "17:03", "platform": 2},
+            {"id": 2, "arrival": "17:10", "departure": "17:11", "platform": 2},
+            {"id": 1, "arival": "17:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 18, "departure": "19:30", "platform": 1},
+            {"id": 17, "arrival": "19:32", "departure": "19:33", "platform": 2},
+            {"id": 13, "arrival": "19:37", "departure": "19:38", "platform": 2},
+            {"id": 12, "arrival": "19:55", "departure": "20:00", "platform": 2},
+            {"id": 11, "arrival": "20:05", "departure": "20:06", "platform": 1},
+            {"id": 10, "arrival": "20:10", "departure": "20:11", "platform": 1},
+            {"id": 9, "arrival": "20:17", "departure": "20:18", "platform": 1},
+            {"id": 8, "arrival": "20:23", "departure": "20:24", "platform": 1},
+            {"id": 7, "arrival": "20:29", "departure": "20:30", "platform": 1},
+            {"id": 6, "arrival": "20:37", "departure": "20:38", "platform": 1},
+            {"id": 4, "arrival": "20:48", "departure": "20:49", "platform": 3},
+            {"id": 3, "arrival": "21:02", "departure": "21:03", "platform": 2},
+            {"id": 2, "arrival": "21:10", "departure": "21:11", "platform": 2},
+            {"id": 1, "arival": "21:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "04:30", "platform": 1},
+            {"id": 2, "arrival": "04:33", "departure": "04:34", "platform": 1},
+            {"id": 3, "arrival": "04:41", "departure": "04:42", "platform": 1},
+            {"id": 4, "arrival": "04:54", "departure": "04:55", "platform": 2},
+            {"id": 6, "arrival": "05:05", "departure": "05:06", "platform": 2},
+            {"id": 7, "arrival": "05:13", "departure": "05:18", "platform": 1},
+            {"id": 8, "arrival": "05:24", "departure": "05:25", "platform": 4},
+            {"id": 9, "arrival": "05:30", "departure": "05:31", "platform": 2},
+            {"id": 10, "arrival": "05:36", "departure": "05:37", "platform": 2},
+            {"id": 11, "arrival": "05:42", "departure": "05:43", "platform": 2},
+            {"id": 12, "arrival": "05:47", "departure": "05:48", "platform": 1},
+            {"id": 13, "arrival": "06:05", "departure": "06:06", "platform": 3},
+            {"id": 14, "arrival": "06:08", "departure": "06:09", "platform": 1},
+            {"id": 15, "arrival": "06:13", "departure": "06:14", "platform": 1},
+            {"id": 16, "arrival": "06:16", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "08:30", "platform": 1},
+            {"id": 2, "arrival": "08:33", "departure": "08:34", "platform": 1},
+            {"id": 3, "arrival": "08:41", "departure": "08:42", "platform": 1},
+            {"id": 4, "arrival": "08:54", "departure": "08:55", "platform": 2},
+            {"id": 6, "arrival": "09:05", "departure": "09:06", "platform": 2},
+            {"id": 7, "arrival": "09:13", "departure": "09:18", "platform": 1},
+            {"id": 8, "arrival": "09:24", "departure": "09:25", "platform": 4},
+            {"id": 9, "arrival": "09:30", "departure": "09:31", "platform": 2},
+            {"id": 10, "arrival": "09:36", "departure": "09:37", "platform": 2},
+            {"id": 11, "arrival": "09:42", "departure": "09:43", "platform": 2},
+            {"id": 12, "arrival": "09:47", "departure": "09:48", "platform": 1},
+            {"id": 13, "arrival": "10:05", "departure": "10:06", "platform": 3},
+            {"id": 14, "arrival": "10:08", "departure": "10:09", "platform": 1},
+            {"id": 15, "arrival": "10:13", "departure": "10:14", "platform": 1},
+            {"id": 16, "arrival": "10:16", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "12:30", "platform": 1},
+            {"id": 2, "arrival": "12:33", "departure": "12:34", "platform": 1},
+            {"id": 3, "arrival": "12:41", "departure": "12:42", "platform": 1},
+            {"id": 4, "arrival": "12:54", "departure": "12:55", "platform": 2},
+            {"id": 6, "arrival": "13:05", "departure": "13:06", "platform": 2},
+            {"id": 7, "arrival": "13:13", "departure": "13:18", "platform": 1},
+            {"id": 8, "arrival": "13:24", "departure": "13:25", "platform": 4},
+            {"id": 9, "arrival": "13:30", "departure": "13:31", "platform": 2},
+            {"id": 10, "arrival": "13:36", "departure": "13:37", "platform": 2},
+            {"id": 11, "arrival": "13:42", "departure": "13:43", "platform": 2},
+            {"id": 12, "arrival": "13:47", "departure": "13:48", "platform": 1},
+            {"id": 13, "arrival": "14:05", "departure": "14:06", "platform": 3},
+            {"id": 14, "arrival": "14:08", "departure": "14:09", "platform": 1},
+            {"id": 15, "arrival": "14:13", "departure": "14:14", "platform": 1},
+            {"id": 16, "arrival": "14:16", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "16:30", "platform": 1},
+            {"id": 2, "arrival": "16:33", "departure": "16:34", "platform": 1},
+            {"id": 3, "arrival": "16:41", "departure": "16:42", "platform": 1},
+            {"id": 4, "arrival": "16:54", "departure": "16:55", "platform": 2},
+            {"id": 6, "arrival": "17:05", "departure": "17:06", "platform": 2},
+            {"id": 7, "arrival": "17:13", "departure": "17:18", "platform": 1},
+            {"id": 8, "arrival": "17:24", "departure": "17:25", "platform": 4},
+            {"id": 9, "arrival": "17:30", "departure": "17:31", "platform": 2},
+            {"id": 10, "arrival": "17:36", "departure": "17:37", "platform": 2},
+            {"id": 11, "arrival": "17:42", "departure": "17:43", "platform": 2},
+            {"id": 12, "arrival": "17:47", "departure": "17:48", "platform": 1},
+            {"id": 13, "arrival": "18:05", "departure": "18:06", "platform": 3},
+            {"id": 14, "arrival": "18:08", "departure": "18:09", "platform": 1},
+            {"id": 15, "arrival": "18:13", "departure": "18:14", "platform": 1},
+            {"id": 16, "arrival": "18:16", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 16, "departure": "06:27", "platform": 1},
+            {"id": 15, "arrival": "06:30", "departure": "06:31", "platform": 2},
+            {"id": 14, "arrival": "06:34", "departure": "06:35", "platform": 2},
+            {"id": 13, "arrival": "06:37", "departure": "06:38", "platform": 4},
+            {"id": 12, "arrival": "06:55", "departure": "07:00", "platform": 2},
+            {"id": 11, "arrival": "07:05", "departure": "07:06", "platform": 1},
+            {"id": 10, "arrival": "07:10", "departure": "07:11", "platform": 1},
+            {"id": 9, "arrival": "07:17", "departure": "07:18", "platform": 1},
+            {"id": 8, "arrival": "07:23", "departure": "07:24", "platform": 1},
+            {"id": 7, "arrival": "07:29", "departure": "07:30", "platform": 1},
+            {"id": 6, "arrival": "07:37", "departure": "07:38", "platform": 1},
+            {"id": 4, "arrival": "07:48", "departure": "07:49", "platform": 3},
+            {"id": 3, "arrival": "08:02", "departure": "08:03", "platform": 2},
+            {"id": 2, "arrival": "08:10", "departure": "08:11", "platform": 2},
+            {"id": 1, "arrival": "08:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 16, "departure": "10:27", "platform": 1},
+            {"id": 15, "arrival": "10:30", "departure": "10:31", "platform": 2},
+            {"id": 14, "arrival": "10:34", "departure": "10:35", "platform": 2},
+            {"id": 13, "arrival": "10:37", "departure": "10:38", "platform": 4},
+            {"id": 12, "arrival": "10:55", "departure": "11:00", "platform": 2},
+            {"id": 11, "arrival": "11:05", "departure": "11:06", "platform": 1},
+            {"id": 10, "arrival": "11:10", "departure": "11:11", "platform": 1},
+            {"id": 9, "arrival": "11:17", "departure": "11:18", "platform": 1},
+            {"id": 8, "arrival": "11:23", "departure": "11:24", "platform": 1},
+            {"id": 7, "arrival": "11:29", "departure": "11:30", "platform": 1},
+            {"id": 6, "arrival": "11:37", "departure": "11:38", "platform": 1},
+            {"id": 4, "arrival": "11:48", "departure": "11:49", "platform": 3},
+            {"id": 3, "arrival": "12:02", "departure": "12:03", "platform": 2},
+            {"id": 2, "arrival": "12:10", "departure": "12:11", "platform": 2},
+            {"id": 1, "arrival": "12:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 16, "departure": "14:27", "platform": 1},
+            {"id": 15, "arrival": "14:30", "departure": "14:31", "platform": 2},
+            {"id": 14, "arrival": "14:34", "departure": "14:35", "platform": 2},
+            {"id": 13, "arrival": "14:37", "departure": "14:38", "platform": 4},
+            {"id": 12, "arrival": "14:55", "departure": "15:00", "platform": 2},
+            {"id": 11, "arrival": "15:05", "departure": "15:06", "platform": 1},
+            {"id": 10, "arrival": "15:10", "departure": "15:11", "platform": 1},
+            {"id": 9, "arrival": "15:17", "departure": "15:18", "platform": 1},
+            {"id": 8, "arrival": "15:23", "departure": "15:24", "platform": 1},
+            {"id": 7, "arrival": "15:29", "departure": "15:30", "platform": 1},
+            {"id": 6, "arrival": "15:37", "departure": "15:38", "platform": 1},
+            {"id": 4, "arrival": "15:48", "departure": "15:49", "platform": 3},
+            {"id": 3, "arrival": "16:02", "departure": "16:03", "platform": 2},
+            {"id": 2, "arrival": "16:10", "departure": "16:11", "platform": 2},
+            {"id": 1, "arrival": "16:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 16, "departure": "18:27", "platform": 1},
+            {"id": 15, "arrival": "18:30", "departure": "18:31", "platform": 2},
+            {"id": 14, "arrival": "18:34", "departure": "18:35", "platform": 2},
+            {"id": 13, "arrival": "18:37", "departure": "18:38", "platform": 4},
+            {"id": 12, "arrival": "18:55", "departure": "19:00", "platform": 2},
+            {"id": 11, "arrival": "19:05", "departure": "19:06", "platform": 1},
+            {"id": 10, "arrival": "19:10", "departure": "19:11", "platform": 1},
+            {"id": 9, "arrival": "19:17", "departure": "19:18", "platform": 1},
+            {"id": 8, "arrival": "19:23", "departure": "19:24", "platform": 1},
+            {"id": 7, "arrival": "19:29", "departure": "19:30", "platform": 1},
+            {"id": 6, "arrival": "19:37", "departure": "19:38", "platform": 1},
+            {"id": 4, "arrival": "19:48", "departure": "19:49", "platform": 3},
+            {"id": 3, "arrival": "20:02", "departure": "20:03", "platform": 2},
+            {"id": 2, "arrival": "20:10", "departure": "20:11", "platform": 2},
+            {"id": 1, "arrival": "20:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 13, "departure": "04:11", "platform": 3},
+            {"id": 14, "arrival": "04:13", "departure": "04:14", "platform": 1},
+            {"id": 15, "arrival": "04:17", "departure": "04:18", "platform": 1},
+            {"id": 16, "arrival": "04:21", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 16, "departure": "04:27", "platform": 1},
+            {"id": 15, "arrival": "04:30", "departure": "04:31", "platform": 2},
+            {"id": 14, "arrival": "04:34", "departure": "04:35", "platform": 2},
+            {"id": 13, "arrival": "04:37", "departure": "04:38", "platform": 4},
+            {"id": 12, "arrival": "04:55", "departure": "05:00", "platform": 2},
+            {"id": 11, "arrival": "05:05", "departure": "05:06", "platform": 1},
+            {"id": 10, "arrival": "05:10", "departure": "05:11", "platform": 1},
+            {"id": 9, "arrival": "05:17", "departure": "05:18", "platform": 1},
+            {"id": 8, "arrival": "05:23", "departure": "05:24", "platform": 1},
+            {"id": 7, "arrival": "05:29", "departure": "05:30", "platform": 1},
+            {"id": 6, "arrival": "05:37", "departure": "05:38", "platform": 1},
+            {"id": 4, "arrival": "05:48", "departure": "05:49", "platform": 3},
+            {"id": 3, "arrival": "06:02", "departure": "06:03", "platform": 2},
+            {"id": 2, "arrival": "06:10", "departure": "06:11", "platform": 2},
+            {"id": 1, "arrival": "06:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 16, "departure": "08:27", "platform": 1},
+            {"id": 15, "arrival": "08:30", "departure": "08:31", "platform": 2},
+            {"id": 14, "arrival": "08:34", "departure": "08:35", "platform": 2},
+            {"id": 13, "arrival": "08:37", "departure": "08:38", "platform": 4},
+            {"id": 12, "arrival": "08:55", "departure": "09:00", "platform": 2},
+            {"id": 11, "arrival": "09:05", "departure": "09:06", "platform": 1},
+            {"id": 10, "arrival": "09:10", "departure": "09:11", "platform": 1},
+            {"id": 9, "arrival": "09:17", "departure": "09:18", "platform": 1},
+            {"id": 8, "arrival": "09:23", "departure": "09:24", "platform": 1},
+            {"id": 7, "arrival": "09:29", "departure": "09:30", "platform": 1},
+            {"id": 6, "arrival": "09:37", "departure": "09:38", "platform": 1},
+            {"id": 4, "arrival": "09:48", "departure": "09:49", "platform": 3},
+            {"id": 3, "arrival": "10:02", "departure": "10:03", "platform": 2},
+            {"id": 2, "arrival": "10:10", "departure": "10:11", "platform": 2},
+            {"id": 1, "arrival": "10:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 16, "departure": "12:27", "platform": 1},
+            {"id": 15, "arrival": "12:30", "departure": "12:31", "platform": 2},
+            {"id": 14, "arrival": "12:34", "departure": "12:35", "platform": 2},
+            {"id": 13, "arrival": "12:37", "departure": "12:38", "platform": 4},
+            {"id": 12, "arrival": "12:55", "departure": "13:00", "platform": 2},
+            {"id": 11, "arrival": "13:05", "departure": "13:06", "platform": 1},
+            {"id": 10, "arrival": "13:10", "departure": "13:11", "platform": 1},
+            {"id": 9, "arrival": "13:17", "departure": "13:18", "platform": 1},
+            {"id": 8, "arrival": "13:23", "departure": "13:24", "platform": 1},
+            {"id": 7, "arrival": "13:29", "departure": "13:30", "platform": 1},
+            {"id": 6, "arrival": "13:37", "departure": "13:38", "platform": 1},
+            {"id": 4, "arrival": "13:48", "departure": "13:49", "platform": 3},
+            {"id": 3, "arrival": "14:02", "departure": "14:03", "platform": 2},
+            {"id": 2, "arrival": "14:10", "departure": "14:11", "platform": 2},
+            {"id": 1, "arrival": "14:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 16, "departure": "16:27", "platform": 1},
+            {"id": 15, "arrival": "16:30", "departure": "16:31", "platform": 2},
+            {"id": 14, "arrival": "16:34", "departure": "16:35", "platform": 2},
+            {"id": 13, "arrival": "16:37", "departure": "16:38", "platform": 4},
+            {"id": 12, "arrival": "16:55", "departure": "17:00", "platform": 2},
+            {"id": 11, "arrival": "17:05", "departure": "17:06", "platform": 1},
+            {"id": 10, "arrival": "17:10", "departure": "17:11", "platform": 1},
+            {"id": 9, "arrival": "17:17", "departure": "17:18", "platform": 1},
+            {"id": 8, "arrival": "17:23", "departure": "17:24", "platform": 1},
+            {"id": 7, "arrival": "17:29", "departure": "17:30", "platform": 1},
+            {"id": 6, "arrival": "17:37", "departure": "17:38", "platform": 1},
+            {"id": 4, "arrival": "17:48", "departure": "17:49", "platform": 3},
+            {"id": 3, "arrival": "18:02", "departure": "18:03", "platform": 2},
+            {"id": 2, "arrival": "18:10", "departure": "18:11", "platform": 2},
+            {"id": 1, "arrival": "18:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "06:30", "platform": 1},
+            {"id": 2, "arrival": "06:33", "departure": "06:34", "platform": 1},
+            {"id": 3, "arrival": "06:41", "departure": "06:42", "platform": 1},
+            {"id": 4, "arrival": "06:54", "departure": "06:55", "platform": 2},
+            {"id": 6, "arrival": "07:05", "departure": "07:06", "platform": 2},
+            {"id": 7, "arrival": "07:13", "departure": "07:18", "platform": 1},
+            {"id": 8, "arrival": "07:24", "departure": "07:25", "platform": 4},
+            {"id": 9, "arrival": "07:30", "departure": "07:31", "platform": 2},
+            {"id": 10, "arrival": "07:36", "departure": "07:37", "platform": 2},
+            {"id": 11, "arrival": "07:42", "departure": "07:43", "platform": 2},
+            {"id": 12, "arrival": "07:47", "departure": "07:48", "platform": 1},
+            {"id": 13, "arrival": "08:05", "departure": "08:06", "platform": 3},
+            {"id": 14, "arrival": "08:08", "departure": "08:09", "platform": 1},
+            {"id": 15, "arrival": "08:13", "departure": "08:14", "platform": 1},
+            {"id": 16, "arrival": "08:16", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "10:30", "platform": 1},
+            {"id": 2, "arrival": "10:33", "departure": "10:34", "platform": 1},
+            {"id": 3, "arrival": "10:41", "departure": "10:42", "platform": 1},
+            {"id": 4, "arrival": "10:54", "departure": "10:55", "platform": 2},
+            {"id": 6, "arrival": "11:05", "departure": "11:06", "platform": 2},
+            {"id": 7, "arrival": "11:13", "departure": "11:18", "platform": 1},
+            {"id": 8, "arrival": "11:24", "departure": "11:25", "platform": 4},
+            {"id": 9, "arrival": "11:30", "departure": "11:31", "platform": 2},
+            {"id": 10, "arrival": "11:36", "departure": "11:37", "platform": 2},
+            {"id": 11, "arrival": "11:42", "departure": "11:43", "platform": 2},
+            {"id": 12, "arrival": "11:47", "departure": "11:48", "platform": 1},
+            {"id": 13, "arrival": "12:05", "departure": "12:06", "platform": 3},
+            {"id": 14, "arrival": "12:08", "departure": "12:09", "platform": 1},
+            {"id": 15, "arrival": "12:13", "departure": "12:14", "platform": 1},
+            {"id": 16, "arrival": "12:16", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "14:30", "platform": 1},
+            {"id": 2, "arrival": "14:33", "departure": "14:34", "platform": 1},
+            {"id": 3, "arrival": "14:41", "departure": "14:42", "platform": 1},
+            {"id": 4, "arrival": "14:54", "departure": "14:55", "platform": 2},
+            {"id": 6, "arrival": "15:05", "departure": "15:06", "platform": 2},
+            {"id": 7, "arrival": "15:13", "departure": "15:18", "platform": 1},
+            {"id": 8, "arrival": "15:24", "departure": "15:25", "platform": 4},
+            {"id": 9, "arrival": "15:30", "departure": "15:31", "platform": 2},
+            {"id": 10, "arrival": "15:36", "departure": "15:37", "platform": 2},
+            {"id": 11, "arrival": "15:42", "departure": "15:43", "platform": 2},
+            {"id": 12, "arrival": "15:47", "departure": "15:48", "platform": 1},
+            {"id": 13, "arrival": "16:05", "departure": "16:06", "platform": 3},
+            {"id": 14, "arrival": "16:08", "departure": "16:09", "platform": 1},
+            {"id": 15, "arrival": "16:13", "departure": "16:14", "platform": 1},
+            {"id": 16, "arrival": "16:16", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "18:30", "platform": 1},
+            {"id": 2, "arrival": "18:33", "departure": "18:34", "platform": 1},
+            {"id": 3, "arrival": "18:41", "departure": "18:42", "platform": 1},
+            {"id": 4, "arrival": "18:54", "departure": "18:55", "platform": 2},
+            {"id": 6, "arrival": "19:05", "departure": "19:06", "platform": 2},
+            {"id": 7, "arrival": "19:13", "departure": "19:18", "platform": 1},
+            {"id": 8, "arrival": "19:24", "departure": "19:25", "platform": 4},
+            {"id": 9, "arrival": "19:30", "departure": "19:31", "platform": 2},
+            {"id": 10, "arrival": "19:36", "departure": "19:37", "platform": 2},
+            {"id": 11, "arrival": "19:42", "departure": "19:43", "platform": 2},
+            {"id": 12, "arrival": "19:47", "departure": "19:48", "platform": 1},
+            {"id": 13, "arrival": "20:05", "departure": "20:06", "platform": 3},
+            {"id": 14, "arrival": "20:08", "departure": "20:09", "platform": 1},
+            {"id": 15, "arrival": "20:13", "departure": "20:14", "platform": 1},
+            {"id": 16, "arrival": "20:16", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 16, "departure": "20:30", "platform": 1},
+            {"id": 15, "arrival": "20:32", "departure": "20:33", "platform": 2},
+            {"id": 14, "arrival": "20:36", "departure": "20:37", "platform": 2},
+            {"id": 13, "arrival": "20:40", "platform": 3}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 13, "departure": "05:15", "platform": 1},
+            {"id": 17, "arrival": "05:18", "departure": "05:19", "platform": 1},
+            {"id": 18, "arrival": "05:22", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 18, "departure": "21:25", "platform": 1},
+            {"id": 17, "arrival": "21:27", "departure": "21:28", "platform": 2},
+            {"id": 13, "arrival": "21:32", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 18, "departure": "05:30", "platform": 1},
+            {"id": 17, "arrival": "05:32", "departure": "05:33", "platform": 2},
+            {"id": 13, "arrival": "05:37", "departure": "05:38", "platform": 2},
+            {"id": 12, "arrival": "05:55", "departure": "06:00", "platform": 2},
+            {"id": 11, "arrival": "06:05", "departure": "06:06", "platform": 1},
+            {"id": 10, "arrival": "06:10", "departure": "06:11", "platform": 1},
+            {"id": 9, "arrival": "06:17", "departure": "06:18", "platform": 1},
+            {"id": 8, "arrival": "06:23", "departure": "06:24", "platform": 1},
+            {"id": 7, "arrival": "06:29", "departure": "06:30", "platform": 1},
+            {"id": 6, "arrival": "06:37", "departure": "06:38", "platform": 1},
+            {"id": 4, "arrival": "06:48", "departure": "06:49", "platform": 3},
+            {"id": 3, "arrival": "07:02", "departure": "07:03", "platform": 2},
+            {"id": 2, "arrival": "07:10", "departure": "07:11", "platform": 2},
+            {"id": 1, "arrival": "07:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 18, "departure": "09:30", "platform": 1},
+            {"id": 17, "arrival": "09:32", "departure": "09:33", "platform": 2},
+            {"id": 13, "arrival": "09:37", "departure": "09:38", "platform": 2},
+            {"id": 12, "arrival": "09:55", "departure": "10:00", "platform": 2},
+            {"id": 11, "arrival": "10:05", "departure": "10:06", "platform": 1},
+            {"id": 10, "arrival": "10:10", "departure": "10:11", "platform": 1},
+            {"id": 9, "arrival": "10:17", "departure": "10:18", "platform": 1},
+            {"id": 8, "arrival": "10:23", "departure": "10:24", "platform": 1},
+            {"id": 7, "arrival": "10:29", "departure": "10:30", "platform": 1},
+            {"id": 6, "arrival": "10:37", "departure": "10:38", "platform": 1},
+            {"id": 4, "arrival": "10:48", "departure": "10:49", "platform": 3},
+            {"id": 3, "arrival": "11:02", "departure": "11:03", "platform": 2},
+            {"id": 2, "arrival": "11:10", "departure": "11:11", "platform": 2},
+            {"id": 1, "arrival": "11:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 18, "departure": "13:30", "platform": 1},
+            {"id": 17, "arrival": "13:32", "departure": "13:33", "platform": 2},
+            {"id": 13, "arrival": "13:37", "departure": "13:38", "platform": 2},
+            {"id": 12, "arrival": "13:55", "departure": "14:00", "platform": 2},
+            {"id": 11, "arrival": "14:05", "departure": "14:06", "platform": 1},
+            {"id": 10, "arrival": "14:10", "departure": "14:11", "platform": 1},
+            {"id": 9, "arrival": "14:17", "departure": "14:18", "platform": 1},
+            {"id": 8, "arrival": "14:23", "departure": "14:24", "platform": 1},
+            {"id": 7, "arrival": "14:29", "departure": "14:30", "platform": 1},
+            {"id": 6, "arrival": "14:37", "departure": "14:38", "platform": 1},
+            {"id": 4, "arrival": "14:48", "departure": "14:49", "platform": 3},
+            {"id": 3, "arrival": "15:02", "departure": "15:03", "platform": 2},
+            {"id": 2, "arrival": "15:10", "departure": "15:11", "platform": 2},
+            {"id": 1, "arrival": "15:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 18, "departure": "17:30", "platform": 1},
+            {"id": 17, "arrival": "17:32", "departure": "17:33", "platform": 2},
+            {"id": 13, "arrival": "17:37", "departure": "17:38", "platform": 2},
+            {"id": 12, "arrival": "17:55", "departure": "18:00", "platform": 2},
+            {"id": 11, "arrival": "18:05", "departure": "18:06", "platform": 1},
+            {"id": 10, "arrival": "18:10", "departure": "18:11", "platform": 1},
+            {"id": 9, "arrival": "18:17", "departure": "18:18", "platform": 1},
+            {"id": 8, "arrival": "18:23", "departure": "18:24", "platform": 1},
+            {"id": 7, "arrival": "18:29", "departure": "18:30", "platform": 1},
+            {"id": 6, "arrival": "18:37", "departure": "18:38", "platform": 1},
+            {"id": 4, "arrival": "18:48", "departure": "18:49", "platform": 3},
+            {"id": 3, "arrival": "19:02", "departure": "19:03", "platform": 2},
+            {"id": 2, "arrival": "19:10", "departure": "19:11", "platform": 2},
+            {"id": 1, "arrival": "19:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "arrival": "07:30", "platform": 1},
+            {"id": 2, "arrival": "07:33", "departure": "07:34", "platform": 1},
+            {"id": 3, "arrival": "07:41", "departure": "07:42", "platform": 1},
+            {"id": 4, "arrival": "07:54", "departure": "07:55", "platform": 2},
+            {"id": 6, "arrival": "08:05", "departure": "08:06", "platform": 2},
+            {"id": 7, "arrival": "08:13", "departure": "08:18", "platform": 1},
+            {"id": 8, "arrival": "08:24", "departure": "08:25", "platform": 4},
+            {"id": 9, "arrival": "08:30", "departure": "08:31", "platform": 2},
+            {"id": 10, "arrival": "08:36", "departure": "08:37", "platform": 2},
+            {"id": 11, "arrival": "08:42", "departure": "08:43", "platform": 2},
+            {"id": 12, "arrival": "08:47", "departure": "08:48", "platform": 1},
+            {"id": 13, "arrival": "09:05", "departure": "09:06", "platform": 1},
+            {"id": 17, "arrival": "09:10", "departure": "09:11", "platform": 1},
+            {"id": 18, "departure": "09:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "arrival": "11:30", "platform": 1},
+            {"id": 2, "arrival": "11:33", "departure": "11:34", "platform": 1},
+            {"id": 3, "arrival": "11:41", "departure": "11:42", "platform": 1},
+            {"id": 4, "arrival": "11:54", "departure": "11:55", "platform": 2},
+            {"id": 6, "arrival": "12:05", "departure": "12:06", "platform": 2},
+            {"id": 7, "arrival": "12:13", "departure": "12:18", "platform": 1},
+            {"id": 8, "arrival": "12:24", "departure": "12:25", "platform": 4},
+            {"id": 9, "arrival": "12:30", "departure": "12:31", "platform": 2},
+            {"id": 10, "arrival": "12:36", "departure": "12:37", "platform": 2},
+            {"id": 11, "arrival": "12:42", "departure": "12:43", "platform": 2},
+            {"id": 12, "arrival": "12:47", "departure": "12:48", "platform": 1},
+            {"id": 13, "arrival": "13:05", "departure": "13:06", "platform": 1},
+            {"id": 17, "arrival": "13:10", "departure": "13:11", "platform": 1},
+            {"id": 18, "departure": "13:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "arrival": "15:30", "platform": 1},
+            {"id": 2, "arrival": "15:33", "departure": "15:34", "platform": 1},
+            {"id": 3, "arrival": "15:41", "departure": "15:42", "platform": 1},
+            {"id": 4, "arrival": "15:54", "departure": "15:55", "platform": 2},
+            {"id": 6, "arrival": "16:05", "departure": "16:06", "platform": 2},
+            {"id": 7, "arrival": "16:13", "departure": "16:18", "platform": 1},
+            {"id": 8, "arrival": "16:24", "departure": "16:25", "platform": 4},
+            {"id": 9, "arrival": "16:30", "departure": "16:31", "platform": 2},
+            {"id": 10, "arrival": "16:36", "departure": "16:37", "platform": 2},
+            {"id": 11, "arrival": "16:42", "departure": "16:43", "platform": 2},
+            {"id": 12, "arrival": "16:47", "departure": "16:48", "platform": 1},
+            {"id": 13, "arrival": "17:05", "departure": "17:06", "platform": 1},
+            {"id": 17, "arrival": "17:10", "departure": "17:11", "platform": 1},
+            {"id": 18, "departure": "17:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "arrival": "19:30", "platform": 1},
+            {"id": 2, "arrival": "19:33", "departure": "19:34", "platform": 1},
+            {"id": 3, "arrival": "19:41", "departure": "19:42", "platform": 1},
+            {"id": 4, "arrival": "19:54", "departure": "19:55", "platform": 2},
+            {"id": 6, "arrival": "20:05", "departure": "20:06", "platform": 2},
+            {"id": 7, "arrival": "20:13", "departure": "20:18", "platform": 1},
+            {"id": 8, "arrival": "20:24", "departure": "20:25", "platform": 4},
+            {"id": 9, "arrival": "20:30", "departure": "20:31", "platform": 2},
+            {"id": 10, "arrival": "20:36", "departure": "20:37", "platform": 2},
+            {"id": 11, "arrival": "20:42", "departure": "20:43", "platform": 2},
+            {"id": 12, "arrival": "20:47", "departure": "20:48", "platform": 1},
+            {"id": 13, "arrival": "21:05", "departure": "21:06", "platform": 1},
+            {"id": 17, "arrival": "21:10", "departure": "21:11", "platform": 1},
+            {"id": 18, "departure": "21:14", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 2,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "06:20", "platform": 3},
+            {"id": 2, "arrival": "06:23", "departure": "06:24", "platform": 3},
+            {"id": 3, "arrival": "06:31", "departure": "06:32", "platform": 1},
+            {"id": 4, "arrival": "06:44", "departure": "06:45", "platform": 1},
+            {"id": 5, "arrival": "06:52", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 2,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "07:20", "platform": 3},
+            {"id": 2, "arrival": "07:23", "departure": "07:24", "platform": 3},
+            {"id": 3, "arrival": "07:31", "departure": "07:32", "platform": 1},
+            {"id": 4, "arrival": "07:44", "departure": "07:45", "platform": 1},
+            {"id": 5, "arrival": "07:52", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 2,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "16:20", "platform": 3},
+            {"id": 2, "arrival": "16:23", "departure": "16:24", "platform": 3},
+            {"id": 3, "arrival": "16:31", "departure": "16:32", "platform": 1},
+            {"id": 4, "arrival": "16:44", "departure": "16:45", "platform": 1},
+            {"id": 5, "arrival": "16:52", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 2,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "17:20", "platform": 3},
+            {"id": 2, "arrival": "17:23", "departure": "17:24", "platform": 3},
+            {"id": 3, "arrival": "17:31", "departure": "17:32", "platform": 1},
+            {"id": 4, "arrival": "17:44", "departure": "17:45", "platform": 1},
+            {"id": 5, "arrival": "17:52", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 2,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 5, "departure": "07:05", "platform": 1},
+            {"id": 4, "arrival": "07:11", "departure": "07:12", "platform": 1},
+            {"id": 3, "arrival": "07:25", "departure": "07:26", "platform": 2},
+            {"id": 2, "arrival": "07:33", "departure": "07:34", "platform": 4},
+            {"id": 1, "arrival": "07:37", "platform": 3}
+        ]
+    },
+    {
+        "lineId": 2,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 5, "departure": "08:05", "platform": 1},
+            {"id": 4, "arrival": "08:11", "departure": "08:12", "platform": 1},
+            {"id": 3, "arrival": "08:25", "departure": "08:26", "platform": 2},
+            {"id": 2, "arrival": "08:33", "departure": "08:34", "platform": 4},
+            {"id": 1, "arrival": "08:37", "platform": 3}
+        ]
+    },
+    {
+        "lineId": 2,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 5, "departure": "17:05", "platform": 1},
+            {"id": 4, "arrival": "17:11", "departure": "17:12", "platform": 1},
+            {"id": 3, "arrival": "17:25", "departure": "17:26", "platform": 2},
+            {"id": 2, "arrival": "17:33", "departure": "17:34", "platform": 4},
+            {"id": 1, "arrival": "17:37", "platform": 3}
+        ]
+    },
+    {
+        "lineId": 2,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 5, "departure": "18:05", "platform": 1},
+            {"id": 4, "arrival": "18:11", "departure": "18:12", "platform": 1},
+            {"id": 3, "arrival": "18:25", "departure": "18:26", "platform": 2},
+            {"id": 2, "arrival": "18:33", "departure": "18:34", "platform": 4},
+            {"id": 1, "arrival": "18:37", "platform": 3}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 1, "departure": "04:41", "platform": 2},
+            {"id": 2, "arrival": "04:43", "departure": "04:44", "platform": 1},
+            {"id": 3, "arrival": "04:50", "departure": "04:51", "platform": 1},
+            {"id": 4, "arrival": "05:00", "departure": "05:01", "platform": 2},
+            {"id": 6, "arrival": "05:09", "departure": "05:10", "platform": 2},
+            {"id": 9, "arrival": "05:22", "departure": "05:23", "platform": 2},
+            {"id": 12, "arrival": "05:32", "departure": "05:33", "platform": 1},
+            {"id": 13, "arrival": "05:47", "departure": "05:48", "platform": 1},
+            {"id": 17, "arrival": "05:52", "departure": "05:53", "platform": 1},
+            {"id": 18, "arrival": "05:56", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 1, "departure": "08:41", "platform": 2},
+            {"id": 2, "arrival": "08:43", "departure": "08:44", "platform": 1},
+            {"id": 3, "arrival": "08:50", "departure": "08:51", "platform": 1},
+            {"id": 4, "arrival": "09:00", "departure": "09:01", "platform": 2},
+            {"id": 6, "arrival": "09:09", "departure": "09:10", "platform": 2},
+            {"id": 9, "arrival": "09:22", "departure": "09:23", "platform": 2},
+            {"id": 12, "arrival": "09:32", "departure": "09:33", "platform": 1},
+            {"id": 13, "arrival": "09:47", "departure": "09:48", "platform": 1},
+            {"id": 17, "arrival": "09:52", "departure": "09:53", "platform": 1},
+            {"id": 18, "arrival": "09:56", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 1, "departure": "12:41", "platform": 2},
+            {"id": 2, "arrival": "12:43", "departure": "12:44", "platform": 1},
+            {"id": 3, "arrival": "12:50", "departure": "12:51", "platform": 1},
+            {"id": 4, "arrival": "13:00", "departure": "13:01", "platform": 2},
+            {"id": 6, "arrival": "13:09", "departure": "13:10", "platform": 2},
+            {"id": 9, "arrival": "13:22", "departure": "13:23", "platform": 2},
+            {"id": 12, "arrival": "13:32", "departure": "13:33", "platform": 1},
+            {"id": 13, "arrival": "13:47", "departure": "13:48", "platform": 1},
+            {"id": 17, "arrival": "13:52", "departure": "13:53", "platform": 1},
+            {"id": 18, "arrival": "13:56", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 1, "departure": "16:41", "platform": 2},
+            {"id": 2, "arrival": "16:43", "departure": "16:44", "platform": 1},
+            {"id": 3, "arrival": "16:50", "departure": "16:51", "platform": 1},
+            {"id": 4, "arrival": "17:00", "departure": "17:01", "platform": 2},
+            {"id": 6, "arrival": "17:09", "departure": "17:10", "platform": 2},
+            {"id": 9, "arrival": "17:22", "departure": "17:23", "platform": 2},
+            {"id": 12, "arrival": "17:32", "departure": "17:33", "platform": 1},
+            {"id": 13, "arrival": "17:47", "departure": "17:48", "platform": 1},
+            {"id": 17, "arrival": "17:52", "departure": "17:53", "platform": 1},
+            {"id": 18, "arrival": "17:56", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 1, "departure": "20:41", "platform": 2},
+            {"id": 2, "arrival": "20:43", "departure": "20:44", "platform": 1},
+            {"id": 3, "arrival": "20:50", "departure": "20:51", "platform": 1},
+            {"id": 4, "arrival": "21:00", "departure": "21:01", "platform": 2},
+            {"id": 6, "arrival": "21:09", "departure": "21:10", "platform": 2},
+            {"id": 9, "arrival": "21:22", "departure": "21:23", "platform": 2},
+            {"id": 12, "arrival": "21:32", "departure": "21:33", "platform": 1},
+            {"id": 13, "arrival": "21:47", "departure": "21:48", "platform": 1},
+            {"id": 17, "arrival": "21:52", "departure": "21:53", "platform": 1},
+            {"id": 18, "arrival": "21:56", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 18, "departure": "06:36", "platform": 1},
+            {"id": 17, "arrival": "06:39", "departure": "06:40", "platform": 2},
+            {"id": 13, "arrival": "06:44", "departure": "06:45", "platform": 2},
+            {"id": 12, "arrival": "06:58", "departure": "06:59", "platform": 3},
+            {"id": 9, "arrival": "07:09", "departure": "07:10", "platform": 1},
+            {"id": 6, "arrival": "07:21", "departure": "07:22", "platform": 1},
+            {"id": 4, "arrival": "07:30", "departure": "07:31", "platform": 3},
+            {"id": 3, "arrival": "07:40", "departure": "07:41", "platform": 2},
+            {"id": 2, "arrival": "07:47", "departure": "07:48", "platform": 2},
+            {"id": 1, "arrival": "07:51", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 18, "departure": "10:36", "platform": 1},
+            {"id": 17, "arrival": "10:39", "departure": "10:40", "platform": 2},
+            {"id": 13, "arrival": "10:44", "departure": "10:45", "platform": 2},
+            {"id": 12, "arrival": "10:58", "departure": "10:59", "platform": 3},
+            {"id": 9, "arrival": "11:09", "departure": "11:10", "platform": 1},
+            {"id": 6, "arrival": "11:21", "departure": "11:22", "platform": 1},
+            {"id": 4, "arrival": "11:30", "departure": "11:31", "platform": 3},
+            {"id": 3, "arrival": "11:40", "departure": "11:41", "platform": 2},
+            {"id": 2, "arrival": "11:47", "departure": "11:48", "platform": 2},
+            {"id": 1, "arrival": "11:51", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 18, "departure": "14:36", "platform": 1},
+            {"id": 17, "arrival": "14:39", "departure": "14:40", "platform": 2},
+            {"id": 13, "arrival": "14:44", "departure": "14:45", "platform": 2},
+            {"id": 12, "arrival": "14:58", "departure": "14:59", "platform": 3},
+            {"id": 9, "arrival": "15:09", "departure": "15:10", "platform": 1},
+            {"id": 6, "arrival": "15:21", "departure": "15:22", "platform": 1},
+            {"id": 4, "arrival": "15:30", "departure": "15:31", "platform": 3},
+            {"id": 3, "arrival": "15:40", "departure": "15:41", "platform": 2},
+            {"id": 2, "arrival": "15:47", "departure": "15:48", "platform": 2},
+            {"id": 1, "arrival": "15:51", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 18, "departure": "18:36", "platform": 1},
+            {"id": 17, "arrival": "18:39", "departure": "18:40", "platform": 2},
+            {"id": 13, "arrival": "18:44", "departure": "18:45", "platform": 2},
+            {"id": 12, "arrival": "18:58", "departure": "18:59", "platform": 3},
+            {"id": 9, "arrival": "19:09", "departure": "19:10", "platform": 1},
+            {"id": 6, "arrival": "19:21", "departure": "19:22", "platform": 1},
+            {"id": 4, "arrival": "19:30", "departure": "19:31", "platform": 3},
+            {"id": 3, "arrival": "19:40", "departure": "19:41", "platform": 2},
+            {"id": 2, "arrival": "19:47", "departure": "19:48", "platform": 2},
+            {"id": 1, "arrival": "19:51", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 18, "departure": "22:36", "platform": 1},
+            {"id": 17, "arrival": "22:39", "departure": "22:40", "platform": 2},
+            {"id": 13, "arrival": "22:44", "departure": "22:45", "platform": 2},
+            {"id": 12, "arrival": "22:58", "departure": "22:59", "platform": 3},
+            {"id": 9, "arrival": "23:09", "departure": "23:10", "platform": 1},
+            {"id": 6, "arrival": "23:21", "departure": "23:22", "platform": 1},
+            {"id": 4, "arrival": "23:30", "departure": "23:31", "platform": 3},
+            {"id": 3, "arrival": "23:40", "departure": "23:41", "platform": 2},
+            {"id": 2, "arrival": "23:47", "departure": "23:48", "platform": 2},
+            {"id": 1, "arrival": "23:51", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 1, "departure": "05:41", "platform": 2},
+            {"id": 2, "arrival": "05:43", "departure": "05:44", "platform": 1},
+            {"id": 3, "arrival": "05:50", "departure": "05:51", "platform": 1},
+            {"id": 4, "arrival": "06:00", "departure": "06:01", "platform": 2},
+            {"id": 6, "arrival": "06:09", "departure": "06:10", "platform": 2},
+            {"id": 9, "arrival": "06:22", "departure": "06:23", "platform": 2},
+            {"id": 12, "arrival": "06:32", "departure": "06:33", "platform": 1},
+            {"id": 13, "arrival": "06:47", "departure": "06:48", "platform": 3},
+            {"id": 14, "arrival": "06:51", "departure": "06:52", "platform": 1},
+            {"id": 15, "arrival": "06:55", "departure": "06:56", "platform": 1},
+            {"id": 16, "arrival": "06:58", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 1, "departure": "09:41", "platform": 2},
+            {"id": 2, "arrival": "09:43", "departure": "09:44", "platform": 1},
+            {"id": 3, "arrival": "09:50", "departure": "09:51", "platform": 1},
+            {"id": 4, "arrival": "10:00", "departure": "10:01", "platform": 2},
+            {"id": 6, "arrival": "10:09", "departure": "10:10", "platform": 2},
+            {"id": 9, "arrival": "10:22", "departure": "10:23", "platform": 2},
+            {"id": 12, "arrival": "10:32", "departure": "10:33", "platform": 1},
+            {"id": 13, "arrival": "10:47", "departure": "10:48", "platform": 3},
+            {"id": 14, "arrival": "10:51", "departure": "10:52", "platform": 1},
+            {"id": 15, "arrival": "10:55", "departure": "10:56", "platform": 1},
+            {"id": 16, "arrival": "10:58", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 1, "departure": "13:41", "platform": 2},
+            {"id": 2, "arrival": "13:43", "departure": "13:44", "platform": 1},
+            {"id": 3, "arrival": "13:50", "departure": "13:51", "platform": 1},
+            {"id": 4, "arrival": "14:00", "departure": "14:01", "platform": 2},
+            {"id": 6, "arrival": "14:09", "departure": "14:10", "platform": 2},
+            {"id": 9, "arrival": "14:22", "departure": "14:23", "platform": 2},
+            {"id": 12, "arrival": "14:32", "departure": "14:33", "platform": 1},
+            {"id": 13, "arrival": "14:47", "departure": "14:48", "platform": 3},
+            {"id": 14, "arrival": "14:51", "departure": "14:52", "platform": 1},
+            {"id": 15, "arrival": "14:55", "departure": "14:56", "platform": 1},
+            {"id": 16, "arrival": "14:58", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 1, "departure": "17:41", "platform": 2},
+            {"id": 2, "arrival": "17:43", "departure": "17:44", "platform": 1},
+            {"id": 3, "arrival": "17:50", "departure": "17:51", "platform": 1},
+            {"id": 4, "arrival": "18:00", "departure": "18:01", "platform": 2},
+            {"id": 6, "arrival": "18:09", "departure": "18:10", "platform": 2},
+            {"id": 9, "arrival": "18:22", "departure": "18:23", "platform": 2},
+            {"id": 12, "arrival": "18:32", "departure": "18:33", "platform": 1},
+            {"id": 13, "arrival": "18:47", "departure": "18:48", "platform": 3},
+            {"id": 14, "arrival": "18:51", "departure": "18:52", "platform": 1},
+            {"id": 15, "arrival": "18:55", "departure": "18:56", "platform": 1},
+            {"id": 16, "arrival": "18:58", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 1, "departure": "21:41", "platform": 2},
+            {"id": 2, "arrival": "21:43", "departure": "21:44", "platform": 1},
+            {"id": 3, "arrival": "21:50", "departure": "21:51", "platform": 1},
+            {"id": 4, "arrival": "22:00", "departure": "22:01", "platform": 2},
+            {"id": 6, "arrival": "22:09", "departure": "22:10", "platform": 2},
+            {"id": 9, "arrival": "22:22", "departure": "22:23", "platform": 2},
+            {"id": 12, "arrival": "22:32", "departure": "22:33", "platform": 1},
+            {"id": 13, "arrival": "22:47", "departure": "22:48", "platform": 3},
+            {"id": 14, "arrival": "22:51", "departure": "22:52", "platform": 1},
+            {"id": 15, "arrival": "22:55", "departure": "22:56", "platform": 1},
+            {"id": 16, "arrival": "22:58", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 16, "departure": "07:34", "platform": 1},
+            {"id": 15, "arrival": "07:36", "departure": "07:37", "platform": 2},
+            {"id": 14, "arrival": "07:40", "departure": "07:41", "platform": 2},
+            {"id": 13, "arrival": "07:44", "departure": "07:45", "platform": 4},
+            {"id": 12, "arrival": "07:58", "departure": "07:59", "platform": 3},
+            {"id": 9, "arrival": "08:09", "departure": "08:10", "platform": 1},
+            {"id": 6, "arrival": "08:21", "departure": "08:22", "platform": 1},
+            {"id": 4, "arrival": "08:30", "departure": "08:31", "platform": 3},
+            {"id": 3, "arrival": "08:40", "departure": "08:41", "platform": 2},
+            {"id": 2, "arrival": "08:47", "departure": "08:48", "platform": 2},
+            {"id": 1, "arrival": "08:51", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 16, "departure": "11:34", "platform": 1},
+            {"id": 15, "arrival": "11:36", "departure": "11:37", "platform": 2},
+            {"id": 14, "arrival": "11:40", "departure": "11:41", "platform": 2},
+            {"id": 13, "arrival": "11:44", "departure": "11:45", "platform": 4},
+            {"id": 12, "arrival": "11:58", "departure": "11:59", "platform": 3},
+            {"id": 9, "arrival": "12:09", "departure": "12:10", "platform": 1},
+            {"id": 6, "arrival": "12:21", "departure": "12:22", "platform": 1},
+            {"id": 4, "arrival": "12:30", "departure": "12:31", "platform": 3},
+            {"id": 3, "arrival": "12:40", "departure": "12:41", "platform": 2},
+            {"id": 2, "arrival": "12:47", "departure": "12:48", "platform": 2},
+            {"id": 1, "arrival": "12:51", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 16, "departure": "15:34", "platform": 1},
+            {"id": 15, "arrival": "15:36", "departure": "15:37", "platform": 2},
+            {"id": 14, "arrival": "15:40", "departure": "15:41", "platform": 2},
+            {"id": 13, "arrival": "15:44", "departure": "15:45", "platform": 4},
+            {"id": 12, "arrival": "15:58", "departure": "15:59", "platform": 3},
+            {"id": 9, "arrival": "16:09", "departure": "16:10", "platform": 1},
+            {"id": 6, "arrival": "16:21", "departure": "16:22", "platform": 1},
+            {"id": 4, "arrival": "16:30", "departure": "16:31", "platform": 3},
+            {"id": 3, "arrival": "16:40", "departure": "16:41", "platform": 2},
+            {"id": 2, "arrival": "16:47", "departure": "16:48", "platform": 2},
+            {"id": 1, "arrival": "16:51", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 16, "departure": "19:34", "platform": 1},
+            {"id": 15, "arrival": "19:36", "departure": "19:37", "platform": 2},
+            {"id": 14, "arrival": "19:40", "departure": "19:41", "platform": 2},
+            {"id": 13, "arrival": "19:44", "departure": "19:45", "platform": 4},
+            {"id": 12, "arrival": "19:58", "departure": "19:59", "platform": 3},
+            {"id": 9, "arrival": "20:09", "departure": "20:10", "platform": 1},
+            {"id": 6, "arrival": "20:21", "departure": "20:22", "platform": 1},
+            {"id": 4, "arrival": "20:30", "departure": "20:31", "platform": 3},
+            {"id": 3, "arrival": "20:40", "departure": "20:41", "platform": 2},
+            {"id": 2, "arrival": "20:47", "departure": "20:48", "platform": 2},
+            {"id": 1, "arrival": "20:51", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 16, "departure": "23:34", "platform": 1},
+            {"id": 15, "arrival": "23:36", "departure": "23:37", "platform": 2},
+            {"id": 14, "arrival": "23:40", "departure": "23:41", "platform": 2},
+            {"id": 13, "arrival": "23:44", "departure": "23:45", "platform": 4},
+            {"id": 12, "arrival": "23:58", "departure": "23:59", "platform": 3},
+            {"id": 9, "arrival": "00:09", "departure": "00:10", "platform": 1},
+            {"id": 6, "arrival": "00:21", "departure": "00:22", "platform": 1},
+            {"id": 4, "arrival": "00:30", "departure": "00:31", "platform": 3},
+            {"id": 3, "arrival": "00:40", "departure": "00:41", "platform": 2},
+            {"id": 2, "arrival": "00:47", "departure": "00:48", "platform": 2},
+            {"id": 1, "arrival": "00:51", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 16, "departure": "05:34", "platform": 1},
+            {"id": 15, "arrival": "05:36", "departure": "05:37", "platform": 2},
+            {"id": 14, "arrival": "05:40", "departure": "05:41", "platform": 2},
+            {"id": 13, "arrival": "05:44", "departure": "05:45", "platform": 4},
+            {"id": 12, "arrival": "05:58", "departure": "05:59", "platform": 3},
+            {"id": 9, "arrival": "06:09", "departure": "06:10", "platform": 1},
+            {"id": 6, "arrival": "06:21", "departure": "06:22", "platform": 1},
+            {"id": 4, "arrival": "06:30", "departure": "06:31", "platform": 3},
+            {"id": 3, "arrival": "06:40", "departure": "06:41", "platform": 2},
+            {"id": 2, "arrival": "06:47", "departure": "06:48", "platform": 2},
+            {"id": 1, "arrival": "06:51", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 16, "departure": "09:34", "platform": 1},
+            {"id": 15, "arrival": "09:36", "departure": "09:37", "platform": 2},
+            {"id": 14, "arrival": "09:40", "departure": "09:41", "platform": 2},
+            {"id": 13, "arrival": "09:44", "departure": "09:45", "platform": 4},
+            {"id": 12, "arrival": "09:58", "departure": "09:59", "platform": 3},
+            {"id": 9, "arrival": "10:09", "departure": "10:10", "platform": 1},
+            {"id": 6, "arrival": "10:21", "departure": "10:22", "platform": 1},
+            {"id": 4, "arrival": "10:30", "departure": "10:31", "platform": 3},
+            {"id": 3, "arrival": "10:40", "departure": "10:41", "platform": 2},
+            {"id": 2, "arrival": "10:47", "departure": "10:48", "platform": 2},
+            {"id": 1, "arrival": "10:51", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 16, "departure": "13:34", "platform": 1},
+            {"id": 15, "arrival": "13:36", "departure": "13:37", "platform": 2},
+            {"id": 14, "arrival": "13:40", "departure": "13:41", "platform": 2},
+            {"id": 13, "arrival": "13:44", "departure": "13:45", "platform": 4},
+            {"id": 12, "arrival": "13:58", "departure": "13:59", "platform": 3},
+            {"id": 9, "arrival": "14:09", "departure": "14:10", "platform": 1},
+            {"id": 6, "arrival": "14:21", "departure": "14:22", "platform": 1},
+            {"id": 4, "arrival": "14:30", "departure": "14:31", "platform": 3},
+            {"id": 3, "arrival": "14:40", "departure": "14:41", "platform": 2},
+            {"id": 2, "arrival": "14:47", "departure": "14:48", "platform": 2},
+            {"id": 1, "arrival": "14:51", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 16, "departure": "17:34", "platform": 1},
+            {"id": 15, "arrival": "17:36", "departure": "17:37", "platform": 2},
+            {"id": 14, "arrival": "17:40", "departure": "17:41", "platform": 2},
+            {"id": 13, "arrival": "17:44", "departure": "17:45", "platform": 4},
+            {"id": 12, "arrival": "17:58", "departure": "17:59", "platform": 3},
+            {"id": 9, "arrival": "18:09", "departure": "18:10", "platform": 1},
+            {"id": 6, "arrival": "18:21", "departure": "18:22", "platform": 1},
+            {"id": 4, "arrival": "18:30", "departure": "18:31", "platform": 3},
+            {"id": 3, "arrival": "18:40", "departure": "18:41", "platform": 2},
+            {"id": 2, "arrival": "18:47", "departure": "18:48", "platform": 2},
+            {"id": 1, "arrival": "18:51", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 16, "departure": "21:34", "platform": 1},
+            {"id": 15, "arrival": "21:36", "departure": "21:37", "platform": 2},
+            {"id": 14, "arrival": "21:40", "departure": "21:41", "platform": 2},
+            {"id": 13, "arrival": "21:44", "departure": "21:45", "platform": 4},
+            {"id": 12, "arrival": "21:58", "departure": "21:59", "platform": 3},
+            {"id": 9, "arrival": "22:09", "departure": "22:10", "platform": 1},
+            {"id": 6, "arrival": "22:21", "departure": "22:22", "platform": 1},
+            {"id": 4, "arrival": "22:30", "departure": "22:31", "platform": 3},
+            {"id": 3, "arrival": "22:40", "departure": "22:41", "platform": 2},
+            {"id": 2, "arrival": "22:47", "departure": "22:48", "platform": 2},
+            {"id": 1, "arrival": "22:51", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 1, "departure": "07:41", "platform": 2},
+            {"id": 2, "arrival": "07:43", "departure": "07:44", "platform": 1},
+            {"id": 3, "arrival": "07:50", "departure": "07:51", "platform": 1},
+            {"id": 4, "arrival": "08:00", "departure": "08:01", "platform": 2},
+            {"id": 6, "arrival": "08:09", "departure": "08:10", "platform": 2},
+            {"id": 9, "arrival": "08:22", "departure": "08:23", "platform": 2},
+            {"id": 12, "arrival": "08:32", "departure": "08:33", "platform": 1},
+            {"id": 13, "arrival": "08:47", "departure": "08:48", "platform": 3},
+            {"id": 14, "arrival": "08:51", "departure": "08:52", "platform": 1},
+            {"id": 15, "arrival": "08:55", "departure": "08:56", "platform": 1},
+            {"id": 16, "arrival": "08:58", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 1, "departure": "11:41", "platform": 2},
+            {"id": 2, "arrival": "11:43", "departure": "11:44", "platform": 1},
+            {"id": 3, "arrival": "11:50", "departure": "11:51", "platform": 1},
+            {"id": 4, "arrival": "12:00", "departure": "12:01", "platform": 2},
+            {"id": 6, "arrival": "12:09", "departure": "12:10", "platform": 2},
+            {"id": 9, "arrival": "12:22", "departure": "12:23", "platform": 2},
+            {"id": 12, "arrival": "12:32", "departure": "12:33", "platform": 1},
+            {"id": 13, "arrival": "12:47", "departure": "12:48", "platform": 3},
+            {"id": 14, "arrival": "12:51", "departure": "12:52", "platform": 1},
+            {"id": 15, "arrival": "12:55", "departure": "12:56", "platform": 1},
+            {"id": 16, "arrival": "12:58", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 1, "departure": "15:41", "platform": 2},
+            {"id": 2, "arrival": "15:43", "departure": "15:44", "platform": 1},
+            {"id": 3, "arrival": "15:50", "departure": "15:51", "platform": 1},
+            {"id": 4, "arrival": "16:00", "departure": "16:01", "platform": 2},
+            {"id": 6, "arrival": "16:09", "departure": "16:10", "platform": 2},
+            {"id": 9, "arrival": "16:22", "departure": "16:23", "platform": 2},
+            {"id": 12, "arrival": "16:32", "departure": "16:33", "platform": 1},
+            {"id": 13, "arrival": "16:47", "departure": "16:48", "platform": 3},
+            {"id": 14, "arrival": "16:51", "departure": "16:52", "platform": 1},
+            {"id": 15, "arrival": "16:55", "departure": "16:56", "platform": 1},
+            {"id": 16, "arrival": "16:58", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 1, "departure": "19:41", "platform": 2},
+            {"id": 2, "arrival": "19:43", "departure": "19:44", "platform": 1},
+            {"id": 3, "arrival": "19:50", "departure": "19:51", "platform": 1},
+            {"id": 4, "arrival": "20:00", "departure": "20:01", "platform": 2},
+            {"id": 6, "arrival": "20:09", "departure": "20:10", "platform": 2},
+            {"id": 9, "arrival": "20:22", "departure": "20:23", "platform": 2},
+            {"id": 12, "arrival": "20:32", "departure": "20:33", "platform": 1},
+            {"id": 13, "arrival": "20:47", "departure": "20:48", "platform": 3},
+            {"id": 14, "arrival": "20:51", "departure": "20:52", "platform": 1},
+            {"id": 15, "arrival": "20:55", "departure": "20:56", "platform": 1},
+            {"id": 16, "arrival": "20:58", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 1, "departure": "23:41", "platform": 2},
+            {"id": 2, "arrival": "23:43", "departure": "23:44", "platform": 1},
+            {"id": 3, "arrival": "23:50", "departure": "23:51", "platform": 1},
+            {"id": 4, "arrival": "00:00", "departure": "00:01", "platform": 2},
+            {"id": 6, "arrival": "00:09", "departure": "00:10", "platform": 2},
+            {"id": 9, "arrival": "00:22", "departure": "00:23", "platform": 2},
+            {"id": 12, "arrival": "00:32", "departure": "00:33", "platform": 1},
+            {"id": 13, "arrival": "00:47", "departure": "00:48", "platform": 3},
+            {"id": 14, "arrival": "00:51", "departure": "00:52", "platform": 1},
+            {"id": 15, "arrival": "00:55", "departure": "00:56", "platform": 1},
+            {"id": 16, "arrival": "00:58", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 1, "departure": "06:41", "platform": 2},
+            {"id": 2, "arrival": "06:43", "departure": "06:44", "platform": 1},
+            {"id": 3, "arrival": "06:50", "departure": "06:51", "platform": 1},
+            {"id": 4, "arrival": "07:00", "departure": "06:01", "platform": 2},
+            {"id": 6, "arrival": "07:09", "departure": "07:10", "platform": 2},
+            {"id": 9, "arrival": "07:22", "departure": "07:23", "platform": 2},
+            {"id": 12, "arrival": "07:32", "departure": "07:33", "platform": 1},
+            {"id": 13, "arrival": "07:47", "departure": "07:48", "platform": 1},
+            {"id": 17, "arrival": "07:52", "departure": "07:53", "platform": 1},
+            {"id": 18, "arrival": "07:56", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 1, "departure": "10:41", "platform": 2},
+            {"id": 2, "arrival": "10:43", "departure": "10:44", "platform": 1},
+            {"id": 3, "arrival": "10:50", "departure": "10:51", "platform": 1},
+            {"id": 4, "arrival": "11:00", "departure": "11:01", "platform": 2},
+            {"id": 6, "arrival": "11:09", "departure": "11:10", "platform": 2},
+            {"id": 9, "arrival": "11:22", "departure": "11:23", "platform": 2},
+            {"id": 12, "arrival": "11:32", "departure": "11:33", "platform": 1},
+            {"id": 13, "arrival": "11:47", "departure": "11:48", "platform": 1},
+            {"id": 17, "arrival": "11:52", "departure": "11:53", "platform": 1},
+            {"id": 18, "arrival": "11:56", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 1, "departure": "14:41", "platform": 2},
+            {"id": 2, "arrival": "14:43", "departure": "14:44", "platform": 1},
+            {"id": 3, "arrival": "14:50", "departure": "14:51", "platform": 1},
+            {"id": 4, "arrival": "15:00", "departure": "15:01", "platform": 2},
+            {"id": 6, "arrival": "15:09", "departure": "15:10", "platform": 2},
+            {"id": 9, "arrival": "15:22", "departure": "15:23", "platform": 2},
+            {"id": 12, "arrival": "15:32", "departure": "15:33", "platform": 1},
+            {"id": 13, "arrival": "15:47", "departure": "15:48", "platform": 1},
+            {"id": 17, "arrival": "15:52", "departure": "15:53", "platform": 1},
+            {"id": 18, "arrival": "15:56", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 1, "departure": "18:41", "platform": 2},
+            {"id": 2, "arrival": "18:43", "departure": "18:44", "platform": 1},
+            {"id": 3, "arrival": "18:50", "departure": "18:51", "platform": 1},
+            {"id": 4, "arrival": "19:00", "departure": "19:01", "platform": 2},
+            {"id": 6, "arrival": "19:09", "departure": "19:10", "platform": 2},
+            {"id": 9, "arrival": "19:22", "departure": "19:23", "platform": 2},
+            {"id": 12, "arrival": "19:32", "departure": "19:33", "platform": 1},
+            {"id": 13, "arrival": "19:47", "departure": "19:48", "platform": 1},
+            {"id": 17, "arrival": "19:52", "departure": "19:53", "platform": 1},
+            {"id": 18, "arrival": "19:56", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 1, "departure": "22:41", "platform": 2},
+            {"id": 2, "arrival": "22:43", "departure": "22:44", "platform": 1},
+            {"id": 3, "arrival": "22:50", "departure": "22:51", "platform": 1},
+            {"id": 4, "arrival": "23:00", "departure": "23:01", "platform": 2},
+            {"id": 6, "arrival": "23:09", "departure": "23:10", "platform": 2},
+            {"id": 9, "arrival": "23:22", "departure": "23:23", "platform": 2},
+            {"id": 12, "arrival": "23:32", "departure": "23:33", "platform": 1},
+            {"id": 13, "arrival": "23:47", "departure": "23:48", "platform": 1},
+            {"id": 17, "arrival": "23:52", "departure": "23:53", "platform": 1},
+            {"id": 18, "arrival": "23:56", "platform": 1}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 18, "departure": "04:36", "platform": 1},
+            {"id": 17, "arrival": "04:39", "departure": "04:40", "platform": 2},
+            {"id": 13, "arrival": "04:44", "departure": "04:45", "platform": 2},
+            {"id": 12, "arrival": "04:58", "departure": "04:59", "platform": 3},
+            {"id": 9, "arrival": "05:09", "departure": "05:10", "platform": 1},
+            {"id": 6, "arrival": "05:21", "departure": "05:22", "platform": 1},
+            {"id": 4, "arrival": "05:30", "departure": "05:31", "platform": 3},
+            {"id": 3, "arrival": "05:40", "departure": "05:41", "platform": 2},
+            {"id": 2, "arrival": "05:47", "departure": "05:48", "platform": 2},
+            {"id": 1, "arrival": "05:51", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 18, "departure": "08:36", "platform": 1},
+            {"id": 17, "arrival": "08:39", "departure": "08:40", "platform": 2},
+            {"id": 13, "arrival": "08:44", "departure": "08:45", "platform": 2},
+            {"id": 12, "arrival": "08:58", "departure": "08:59", "platform": 3},
+            {"id": 9, "arrival": "09:09", "departure": "09:10", "platform": 1},
+            {"id": 6, "arrival": "09:21", "departure": "09:22", "platform": 1},
+            {"id": 4, "arrival": "09:30", "departure": "09:31", "platform": 3},
+            {"id": 3, "arrival": "09:40", "departure": "09:41", "platform": 2},
+            {"id": 2, "arrival": "09:47", "departure": "09:48", "platform": 2},
+            {"id": 1, "arrival": "09:51", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 18, "departure": "12:36", "platform": 1},
+            {"id": 17, "arrival": "12:39", "departure": "12:40", "platform": 2},
+            {"id": 13, "arrival": "12:44", "departure": "12:45", "platform": 2},
+            {"id": 12, "arrival": "12:58", "departure": "12:59", "platform": 3},
+            {"id": 9, "arrival": "13:09", "departure": "13:10", "platform": 1},
+            {"id": 6, "arrival": "13:21", "departure": "13:22", "platform": 1},
+            {"id": 4, "arrival": "13:30", "departure": "13:31", "platform": 3},
+            {"id": 3, "arrival": "13:40", "departure": "13:41", "platform": 2},
+            {"id": 2, "arrival": "13:47", "departure": "13:48", "platform": 2},
+            {"id": 1, "arrival": "13:51", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 18, "departure": "16:36", "platform": 1},
+            {"id": 17, "arrival": "16:39", "departure": "16:40", "platform": 2},
+            {"id": 13, "arrival": "16:44", "departure": "16:45", "platform": 2},
+            {"id": 12, "arrival": "16:58", "departure": "16:59", "platform": 3},
+            {"id": 9, "arrival": "17:09", "departure": "17:10", "platform": 1},
+            {"id": 6, "arrival": "17:21", "departure": "17:22", "platform": 1},
+            {"id": 4, "arrival": "17:30", "departure": "17:31", "platform": 3},
+            {"id": 3, "arrival": "17:40", "departure": "17:41", "platform": 2},
+            {"id": 2, "arrival": "17:47", "departure": "17:48", "platform": 2},
+            {"id": 1, "arrival": "17:51", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 1,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Limited Express",
+        "stops": [
+            {"id": 18, "departure": "20:36", "platform": 1},
+            {"id": 17, "arrival": "20:39", "departure": "20:40", "platform": 2},
+            {"id": 13, "arrival": "20:44", "departure": "20:45", "platform": 2},
+            {"id": 12, "arrival": "20:58", "departure": "20:59", "platform": 3},
+            {"id": 9, "arrival": "21:09", "departure": "21:10", "platform": 1},
+            {"id": 6, "arrival": "21:21", "departure": "21:22", "platform": 1},
+            {"id": 4, "arrival": "21:30", "departure": "21:31", "platform": 3},
+            {"id": 3, "arrival": "21:40", "departure": "21:41", "platform": 2},
+            {"id": 2, "arrival": "21:47", "departure": "21:48", "platform": 2},
+            {"id": 1, "arrival": "21:51", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 3,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "05:03", "platform": 4},
+            {"id": 2, "arrival": "05:06", "departure": "05:07", "platform": 3},
+            {"id": 19, "arrival": "05:17", "departure": "05:18", "platform": 2},
+            {"id": 20, "arrival": "05:30", "departure": "05:31", "platform": 2},
+            {"id": 21, "arrival": "05:40", "departure": "05:41", "platform": 2},
+            {"id": 22, "arrival": "05:50", "departure": "05:51", "platform": 2},
+            {"id": 23, "arrival": "05:58", "departure": "05:59", "platform": 2},
+            {"id": 24, "arrival": "06:05", "departure": "06:06", "platform": 2},
+            {"id": 25, "arrival": "06:14", "departure": "06:15", "platform": 1},
+            {"id": 26, "arrival": "06:19", "departure": "06:20", "platform": 1},
+            {"id": 12, "arrival": "06:25", "platform": 4}
+        ]
+    },
+    {
+        "lineId": 3,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "09:03", "platform": 4},
+            {"id": 2, "arrival": "09:06", "departure": "09:07", "platform": 3},
+            {"id": 19, "arrival": "09:17", "departure": "09:18", "platform": 2},
+            {"id": 20, "arrival": "09:30", "departure": "09:31", "platform": 2},
+            {"id": 21, "arrival": "09:40", "departure": "09:41", "platform": 2},
+            {"id": 22, "arrival": "09:50", "departure": "09:51", "platform": 2},
+            {"id": 23, "arrival": "09:58", "departure": "09:59", "platform": 2},
+            {"id": 24, "arrival": "10:05", "departure": "10:06", "platform": 2},
+            {"id": 25, "arrival": "10:14", "departure": "10:15", "platform": 1},
+            {"id": 26, "arrival": "10:19", "departure": "10:20", "platform": 1},
+            {"id": 12, "arrival": "10:25", "platform": 4}
+        ]
+    },
+    {
+        "lineId": 3,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "13:03", "platform": 4},
+            {"id": 2, "arrival": "13:06", "departure": "13:07", "platform": 3},
+            {"id": 19, "arrival": "13:17", "departure": "13:18", "platform": 2},
+            {"id": 20, "arrival": "13:30", "departure": "13:31", "platform": 2},
+            {"id": 21, "arrival": "13:40", "departure": "13:41", "platform": 2},
+            {"id": 22, "arrival": "13:50", "departure": "13:51", "platform": 2},
+            {"id": 23, "arrival": "13:58", "departure": "13:59", "platform": 2},
+            {"id": 24, "arrival": "14:05", "departure": "14:06", "platform": 2},
+            {"id": 25, "arrival": "14:14", "departure": "14:15", "platform": 1},
+            {"id": 26, "arrival": "14:19", "departure": "14:20", "platform": 1},
+            {"id": 12, "arrival": "14:25", "platform": 4}
+        ]
+    },
+    {
+        "lineId": 3,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "17:03", "platform": 4},
+            {"id": 2, "arrival": "17:06", "departure": "17:07", "platform": 3},
+            {"id": 19, "arrival": "17:17", "departure": "17:18", "platform": 2},
+            {"id": 20, "arrival": "17:30", "departure": "17:31", "platform": 2},
+            {"id": 21, "arrival": "17:40", "departure": "17:41", "platform": 2},
+            {"id": 22, "arrival": "17:50", "departure": "17:51", "platform": 2},
+            {"id": 23, "arrival": "17:58", "departure": "17:59", "platform": 2},
+            {"id": 24, "arrival": "18:05", "departure": "18:06", "platform": 2},
+            {"id": 25, "arrival": "18:14", "departure": "18:15", "platform": 1},
+            {"id": 26, "arrival": "18:19", "departure": "18:20", "platform": 1},
+            {"id": 12, "arrival": "18:25", "platform": 4}
+        ]
+    },
+    {
+        "lineId": 3,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "07:00", "platform": 4},
+            {"id": 26, "arrival": "07:05", "departure": "07:06", "platform": 2},
+            {"id": 25, "arrival": "07:10", "departure": "07:11", "platform": 2},
+            {"id": 24, "arrival": "07:19", "departure": "07:20", "platform": 1},
+            {"id": 23, "arrival": "07:26", "departure": "07:27", "platform": 1},
+            {"id": 22, "arrival": "07:34", "departure": "07:35", "platform": 1},
+            {"id": 21, "arrival": "07:44", "departure": "07:45", "platform": 1},
+            {"id": 20, "arrival": "07:54", "departure": "07:55", "platform": 1},
+            {"id": 19, "arrival": "08:07", "departure": "08:08", "platform": 1},
+            {"id": 2, "arrival": "08:18", "departure": "08:19", "platform": 1},
+            {"id": 1, "arrival": "08:22", "platform": 4}
+        ]
+    },
+    {
+        "lineId": 3,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "11:00", "platform": 4},
+            {"id": 26, "arrival": "11:05", "departure": "11:06", "platform": 2},
+            {"id": 25, "arrival": "11:10", "departure": "11:11", "platform": 2},
+            {"id": 24, "arrival": "11:19", "departure": "11:20", "platform": 1},
+            {"id": 23, "arrival": "11:26", "departure": "11:27", "platform": 1},
+            {"id": 22, "arrival": "11:34", "departure": "11:35", "platform": 1},
+            {"id": 21, "arrival": "11:44", "departure": "11:45", "platform": 1},
+            {"id": 20, "arrival": "11:54", "departure": "11:55", "platform": 1},
+            {"id": 19, "arrival": "12:07", "departure": "12:08", "platform": 1},
+            {"id": 2, "arrival": "12:18", "departure": "12:19", "platform": 1},
+            {"id": 1, "arrival": "12:22", "platform": 4}
+        ]
+    },
+    {
+        "lineId": 3,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "15:00", "platform": 4},
+            {"id": 26, "arrival": "15:05", "departure": "15:06", "platform": 2},
+            {"id": 25, "arrival": "15:10", "departure": "15:11", "platform": 2},
+            {"id": 24, "arrival": "15:19", "departure": "15:20", "platform": 1},
+            {"id": 23, "arrival": "15:26", "departure": "15:27", "platform": 1},
+            {"id": 22, "arrival": "15:34", "departure": "15:35", "platform": 1},
+            {"id": 21, "arrival": "15:44", "departure": "15:45", "platform": 1},
+            {"id": 20, "arrival": "15:54", "departure": "15:55", "platform": 1},
+            {"id": 19, "arrival": "16:07", "departure": "16:08", "platform": 1},
+            {"id": 2, "arrival": "16:18", "departure": "16:19", "platform": 1},
+            {"id": 1, "arrival": "16:22", "platform": 4}
+        ]
+    },
+    {
+        "lineId": 3,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "19:00", "platform": 4},
+            {"id": 26, "arrival": "19:05", "departure": "19:06", "platform": 2},
+            {"id": 25, "arrival": "19:10", "departure": "19:11", "platform": 2},
+            {"id": 24, "arrival": "19:19", "departure": "19:20", "platform": 1},
+            {"id": 23, "arrival": "19:26", "departure": "19:27", "platform": 1},
+            {"id": 22, "arrival": "19:34", "departure": "19:35", "platform": 1},
+            {"id": 21, "arrival": "19:44", "departure": "19:45", "platform": 1},
+            {"id": 20, "arrival": "19:54", "departure": "19:55", "platform": 1},
+            {"id": 19, "arrival": "20:07", "departure": "20:08", "platform": 1},
+            {"id": 2, "arrival": "20:18", "departure": "20:19", "platform": 1},
+            {"id": 1, "arrival": "20:22", "platform": 4}
+        ]
+    },
+    {
+        "lineId": 3,
+        "days": [1,2,3,4,5],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "07:03", "platform": 4},
+            {"id": 2, "arrival": "07:06", "departure": "07:07", "platform": 3},
+            {"id": 19, "arrival": "07:17", "departure": "07:18", "platform": 2},
+            {"id": 20, "arrival": "07:30", "departure": "07:31", "platform": 2},
+            {"id": 21, "arrival": "07:40", "departure": "07:41", "platform": 2},
+            {"id": 22, "arrival": "07:50", "departure": "07:51", "platform": 2},
+            {"id": 23, "arrival": "07:58", "departure": "07:59", "platform": 2},
+            {"id": 24, "arrival": "08:05", "departure": "08:06", "platform": 2},
+            {"id": 25, "arrival": "08:14", "departure": "08:15", "platform": 1},
+            {"id": 26, "arrival": "08:19", "departure": "08:20", "platform": 1},
+            {"id": 12, "arrival": "08:25", "platform": 4}
+        ]
+    },
+    {
+        "lineId": 3,
+        "days": [1,2,3,4,5],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "11:03", "platform": 4},
+            {"id": 2, "arrival": "11:06", "departure": "11:07", "platform": 3},
+            {"id": 19, "arrival": "11:17", "departure": "11:18", "platform": 2},
+            {"id": 20, "arrival": "11:30", "departure": "11:31", "platform": 2},
+            {"id": 21, "arrival": "11:40", "departure": "11:41", "platform": 2},
+            {"id": 22, "arrival": "11:50", "departure": "11:51", "platform": 2},
+            {"id": 23, "arrival": "11:58", "departure": "11:59", "platform": 2},
+            {"id": 24, "arrival": "12:05", "departure": "12:06", "platform": 2},
+            {"id": 25, "arrival": "12:14", "departure": "12:15", "platform": 1},
+            {"id": 26, "arrival": "12:19", "departure": "12:20", "platform": 1},
+            {"id": 12, "arrival": "12:25", "platform": 4}
+        ]
+    },
+    {
+        "lineId": 3,
+        "days": [1,2,3,4,5],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "15:03", "platform": 4},
+            {"id": 2, "arrival": "15:06", "departure": "15:07", "platform": 3},
+            {"id": 19, "arrival": "15:17", "departure": "15:18", "platform": 2},
+            {"id": 20, "arrival": "15:30", "departure": "15:31", "platform": 2},
+            {"id": 21, "arrival": "15:40", "departure": "15:41", "platform": 2},
+            {"id": 22, "arrival": "15:50", "departure": "15:51", "platform": 2},
+            {"id": 23, "arrival": "15:58", "departure": "15:59", "platform": 2},
+            {"id": 24, "arrival": "16:05", "departure": "16:06", "platform": 2},
+            {"id": 25, "arrival": "16:14", "departure": "16:15", "platform": 1},
+            {"id": 26, "arrival": "16:19", "departure": "16:20", "platform": 1},
+            {"id": 12, "arrival": "16:25", "platform": 4}
+        ]
+    },
+    {
+        "lineId": 3,
+        "days": [1,2,3,4,5],
+        "type": "Local",
+        "stops": [
+            {"id": 1, "departure": "19:03", "platform": 4},
+            {"id": 2, "arrival": "19:06", "departure": "19:07", "platform": 3},
+            {"id": 19, "arrival": "19:17", "departure": "19:18", "platform": 2},
+            {"id": 20, "arrival": "19:30", "departure": "19:31", "platform": 2},
+            {"id": 21, "arrival": "19:40", "departure": "19:41", "platform": 2},
+            {"id": 22, "arrival": "19:50", "departure": "19:51", "platform": 2},
+            {"id": 23, "arrival": "19:58", "departure": "19:59", "platform": 2},
+            {"id": 24, "arrival": "20:05", "departure": "20:06", "platform": 2},
+            {"id": 25, "arrival": "20:14", "departure": "20:15", "platform": 1},
+            {"id": 26, "arrival": "20:19", "departure": "20:20", "platform": 1},
+            {"id": 12, "arrival": "20:25", "platform": 4}
+        ]
+    },
+    {
+        "lineId": 3,
+        "days": [1,2,3,4,5],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "09:00", "platform": 4},
+            {"id": 26, "arrival": "09:05", "departure": "09:06", "platform": 2},
+            {"id": 25, "arrival": "09:10", "departure": "09:11", "platform": 2},
+            {"id": 24, "arrival": "09:19", "departure": "09:20", "platform": 1},
+            {"id": 23, "arrival": "09:26", "departure": "09:27", "platform": 1},
+            {"id": 22, "arrival": "09:34", "departure": "09:35", "platform": 1},
+            {"id": 21, "arrival": "09:44", "departure": "09:45", "platform": 1},
+            {"id": 20, "arrival": "09:54", "departure": "09:55", "platform": 1},
+            {"id": 19, "arrival": "10:07", "departure": "10:08", "platform": 1},
+            {"id": 2, "arrival": "10:18", "departure": "10:19", "platform": 1},
+            {"id": 1, "arrival": "10:22", "platform": 4}
+        ]
+    },
+    {
+        "lineId": 3,
+        "days": [1,2,3,4,5],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "13:00", "platform": 4},
+            {"id": 26, "arrival": "13:05", "departure": "13:06", "platform": 2},
+            {"id": 25, "arrival": "13:10", "departure": "13:11", "platform": 2},
+            {"id": 24, "arrival": "13:19", "departure": "13:20", "platform": 1},
+            {"id": 23, "arrival": "13:26", "departure": "13:27", "platform": 1},
+            {"id": 22, "arrival": "13:34", "departure": "13:35", "platform": 1},
+            {"id": 21, "arrival": "13:44", "departure": "13:45", "platform": 1},
+            {"id": 20, "arrival": "13:54", "departure": "13:55", "platform": 1},
+            {"id": 19, "arrival": "14:07", "departure": "14:08", "platform": 1},
+            {"id": 2, "arrival": "14:18", "departure": "14:19", "platform": 1},
+            {"id": 1, "arrival": "14:22", "platform": 4}
+        ]
+    },
+    {
+        "lineId": 3,
+        "days": [1,2,3,4,5],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "17:00", "platform": 4},
+            {"id": 26, "arrival": "17:05", "departure": "17:06", "platform": 2},
+            {"id": 25, "arrival": "17:10", "departure": "17:11", "platform": 2},
+            {"id": 24, "arrival": "17:19", "departure": "17:20", "platform": 1},
+            {"id": 23, "arrival": "17:26", "departure": "17:27", "platform": 1},
+            {"id": 22, "arrival": "17:34", "departure": "17:35", "platform": 1},
+            {"id": 21, "arrival": "17:44", "departure": "17:45", "platform": 1},
+            {"id": 20, "arrival": "17:54", "departure": "17:55", "platform": 1},
+            {"id": 19, "arrival": "18:07", "departure": "18:08", "platform": 1},
+            {"id": 2, "arrival": "18:18", "departure": "18:19", "platform": 1},
+            {"id": 1, "arrival": "18:22", "platform": 4}
+        ]
+    },
+    {
+        "lineId": 3,
+        "days": [1,2,3,4,5],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "21:00", "platform": 4},
+            {"id": 26, "arrival": "21:05", "departure": "21:06", "platform": 2},
+            {"id": 25, "arrival": "21:10", "departure": "21:11", "platform": 2},
+            {"id": 24, "arrival": "21:19", "departure": "21:20", "platform": 1},
+            {"id": 23, "arrival": "21:26", "departure": "21:27", "platform": 1},
+            {"id": 22, "arrival": "21:34", "departure": "21:35", "platform": 1},
+            {"id": 21, "arrival": "21:44", "departure": "21:45", "platform": 1},
+            {"id": 20, "arrival": "21:54", "departure": "21:55", "platform": 1},
+            {"id": 19, "arrival": "22:07", "departure": "22:08", "platform": 1},
+            {"id": 2, "arrival": "22:18", "departure": "22:19", "platform": 1},
+            {"id": 1, "arrival": "22:22", "platform": 4}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "05:35", "platform": 5},
+            {"id": 26, "arrival": "05:40", "departure": "05:41", "platform": 2},
+            {"id": 25, "arrival": "05:45", "departure": "05:46", "platform": 2},
+            {"id": 27, "arrival": "06:04", "departure": "06:05", "platform": 4},
+            {"id": 28, "arrival": "06:11", "departure": "06:12", "platform": 2},
+            {"id": 29, "arrival": "06:22", "departure": "06:23", "platform": 2},
+            {"id": 30, "arrival": "06:33", "departure": "06:34", "platform": 2},
+            {"id": 31, "arrival": "06:39", "departure": "06:40", "platform": 2},
+            {"id": 32, "arrival": "06:52", "departure": "06:53", "platform": 2},
+            {"id": 33, "arrival": "07:07", "departure": "07:08", "platform": 2},
+            {"id": 34, "arrival": "07:19", "departure": "07:20", "platform": 2},
+            {"id": 35, "arrival": "07:35", "departure": "07:36", "platform": 2},
+            {"id": 36, "arrival": "07:58", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "06:35", "platform": 5},
+            {"id": 26, "arrival": "06:40", "departure": "06:41", "platform": 2},
+            {"id": 25, "arrival": "06:45", "departure": "06:46", "platform": 2},
+            {"id": 27, "arrival": "07:04", "departure": "07:05", "platform": 4},
+            {"id": 28, "arrival": "07:11", "departure": "07:12", "platform": 2},
+            {"id": 29, "arrival": "07:22", "departure": "07:23", "platform": 2},
+            {"id": 30, "arrival": "07:33", "departure": "07:34", "platform": 2},
+            {"id": 31, "arrival": "07:39", "departure": "07:40", "platform": 2},
+            {"id": 32, "arrival": "07:52", "departure": "07:53", "platform": 2},
+            {"id": 33, "arrival": "08:07", "departure": "08:08", "platform": 2},
+            {"id": 34, "arrival": "08:19", "departure": "08:20", "platform": 2},
+            {"id": 35, "arrival": "08:35", "departure": "08:36", "platform": 2},
+            {"id": 36, "arrival": "08:58", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "07:35", "platform": 5},
+            {"id": 26, "arrival": "07:40", "departure": "07:41", "platform": 2},
+            {"id": 25, "arrival": "07:45", "departure": "07:46", "platform": 2},
+            {"id": 27, "arrival": "08:04", "departure": "08:05", "platform": 4},
+            {"id": 28, "arrival": "08:11", "departure": "08:12", "platform": 2},
+            {"id": 29, "arrival": "08:22", "departure": "08:23", "platform": 2},
+            {"id": 30, "arrival": "08:33", "departure": "08:34", "platform": 2},
+            {"id": 31, "arrival": "08:39", "departure": "08:40", "platform": 2},
+            {"id": 32, "arrival": "08:52", "departure": "08:53", "platform": 2},
+            {"id": 33, "arrival": "09:07", "departure": "09:08", "platform": 2},
+            {"id": 34, "arrival": "09:19", "departure": "09:20", "platform": 2},
+            {"id": 35, "arrival": "09:35", "departure": "09:36", "platform": 2},
+            {"id": 36, "arrival": "09:58", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "08:35", "platform": 5},
+            {"id": 26, "arrival": "08:40", "departure": "08:41", "platform": 2},
+            {"id": 25, "arrival": "08:45", "departure": "08:46", "platform": 2},
+            {"id": 27, "arrival": "09:04", "departure": "09:05", "platform": 4},
+            {"id": 28, "arrival": "09:11", "departure": "09:12", "platform": 2},
+            {"id": 29, "arrival": "09:22", "departure": "09:23", "platform": 2},
+            {"id": 30, "arrival": "09:33", "departure": "09:34", "platform": 2},
+            {"id": 31, "arrival": "09:39", "departure": "09:40", "platform": 2},
+            {"id": 32, "arrival": "09:52", "departure": "09:53", "platform": 2},
+            {"id": 33, "arrival": "10:07", "departure": "10:08", "platform": 2},
+            {"id": 34, "arrival": "10:19", "departure": "10:20", "platform": 2},
+            {"id": 35, "arrival": "10:35", "departure": "10:36", "platform": 2},
+            {"id": 36, "arrival": "10:58", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "09:35", "platform": 5},
+            {"id": 26, "arrival": "09:40", "departure": "09:41", "platform": 2},
+            {"id": 25, "arrival": "09:45", "departure": "09:46", "platform": 2},
+            {"id": 27, "arrival": "10:04", "departure": "10:05", "platform": 4},
+            {"id": 28, "arrival": "10:11", "departure": "10:12", "platform": 2},
+            {"id": 29, "arrival": "10:22", "departure": "10:23", "platform": 2},
+            {"id": 30, "arrival": "10:33", "departure": "10:34", "platform": 2},
+            {"id": 31, "arrival": "10:39", "departure": "10:40", "platform": 2},
+            {"id": 32, "arrival": "10:52", "departure": "10:53", "platform": 2},
+            {"id": 33, "arrival": "11:07", "departure": "11:08", "platform": 2},
+            {"id": 34, "arrival": "11:19", "departure": "11:20", "platform": 2},
+            {"id": 35, "arrival": "11:35", "departure": "11:36", "platform": 2},
+            {"id": 36, "arrival": "11:58", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "10:35", "platform": 5},
+            {"id": 26, "arrival": "10:40", "departure": "10:41", "platform": 2},
+            {"id": 25, "arrival": "10:45", "departure": "10:46", "platform": 2},
+            {"id": 27, "arrival": "11:04", "departure": "11:05", "platform": 4},
+            {"id": 28, "arrival": "11:11", "departure": "11:12", "platform": 2},
+            {"id": 29, "arrival": "11:22", "departure": "11:23", "platform": 2},
+            {"id": 30, "arrival": "11:33", "departure": "11:34", "platform": 2},
+            {"id": 31, "arrival": "11:39", "departure": "11:40", "platform": 2},
+            {"id": 32, "arrival": "11:52", "departure": "11:53", "platform": 2},
+            {"id": 33, "arrival": "12:07", "departure": "12:08", "platform": 2},
+            {"id": 34, "arrival": "12:19", "departure": "12:20", "platform": 2},
+            {"id": 35, "arrival": "12:35", "departure": "12:36", "platform": 2},
+            {"id": 36, "arrival": "12:58", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "11:35", "platform": 5},
+            {"id": 26, "arrival": "11:40", "departure": "11:41", "platform": 2},
+            {"id": 25, "arrival": "11:45", "departure": "11:46", "platform": 2},
+            {"id": 27, "arrival": "12:04", "departure": "12:05", "platform": 4},
+            {"id": 28, "arrival": "12:11", "departure": "12:12", "platform": 2},
+            {"id": 29, "arrival": "12:22", "departure": "12:23", "platform": 2},
+            {"id": 30, "arrival": "12:33", "departure": "12:34", "platform": 2},
+            {"id": 31, "arrival": "12:39", "departure": "12:40", "platform": 2},
+            {"id": 32, "arrival": "12:52", "departure": "12:53", "platform": 2},
+            {"id": 33, "arrival": "13:07", "departure": "13:08", "platform": 2},
+            {"id": 34, "arrival": "13:19", "departure": "13:20", "platform": 2},
+            {"id": 35, "arrival": "13:35", "departure": "13:36", "platform": 2},
+            {"id": 36, "arrival": "13:58", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "12:35", "platform": 5},
+            {"id": 26, "arrival": "12:40", "departure": "12:41", "platform": 2},
+            {"id": 25, "arrival": "12:45", "departure": "12:46", "platform": 2},
+            {"id": 27, "arrival": "13:04", "departure": "13:05", "platform": 4},
+            {"id": 28, "arrival": "13:11", "departure": "13:12", "platform": 2},
+            {"id": 29, "arrival": "13:22", "departure": "13:23", "platform": 2},
+            {"id": 30, "arrival": "13:33", "departure": "13:34", "platform": 2},
+            {"id": 31, "arrival": "13:39", "departure": "13:40", "platform": 2},
+            {"id": 32, "arrival": "13:52", "departure": "13:53", "platform": 2},
+            {"id": 33, "arrival": "14:07", "departure": "14:08", "platform": 2},
+            {"id": 34, "arrival": "14:19", "departure": "14:20", "platform": 2},
+            {"id": 35, "arrival": "14:35", "departure": "14:36", "platform": 2},
+            {"id": 36, "arrival": "14:58", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "13:35", "platform": 5},
+            {"id": 26, "arrival": "13:40", "departure": "13:41", "platform": 2},
+            {"id": 25, "arrival": "13:45", "departure": "13:46", "platform": 2},
+            {"id": 27, "arrival": "14:04", "departure": "14:05", "platform": 4},
+            {"id": 28, "arrival": "14:11", "departure": "14:12", "platform": 2},
+            {"id": 29, "arrival": "14:22", "departure": "14:23", "platform": 2},
+            {"id": 30, "arrival": "14:33", "departure": "14:34", "platform": 2},
+            {"id": 31, "arrival": "14:39", "departure": "14:40", "platform": 2},
+            {"id": 32, "arrival": "14:52", "departure": "14:53", "platform": 2},
+            {"id": 33, "arrival": "15:07", "departure": "15:08", "platform": 2},
+            {"id": 34, "arrival": "15:19", "departure": "15:20", "platform": 2},
+            {"id": 35, "arrival": "15:35", "departure": "15:36", "platform": 2},
+            {"id": 36, "arrival": "15:58", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "14:35", "platform": 5},
+            {"id": 26, "arrival": "14:40", "departure": "14:41", "platform": 2},
+            {"id": 25, "arrival": "14:45", "departure": "14:46", "platform": 2},
+            {"id": 27, "arrival": "15:04", "departure": "15:05", "platform": 4},
+            {"id": 28, "arrival": "15:11", "departure": "15:12", "platform": 2},
+            {"id": 29, "arrival": "15:22", "departure": "15:23", "platform": 2},
+            {"id": 30, "arrival": "15:33", "departure": "15:34", "platform": 2},
+            {"id": 31, "arrival": "15:39", "departure": "15:40", "platform": 2},
+            {"id": 32, "arrival": "15:52", "departure": "15:53", "platform": 2},
+            {"id": 33, "arrival": "16:07", "departure": "16:08", "platform": 2},
+            {"id": 34, "arrival": "16:19", "departure": "16:20", "platform": 2},
+            {"id": 35, "arrival": "16:35", "departure": "16:36", "platform": 2},
+            {"id": 36, "arrival": "16:58", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "15:35", "platform": 5},
+            {"id": 26, "arrival": "15:40", "departure": "15:41", "platform": 2},
+            {"id": 25, "arrival": "15:45", "departure": "15:46", "platform": 2},
+            {"id": 27, "arrival": "16:04", "departure": "16:05", "platform": 4},
+            {"id": 28, "arrival": "16:11", "departure": "16:12", "platform": 2},
+            {"id": 29, "arrival": "16:22", "departure": "16:23", "platform": 2},
+            {"id": 30, "arrival": "16:33", "departure": "16:34", "platform": 2},
+            {"id": 31, "arrival": "16:39", "departure": "16:40", "platform": 2},
+            {"id": 32, "arrival": "16:52", "departure": "16:53", "platform": 2},
+            {"id": 33, "arrival": "17:07", "departure": "17:08", "platform": 2},
+            {"id": 34, "arrival": "17:19", "departure": "17:20", "platform": 2},
+            {"id": 35, "arrival": "17:35", "departure": "17:36", "platform": 2},
+            {"id": 36, "arrival": "17:58", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "16:35", "platform": 5},
+            {"id": 26, "arrival": "16:40", "departure": "16:41", "platform": 2},
+            {"id": 25, "arrival": "16:45", "departure": "16:46", "platform": 2},
+            {"id": 27, "arrival": "17:04", "departure": "17:05", "platform": 4},
+            {"id": 28, "arrival": "17:11", "departure": "17:12", "platform": 2},
+            {"id": 29, "arrival": "17:22", "departure": "17:23", "platform": 2},
+            {"id": 30, "arrival": "17:33", "departure": "17:34", "platform": 2},
+            {"id": 31, "arrival": "17:39", "departure": "17:40", "platform": 2},
+            {"id": 32, "arrival": "17:52", "departure": "17:53", "platform": 2},
+            {"id": 33, "arrival": "18:07", "departure": "18:08", "platform": 2},
+            {"id": 34, "arrival": "18:19", "departure": "18:20", "platform": 2},
+            {"id": 35, "arrival": "18:35", "departure": "18:36", "platform": 2},
+            {"id": 36, "arrival": "18:58", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "17:35", "platform": 5},
+            {"id": 26, "arrival": "17:40", "departure": "17:41", "platform": 2},
+            {"id": 25, "arrival": "17:45", "departure": "17:46", "platform": 2},
+            {"id": 27, "arrival": "18:04", "departure": "18:05", "platform": 4},
+            {"id": 28, "arrival": "18:11", "departure": "18:12", "platform": 2},
+            {"id": 29, "arrival": "18:22", "departure": "18:23", "platform": 2},
+            {"id": 30, "arrival": "18:33", "departure": "18:34", "platform": 2},
+            {"id": 31, "arrival": "18:39", "departure": "18:40", "platform": 2},
+            {"id": 32, "arrival": "18:52", "departure": "18:53", "platform": 2},
+            {"id": 33, "arrival": "19:07", "departure": "19:08", "platform": 2},
+            {"id": 34, "arrival": "19:19", "departure": "19:20", "platform": 2},
+            {"id": 35, "arrival": "19:35", "departure": "19:36", "platform": 2},
+            {"id": 36, "arrival": "19:58", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "18:35", "platform": 5},
+            {"id": 26, "arrival": "18:40", "departure": "18:41", "platform": 2},
+            {"id": 25, "arrival": "18:45", "departure": "18:46", "platform": 2},
+            {"id": 27, "arrival": "19:04", "departure": "19:05", "platform": 4},
+            {"id": 28, "arrival": "19:11", "departure": "19:12", "platform": 2},
+            {"id": 29, "arrival": "19:22", "departure": "19:23", "platform": 2},
+            {"id": 30, "arrival": "19:33", "departure": "19:34", "platform": 2},
+            {"id": 31, "arrival": "19:39", "departure": "19:40", "platform": 2},
+            {"id": 32, "arrival": "19:52", "departure": "19:53", "platform": 2},
+            {"id": 33, "arrival": "20:07", "departure": "20:08", "platform": 2},
+            {"id": 34, "arrival": "20:19", "departure": "20:20", "platform": 2},
+            {"id": 35, "arrival": "20:35", "departure": "20:36", "platform": 2},
+            {"id": 36, "arrival": "20:58", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 12, "departure": "19:35", "platform": 5},
+            {"id": 26, "arrival": "19:40", "departure": "19:41", "platform": 2},
+            {"id": 25, "arrival": "19:45", "departure": "19:46", "platform": 2},
+            {"id": 27, "arrival": "20:04", "departure": "20:05", "platform": 4},
+            {"id": 28, "arrival": "20:11", "departure": "20:12", "platform": 2},
+            {"id": 29, "arrival": "20:22", "departure": "20:23", "platform": 2},
+            {"id": 30, "arrival": "20:33", "departure": "20:34", "platform": 2},
+            {"id": 31, "arrival": "20:39", "departure": "20:40", "platform": 2},
+            {"id": 32, "arrival": "20:52", "departure": "20:53", "platform": 2},
+            {"id": 33, "arrival": "21:07", "departure": "21:08", "platform": 2},
+            {"id": 34, "arrival": "21:19", "departure": "21:20", "platform": 2},
+            {"id": 35, "arrival": "21:35", "departure": "21:36", "platform": 2},
+            {"id": 36, "arrival": "21:58", "platform": 2}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 36, "departure": "06:05", "platform": 2},
+            {"id": 35, "arrival": "06:26", "departure": "06:27", "platform": 1},
+            {"id": 34, "arrival": "06:42", "departure": "06:43", "platform": 1},
+            {"id": 33, "arrival": "06:55", "departure": "06:56", "platform": 1},
+            {"id": 32, "arrival": "07:09", "departure": "07:10", "platform": 1},
+            {"id": 31, "arrival": "07:23", "departure": "07:24", "platform": 1},
+            {"id": 30, "arrival": "07:29", "departure": "07:30", "platform": 1},
+            {"id": 29, "arrival": "07:40", "departure": "07:41", "platform": 1},
+            {"id": 28, "arrival": "07:50", "departure": "07:51", "platform": 1},
+            {"id": 27, "arrival": "07:57", "departure": "07:58", "platform": 3},
+            {"id": 25, "arrival": "08:17", "departure": "08:18", "platform": 1},
+            {"id": 26, "arrival": "08:21", "departure": "08:22", "platform": 1},
+            {"id": 12, "arrival": "08:28", "platform": 5}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 36, "departure": "07:05", "platform": 2},
+            {"id": 35, "arrival": "07:26", "departure": "07:27", "platform": 1},
+            {"id": 34, "arrival": "07:42", "departure": "07:43", "platform": 1},
+            {"id": 33, "arrival": "07:55", "departure": "07:56", "platform": 1},
+            {"id": 32, "arrival": "08:09", "departure": "08:10", "platform": 1},
+            {"id": 31, "arrival": "08:23", "departure": "08:24", "platform": 1},
+            {"id": 30, "arrival": "08:29", "departure": "08:30", "platform": 1},
+            {"id": 29, "arrival": "08:40", "departure": "08:41", "platform": 1},
+            {"id": 28, "arrival": "08:50", "departure": "08:51", "platform": 1},
+            {"id": 27, "arrival": "08:57", "departure": "08:58", "platform": 3},
+            {"id": 25, "arrival": "09:17", "departure": "09:18", "platform": 1},
+            {"id": 26, "arrival": "09:21", "departure": "09:22", "platform": 1},
+            {"id": 12, "arrival": "09:28", "platform": 5}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 36, "departure": "08:05", "platform": 2},
+            {"id": 35, "arrival": "08:26", "departure": "08:27", "platform": 1},
+            {"id": 34, "arrival": "08:42", "departure": "08:43", "platform": 1},
+            {"id": 33, "arrival": "08:55", "departure": "08:56", "platform": 1},
+            {"id": 32, "arrival": "09:09", "departure": "09:10", "platform": 1},
+            {"id": 31, "arrival": "09:23", "departure": "09:24", "platform": 1},
+            {"id": 30, "arrival": "09:29", "departure": "09:30", "platform": 1},
+            {"id": 29, "arrival": "09:40", "departure": "09:41", "platform": 1},
+            {"id": 28, "arrival": "09:50", "departure": "09:51", "platform": 1},
+            {"id": 27, "arrival": "09:57", "departure": "09:58", "platform": 3},
+            {"id": 25, "arrival": "10:17", "departure": "10:18", "platform": 1},
+            {"id": 26, "arrival": "10:21", "departure": "10:22", "platform": 1},
+            {"id": 12, "arrival": "10:28", "platform": 5}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 36, "departure": "09:05", "platform": 2},
+            {"id": 35, "arrival": "09:26", "departure": "09:27", "platform": 1},
+            {"id": 34, "arrival": "09:42", "departure": "09:43", "platform": 1},
+            {"id": 33, "arrival": "09:55", "departure": "09:56", "platform": 1},
+            {"id": 32, "arrival": "10:09", "departure": "10:10", "platform": 1},
+            {"id": 31, "arrival": "10:23", "departure": "10:24", "platform": 1},
+            {"id": 30, "arrival": "10:29", "departure": "10:30", "platform": 1},
+            {"id": 29, "arrival": "10:40", "departure": "10:41", "platform": 1},
+            {"id": 28, "arrival": "10:50", "departure": "10:51", "platform": 1},
+            {"id": 27, "arrival": "10:57", "departure": "10:58", "platform": 3},
+            {"id": 25, "arrival": "11:17", "departure": "11:18", "platform": 1},
+            {"id": 26, "arrival": "11:21", "departure": "11:22", "platform": 1},
+            {"id": 12, "arrival": "11:28", "platform": 5}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 36, "departure": "10:05", "platform": 2},
+            {"id": 35, "arrival": "10:26", "departure": "10:27", "platform": 1},
+            {"id": 34, "arrival": "10:42", "departure": "10:43", "platform": 1},
+            {"id": 33, "arrival": "10:55", "departure": "10:56", "platform": 1},
+            {"id": 32, "arrival": "11:09", "departure": "11:10", "platform": 1},
+            {"id": 31, "arrival": "11:23", "departure": "11:24", "platform": 1},
+            {"id": 30, "arrival": "11:29", "departure": "11:30", "platform": 1},
+            {"id": 29, "arrival": "11:40", "departure": "11:41", "platform": 1},
+            {"id": 28, "arrival": "11:50", "departure": "11:51", "platform": 1},
+            {"id": 27, "arrival": "11:57", "departure": "11:58", "platform": 3},
+            {"id": 25, "arrival": "12:17", "departure": "12:18", "platform": 1},
+            {"id": 26, "arrival": "12:21", "departure": "12:22", "platform": 1},
+            {"id": 12, "arrival": "12:28", "platform": 5}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 36, "departure": "11:05", "platform": 2},
+            {"id": 35, "arrival": "11:26", "departure": "11:27", "platform": 1},
+            {"id": 34, "arrival": "11:42", "departure": "11:43", "platform": 1},
+            {"id": 33, "arrival": "11:55", "departure": "11:56", "platform": 1},
+            {"id": 32, "arrival": "12:09", "departure": "12:10", "platform": 1},
+            {"id": 31, "arrival": "12:23", "departure": "12:24", "platform": 1},
+            {"id": 30, "arrival": "12:29", "departure": "12:30", "platform": 1},
+            {"id": 29, "arrival": "12:40", "departure": "12:41", "platform": 1},
+            {"id": 28, "arrival": "12:50", "departure": "12:51", "platform": 1},
+            {"id": 27, "arrival": "12:57", "departure": "12:58", "platform": 3},
+            {"id": 25, "arrival": "13:17", "departure": "13:18", "platform": 1},
+            {"id": 26, "arrival": "13:21", "departure": "13:22", "platform": 1},
+            {"id": 12, "arrival": "13:28", "platform": 5}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 36, "departure": "12:05", "platform": 2},
+            {"id": 35, "arrival": "12:26", "departure": "12:27", "platform": 1},
+            {"id": 34, "arrival": "12:42", "departure": "12:43", "platform": 1},
+            {"id": 33, "arrival": "12:55", "departure": "12:56", "platform": 1},
+            {"id": 32, "arrival": "13:09", "departure": "13:10", "platform": 1},
+            {"id": 31, "arrival": "13:23", "departure": "13:24", "platform": 1},
+            {"id": 30, "arrival": "13:29", "departure": "13:30", "platform": 1},
+            {"id": 29, "arrival": "13:40", "departure": "13:41", "platform": 1},
+            {"id": 28, "arrival": "13:50", "departure": "13:51", "platform": 1},
+            {"id": 27, "arrival": "13:57", "departure": "13:58", "platform": 3},
+            {"id": 25, "arrival": "14:17", "departure": "14:18", "platform": 1},
+            {"id": 26, "arrival": "14:21", "departure": "14:22", "platform": 1},
+            {"id": 12, "arrival": "14:28", "platform": 5}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 36, "departure": "13:05", "platform": 2},
+            {"id": 35, "arrival": "13:26", "departure": "13:27", "platform": 1},
+            {"id": 34, "arrival": "13:42", "departure": "13:43", "platform": 1},
+            {"id": 33, "arrival": "13:55", "departure": "13:56", "platform": 1},
+            {"id": 32, "arrival": "14:09", "departure": "14:10", "platform": 1},
+            {"id": 31, "arrival": "14:23", "departure": "14:24", "platform": 1},
+            {"id": 30, "arrival": "14:29", "departure": "14:30", "platform": 1},
+            {"id": 29, "arrival": "14:40", "departure": "14:41", "platform": 1},
+            {"id": 28, "arrival": "14:50", "departure": "14:51", "platform": 1},
+            {"id": 27, "arrival": "14:57", "departure": "14:58", "platform": 3},
+            {"id": 25, "arrival": "15:17", "departure": "15:18", "platform": 1},
+            {"id": 26, "arrival": "15:21", "departure": "15:22", "platform": 1},
+            {"id": 12, "arrival": "15:28", "platform": 5}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 36, "departure": "14:05", "platform": 2},
+            {"id": 35, "arrival": "14:26", "departure": "14:27", "platform": 1},
+            {"id": 34, "arrival": "14:42", "departure": "14:43", "platform": 1},
+            {"id": 33, "arrival": "14:55", "departure": "14:56", "platform": 1},
+            {"id": 32, "arrival": "15:09", "departure": "15:10", "platform": 1},
+            {"id": 31, "arrival": "15:23", "departure": "15:24", "platform": 1},
+            {"id": 30, "arrival": "15:29", "departure": "15:30", "platform": 1},
+            {"id": 29, "arrival": "15:40", "departure": "15:41", "platform": 1},
+            {"id": 28, "arrival": "15:50", "departure": "15:51", "platform": 1},
+            {"id": 27, "arrival": "15:57", "departure": "15:58", "platform": 3},
+            {"id": 25, "arrival": "16:17", "departure": "16:18", "platform": 1},
+            {"id": 26, "arrival": "16:21", "departure": "16:22", "platform": 1},
+            {"id": 12, "arrival": "16:28", "platform": 5}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 36, "departure": "15:05", "platform": 2},
+            {"id": 35, "arrival": "15:26", "departure": "15:27", "platform": 1},
+            {"id": 34, "arrival": "15:42", "departure": "15:43", "platform": 1},
+            {"id": 33, "arrival": "15:55", "departure": "15:56", "platform": 1},
+            {"id": 32, "arrival": "16:09", "departure": "16:10", "platform": 1},
+            {"id": 31, "arrival": "16:23", "departure": "16:24", "platform": 1},
+            {"id": 30, "arrival": "16:29", "departure": "16:30", "platform": 1},
+            {"id": 29, "arrival": "16:40", "departure": "16:41", "platform": 1},
+            {"id": 28, "arrival": "16:50", "departure": "16:51", "platform": 1},
+            {"id": 27, "arrival": "16:57", "departure": "16:58", "platform": 3},
+            {"id": 25, "arrival": "17:17", "departure": "17:18", "platform": 1},
+            {"id": 26, "arrival": "17:21", "departure": "17:22", "platform": 1},
+            {"id": 12, "arrival": "17:28", "platform": 5}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 36, "departure": "16:05", "platform": 2},
+            {"id": 35, "arrival": "16:26", "departure": "16:27", "platform": 1},
+            {"id": 34, "arrival": "16:42", "departure": "16:43", "platform": 1},
+            {"id": 33, "arrival": "16:55", "departure": "16:56", "platform": 1},
+            {"id": 32, "arrival": "17:09", "departure": "17:10", "platform": 1},
+            {"id": 31, "arrival": "17:23", "departure": "17:24", "platform": 1},
+            {"id": 30, "arrival": "17:29", "departure": "17:30", "platform": 1},
+            {"id": 29, "arrival": "17:40", "departure": "17:41", "platform": 1},
+            {"id": 28, "arrival": "17:50", "departure": "17:51", "platform": 1},
+            {"id": 27, "arrival": "17:57", "departure": "17:58", "platform": 3},
+            {"id": 25, "arrival": "18:17", "departure": "18:18", "platform": 1},
+            {"id": 26, "arrival": "18:21", "departure": "18:22", "platform": 1},
+            {"id": 12, "arrival": "18:28", "platform": 5}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 36, "departure": "17:05", "platform": 2},
+            {"id": 35, "arrival": "17:26", "departure": "17:27", "platform": 1},
+            {"id": 34, "arrival": "17:42", "departure": "17:43", "platform": 1},
+            {"id": 33, "arrival": "17:55", "departure": "17:56", "platform": 1},
+            {"id": 32, "arrival": "18:09", "departure": "18:10", "platform": 1},
+            {"id": 31, "arrival": "18:23", "departure": "18:24", "platform": 1},
+            {"id": 30, "arrival": "18:29", "departure": "18:30", "platform": 1},
+            {"id": 29, "arrival": "18:40", "departure": "18:41", "platform": 1},
+            {"id": 28, "arrival": "18:50", "departure": "18:51", "platform": 1},
+            {"id": 27, "arrival": "18:57", "departure": "18:58", "platform": 3},
+            {"id": 25, "arrival": "19:17", "departure": "19:18", "platform": 1},
+            {"id": 26, "arrival": "19:21", "departure": "19:22", "platform": 1},
+            {"id": 12, "arrival": "19:28", "platform": 5}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 36, "departure": "18:05", "platform": 2},
+            {"id": 35, "arrival": "18:26", "departure": "18:27", "platform": 1},
+            {"id": 34, "arrival": "18:42", "departure": "18:43", "platform": 1},
+            {"id": 33, "arrival": "18:55", "departure": "18:56", "platform": 1},
+            {"id": 32, "arrival": "19:09", "departure": "19:10", "platform": 1},
+            {"id": 31, "arrival": "19:23", "departure": "19:24", "platform": 1},
+            {"id": 30, "arrival": "19:29", "departure": "19:30", "platform": 1},
+            {"id": 29, "arrival": "19:40", "departure": "19:41", "platform": 1},
+            {"id": 28, "arrival": "19:50", "departure": "19:51", "platform": 1},
+            {"id": 27, "arrival": "19:57", "departure": "19:58", "platform": 3},
+            {"id": 25, "arrival": "20:17", "departure": "20:18", "platform": 1},
+            {"id": 26, "arrival": "20:21", "departure": "20:22", "platform": 1},
+            {"id": 12, "arrival": "20:28", "platform": 5}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 36, "departure": "19:05", "platform": 2},
+            {"id": 35, "arrival": "19:26", "departure": "19:27", "platform": 1},
+            {"id": 34, "arrival": "19:42", "departure": "19:43", "platform": 1},
+            {"id": 33, "arrival": "19:55", "departure": "19:56", "platform": 1},
+            {"id": 32, "arrival": "20:09", "departure": "20:10", "platform": 1},
+            {"id": 31, "arrival": "20:23", "departure": "20:24", "platform": 1},
+            {"id": 30, "arrival": "20:29", "departure": "20:30", "platform": 1},
+            {"id": 29, "arrival": "20:40", "departure": "20:41", "platform": 1},
+            {"id": 28, "arrival": "20:50", "departure": "20:51", "platform": 1},
+            {"id": 27, "arrival": "20:57", "departure": "20:58", "platform": 3},
+            {"id": 25, "arrival": "21:17", "departure": "21:18", "platform": 1},
+            {"id": 26, "arrival": "21:21", "departure": "21:22", "platform": 1},
+            {"id": 12, "arrival": "21:28", "platform": 5}
+        ]
+    },
+    {
+        "lineId": 4,
+        "days": [1,2,3,4,5,6,7],
+        "type": "Local",
+        "stops": [
+            {"id": 36, "departure": "20:05", "platform": 2},
+            {"id": 35, "arrival": "20:26", "departure": "20:27", "platform": 1},
+            {"id": 34, "arrival": "20:42", "departure": "20:43", "platform": 1},
+            {"id": 33, "arrival": "20:55", "departure": "20:56", "platform": 1},
+            {"id": 32, "arrival": "21:09", "departure": "21:10", "platform": 1},
+            {"id": 31, "arrival": "21:23", "departure": "21:24", "platform": 1},
+            {"id": 30, "arrival": "21:29", "departure": "21:30", "platform": 1},
+            {"id": 29, "arrival": "21:40", "departure": "21:41", "platform": 1},
+            {"id": 28, "arrival": "21:50", "departure": "21:51", "platform": 1},
+            {"id": 27, "arrival": "21:57", "departure": "21:58", "platform": 3},
+            {"id": 25, "arrival": "22:17", "departure": "22:18", "platform": 1},
+            {"id": 26, "arrival": "22:21", "departure": "22:22", "platform": 1},
+            {"id": 12, "arrival": "22:28", "platform": 5}
+        ]
+    }
+]
